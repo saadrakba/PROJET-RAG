@@ -1,0 +1,263 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Lab — Evaluation Platform</title>
+
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <aside class="sidebar">
+
+        <div class="brand">
+            <div class="brand-icon">R</div>
+            <div>
+                <div class="brand-title">RAG LAB</div>
+                <div class="brand-subtitle">Evaluation Platform</div>
+            </div>
+        </div>
+
+        <nav>
+            <button class="nav-item active" data-page="dashboard">
+                <span>⌂</span>
+                Dashboard
+            </button>
+
+            <button class="nav-item" data-page="chunking">
+                <span>◈</span>
+                Chunking
+            </button>
+
+            <button class="nav-item" data-page="embedding">
+                <span>◎</span>
+                Embedding
+            </button>
+
+            <button class="nav-item" data-page="rag">
+                <span>⌕</span>
+                Query / RAG
+            </button>
+        </nav>
+
+        <div class="sidebar-bottom">
+            <div class="status">
+                <span class="status-dot"></span>
+                Backend connecté
+            </div>
+
+            <div class="project-info">
+                Projet académique<br>
+                RAG & Information Retrieval
+            </div>
+        </div>
+
+    </aside>
+
+
+    <main class="main">
+
+        <header class="topbar">
+            <div>
+                <div class="eyebrow">RAG LAB / EXPERIMENTATION</div>
+                <h1 id="page-title">Dashboard</h1>
+            </div>
+
+            <div class="document-badge">
+                <span class="document-dot"></span>
+                33.pdf
+            </div>
+        </header>
+
+
+        <section id="dashboard-page" class="page active">
+
+            <div class="hero">
+                <div>
+                    <div class="hero-label">ANALYSE DU SYSTÈME</div>
+                    <h2>Évaluation expérimentale<br>du pipeline RAG</h2>
+                    <p>
+                        Analyse comparative des stratégies de chunking
+                        et des méthodes d'embedding appliquées au document scientifique.
+                    </p>
+                </div>
+
+                <div class="hero-number">
+                    <span>DOCUMENT</span>
+                    <strong>197</strong>
+                    <small>pages analysées</small>
+                </div>
+            </div>
+
+
+            <div class="stats-grid">
+
+                <div class="stat-card">
+                    <div class="stat-label">CHUNKS</div>
+                    <div class="stat-value">693</div>
+                    <div class="stat-meta">Fixed Token</div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-label">BEST CHUNKING</div>
+                    <div class="stat-value accent">Fixed Token</div>
+                    <div class="stat-meta">F1@5 · 0.296</div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-label">BEST EMBEDDING</div>
+                    <div class="stat-value accent">Sentence-BERT</div>
+                    <div class="stat-meta">384 dimensions</div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-label">BEST F1@5</div>
+                    <div class="stat-value">0.296</div>
+                    <div class="stat-meta">Retrieval evaluation</div>
+                </div>
+
+            </div>
+
+
+            <div class="section-heading">
+                <div>
+                    <div class="eyebrow">SYNTHÈSE</div>
+                    <h3>Résultats principaux</h3>
+                </div>
+            </div>
+
+
+            <div class="comparison-grid">
+
+                <div class="panel">
+                    <div class="panel-header">
+                        <div>
+                            <span class="panel-kicker">CHUNKING</span>
+                            <h3>Fixed Token</h3>
+                        </div>
+                        <span class="rank">#01</span>
+                    </div>
+
+                    <div class="metric-large">0.296</div>
+                    <div class="metric-caption">F1@5</div>
+
+                    <div class="progress">
+                        <div style="width:29.6%"></div>
+                    </div>
+
+                    <p class="panel-text">
+                        Meilleure performance globale selon l'évaluation
+                        de récupération sur les cinq questions.
+                    </p>
+
+                    <button class="outline-btn" data-page="chunking">
+                        Voir l'analyse →
+                    </button>
+                </div>
+
+
+                <div class="panel">
+                    <div class="panel-header">
+                        <div>
+                            <span class="panel-kicker">EMBEDDING</span>
+                            <h3>Sentence-BERT</h3>
+                        </div>
+                        <span class="rank">#01</span>
+                    </div>
+
+                    <div class="metric-large">0.296</div>
+                    <div class="metric-caption">F1@5</div>
+
+                    <div class="progress">
+                        <div style="width:29.6%"></div>
+                    </div>
+
+                    <p class="panel-text">
+                        Meilleure méthode d'embedding dans notre
+                        expérimentation comparative.
+                    </p>
+
+                    <button class="outline-btn" data-page="embedding">
+                        Voir l'analyse →
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="chunking-page" class="page">
+
+            <div class="page-intro">
+                <div class="eyebrow">01 / CHUNKING</div>
+                <h2>Comparaison des stratégies de découpage</h2>
+                <p>
+                    Évaluation de sept méthodes de segmentation du document
+                    avant l'étape d'embedding.
+                </p>
+            </div>
+
+            <div id="chunking-content"></div>
+
+        </section>
+
+
+        <section id="embedding-page" class="page">
+
+            <div class="page-intro">
+                <div class="eyebrow">02 / EMBEDDING</div>
+                <h2>Comparaison des représentations vectorielles</h2>
+                <p>
+                    Évaluation de Word2Vec, GloVe, FastText, BERT
+                    et Sentence-BERT sur les mêmes chunks.
+                </p>
+            </div>
+
+            <div id="embedding-content"></div>
+
+        </section>
+
+
+        <section id="rag-page" class="page">
+
+            <div class="page-intro">
+                <div class="eyebrow">03 / QUERY & RAG</div>
+                <h2>Interroger la base documentaire</h2>
+                <p>
+                    Posez une question et visualisez les passages
+                    récupérés par le système.
+                </p>
+            </div>
+
+            <div class="query-box">
+
+                <textarea
+                    id="query"
+                    placeholder="Posez votre question sur le document..."
+                ></textarea>
+
+                <div class="query-footer">
+                    <span>Sentence-BERT · Top 5</span>
+                    <button id="search-btn">Rechercher →</button>
+                </div>
+
+            </div>
+
+            <div id="query-results"></div>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="/app.js"></script>
+
+</body>
+</html>
+

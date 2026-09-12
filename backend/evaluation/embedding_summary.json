@@ -1,0 +1,67 @@
+[
+  {
+    "rank": 1,
+    "method": "Sentence-BERT",
+    "dimension": 384,
+    "intra_similarity": 0.7251487970352173,
+    "inter_similarity": 0.5859774947166443,
+    "precision_at_5": 0.24000000000000005,
+    "recall_at_5": 0.4,
+    "f1_at_5": 0.29603174603174603,
+    "map_at_5": 0.22999999999999998,
+    "mrr_at_5": 0.33999999999999997,
+    "ndcg_at_5": 0.34086594617113003
+  },
+  {
+    "rank": 2,
+    "method": "Word2Vec",
+    "dimension": 100,
+    "intra_similarity": 0.9591991901397705,
+    "inter_similarity": 0.9145136475563049,
+    "precision_at_5": 0.16,
+    "recall_at_5": 0.1833333333333333,
+    "f1_at_5": 0.16717171717171717,
+    "map_at_5": 0.10694444444444443,
+    "mrr_at_5": 0.2,
+    "ndcg_at_5": 0.1801912313497817
+  },
+  {
+    "rank": 3,
+    "method": "GloVe",
+    "dimension": 100,
+    "intra_similarity": 0.9510794878005981,
+    "inter_similarity": 0.9298057556152344,
+    "precision_at_5": 0.12000000000000002,
+    "recall_at_5": 0.21666666666666665,
+    "f1_at_5": 0.1515873015873016,
+    "map_at_5": 0.057222222222222216,
+    "mrr_at_5": 0.15666666666666668,
+    "ndcg_at_5": 0.12994542076235488
+  },
+  {
+    "rank": 4,
+    "method": "FastText",
+    "dimension": 100,
+    "intra_similarity": 0.9704159498214722,
+    "inter_similarity": 0.9370723366737366,
+    "precision_at_5": 0.04,
+    "recall_at_5": 0.06666666666666667,
+    "f1_at_5": 0.05,
+    "map_at_5": 0.03333333333333333,
+    "mrr_at_5": 0.1,
+    "ndcg_at_5": 0.059216382193173045
+  },
+  {
+    "rank": 5,
+    "method": "BERT",
+    "dimension": 768,
+    "intra_similarity": 0.8598312139511108,
+    "inter_similarity": 0.8266692757606506,
+    "precision_at_5": 0.0,
+    "recall_at_5": 0.0,
+    "f1_at_5": 0.0,
+    "map_at_5": 0.0,
+    "mrr_at_5": 0.0,
+    "ndcg_at_5": 0.0
+  }
+]

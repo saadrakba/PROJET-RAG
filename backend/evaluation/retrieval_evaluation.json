@@ -1,0 +1,2345 @@
+{
+  "configuration": {
+    "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "top_k": 5,
+    "source": "backend\\data\\chunking_results.json",
+    "relevance_rule": {
+      "chunk_overlap_ratio": 0.3,
+      "minimum_overlap": "min(200, 10% of reference length)"
+    }
+  },
+  "methods": {
+    "Recursive Character": {
+      "chunk_count": 778,
+      "precision_at_5": 0.2,
+      "recall_at_5": 0.41666666666666663,
+      "f1_at_5": 0.2658730158730159,
+      "questions": [
+        {
+          "question_id": "q1",
+          "question": "Qu'est-ce qu'un réchauffement stratosphérique majeur ?",
+          "precision_at_5": 0.4,
+          "recall_at_5": 1.0,
+          "f1_at_5": 0.5714285714285715,
+          "relevant_retrieved": 2,
+          "matched_references": 2,
+          "total_references": 2,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.744516134262085,
+              "start": 121226,
+              "end": 121310,
+              "text": "3.4.3. Évolution de la température au cours d’un échauffement stratosphérique\nmajeur",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.7400711178779602,
+              "start": 19130,
+              "end": 19564,
+              "text": "tout à fait compris, et cet événement reste difficile à prévoir. Intéressons-nous tout d’abord au\nconsensus actuel sur le déroulement d’un échauffement stratosphérique.\nEn hiver, la nuit polaire cause un refroidissement radiatif important de l’atmosphère\ndes hautes latitudes, créant une intense dépression centrée autour du pôle, nommée vortex\npolaire. Autour de cette dépression s’enroulent de puissants vents d’ouest qui forment le",
+              "relevant": true,
+              "matched_reference_indices": [
+                0
+              ]
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7254417538642883,
+              "start": 100897,
+              "end": 101348,
+              "text": "Les échauffements stratosphériques ont donc un impact certain sur les distributions\ndes températures hivernales de la moyenne atmosphère. Lorsque l’on isole et filtre cet impact,\non obtient des tendances de température plus proches de l’équilibre radiatif seul et de ce fait\nplus en accord avec les tendances d’été, peu impactées par la dynamique. Concernant\nl’occurrence des échauffements stratosphériques, on observe, aux altitudes où ces événements",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7239738702774048,
+              "start": 85407,
+              "end": 85894,
+              "text": "température positive descend de la mésosphère jusque dans la stratosphère aux\nalentours de la date de l’échauffement, ce qui caractérise une perturbation majeure de\nl’écoulement stratosphérique. Ensuite, comme nous l’avons noté ci-dessus, on\nremarque des anomalies de températures dans la troposphère. Cette propagation vers\nle bas des anomalies de températures induit un couplage entre la stratosphère et la\ntroposphère, ce qui permet une meilleure prédictibilité météorologique sur des",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7227687239646912,
+              "start": 21881,
+              "end": 22333,
+              "text": "des augmentations de 10 K à 60 K dans la stratosphère qui s’étendent sur plusieurs semaines\n[Labitzke, 1972], auxquelles s’associe un refroidissement de la mésosphère [Cho et al., 2004].\nIl existe différents types d’échauffements stratosphériques. On parle d’échauffement\nstratosphérique majeur si le gradient de température calculé à 10 hPa et en moyenne zonale\nentre le pôle (85°N, ou 85°S pour l’hémisphère sud) et 60°N (ou 60°S) est positif pendant",
+              "relevant": true,
+              "matched_reference_indices": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "question_id": "q2",
+          "question": "Quels sont les différents types de réchauffement stratosphérique ?",
+          "precision_at_5": 0.2,
+          "recall_at_5": 0.3333333333333333,
+          "f1_at_5": 0.25,
+          "relevant_retrieved": 1,
+          "matched_references": 1,
+          "total_references": 3,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.725990355014801,
+              "start": 121226,
+              "end": 121310,
+              "text": "3.4.3. Évolution de la température au cours d’un échauffement stratosphérique\nmajeur",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.7151802182197571,
+              "start": 21881,
+              "end": 22333,
+              "text": "des augmentations de 10 K à 60 K dans la stratosphère qui s’étendent sur plusieurs semaines\n[Labitzke, 1972], auxquelles s’associe un refroidissement de la mésosphère [Cho et al., 2004].\nIl existe différents types d’échauffements stratosphériques. On parle d’échauffement\nstratosphérique majeur si le gradient de température calculé à 10 hPa et en moyenne zonale\nentre le pôle (85°N, ou 85°S pour l’hémisphère sud) et 60°N (ou 60°S) est positif pendant",
+              "relevant": true,
+              "matched_reference_indices": [
+                0
+              ]
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7124108076095581,
+              "start": 2974,
+              "end": 3433,
+              "text": "Cependant, on observe (figure 1.2) que le gradient de température va du pôle d’été au\npôle d’hiver au niveau de la mésopause, et que les régions les plus froides de la basse\nstratosphère sont les latitudes tropicales. Ces observations semblent contredire prima facie le\ntaux de chauffage radiatif net représenté à la figure 1.3. L’explication à ce paradoxe apparent\ntient en la présence d’une importante activité ondulatoire dans l’atmosphère (c’est-à-dire la",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7103374600410461,
+              "start": 100897,
+              "end": 101348,
+              "text": "Les échauffements stratosphériques ont donc un impact certain sur les distributions\ndes températures hivernales de la moyenne atmosphère. Lorsque l’on isole et filtre cet impact,\non obtient des tendances de température plus proches de l’équilibre radiatif seul et de ce fait\nplus en accord avec les tendances d’été, peu impactées par la dynamique. Concernant\nl’occurrence des échauffements stratosphériques, on observe, aux altitudes où ces événements",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7083192467689514,
+              "start": 85407,
+              "end": 85894,
+              "text": "température positive descend de la mésosphère jusque dans la stratosphère aux\nalentours de la date de l’échauffement, ce qui caractérise une perturbation majeure de\nl’écoulement stratosphérique. Ensuite, comme nous l’avons noté ci-dessus, on\nremarque des anomalies de températures dans la troposphère. Cette propagation vers\nle bas des anomalies de températures induit un couplage entre la stratosphère et la\ntroposphère, ce qui permet une meilleure prédictibilité météorologique sur des",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        },
+        {
+          "question_id": "q3",
+          "question": "Comment évolue la température dans la stratosphère lors d'un réchauffement stratosphérique ?",
+          "precision_at_5": 0.2,
+          "recall_at_5": 0.5,
+          "f1_at_5": 0.28571428571428575,
+          "relevant_retrieved": 1,
+          "matched_references": 1,
+          "total_references": 2,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.8398025035858154,
+              "start": 85407,
+              "end": 85894,
+              "text": "température positive descend de la mésosphère jusque dans la stratosphère aux\nalentours de la date de l’échauffement, ce qui caractérise une perturbation majeure de\nl’écoulement stratosphérique. Ensuite, comme nous l’avons noté ci-dessus, on\nremarque des anomalies de températures dans la troposphère. Cette propagation vers\nle bas des anomalies de températures induit un couplage entre la stratosphère et la\ntroposphère, ce qui permet une meilleure prédictibilité météorologique sur des",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.8304364681243896,
+              "start": 121226,
+              "end": 121310,
+              "text": "3.4.3. Évolution de la température au cours d’un échauffement stratosphérique\nmajeur",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.8185321688652039,
+              "start": 18226,
+              "end": 18679,
+              "text": "de fortes variations de température dans la moyenne atmosphère. Dans les cas les plus\nextrêmes, la température de la stratosphère peut augmenter d’une cinquantaine de degrés en\nl’espace de quelques jours seulement et l’écoulement circumpolaire – habituellement d’ouest\nen cette saison – peut s’inverser dans le même intervalle de temps. Les ESS constituent la\npremière cause de variabilité inter-saisonnière dans la stratosphère [Keckhut et al., 2011b].",
+              "relevant": true,
+              "matched_reference_indices": [
+                0
+              ]
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.8049615025520325,
+              "start": 100897,
+              "end": 101348,
+              "text": "Les échauffements stratosphériques ont donc un impact certain sur les distributions\ndes températures hivernales de la moyenne atmosphère. Lorsque l’on isole et filtre cet impact,\non obtient des tendances de température plus proches de l’équilibre radiatif seul et de ce fait\nplus en accord avec les tendances d’été, peu impactées par la dynamique. Concernant\nl’occurrence des échauffements stratosphériques, on observe, aux altitudes où ces événements",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7906619310379028,
+              "start": 2974,
+              "end": 3433,
+              "text": "Cependant, on observe (figure 1.2) que le gradient de température va du pôle d’été au\npôle d’hiver au niveau de la mésopause, et que les régions les plus froides de la basse\nstratosphère sont les latitudes tropicales. Ces observations semblent contredire prima facie le\ntaux de chauffage radiatif net représenté à la figure 1.3. L’explication à ce paradoxe apparent\ntient en la présence d’une importante activité ondulatoire dans l’atmosphère (c’est-à-dire la",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        },
+        {
+          "question_id": "q4",
+          "question": "Quels phénomènes physiques influencent la température de la stratosphère ?",
+          "precision_at_5": 0.2,
+          "recall_at_5": 0.25,
+          "f1_at_5": 0.22222222222222224,
+          "relevant_retrieved": 1,
+          "matched_references": 1,
+          "total_references": 4,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.8343534469604492,
+              "start": 85407,
+              "end": 85894,
+              "text": "température positive descend de la mésosphère jusque dans la stratosphère aux\nalentours de la date de l’échauffement, ce qui caractérise une perturbation majeure de\nl’écoulement stratosphérique. Ensuite, comme nous l’avons noté ci-dessus, on\nremarque des anomalies de températures dans la troposphère. Cette propagation vers\nle bas des anomalies de températures induit un couplage entre la stratosphère et la\ntroposphère, ce qui permet une meilleure prédictibilité météorologique sur des",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.7945373058319092,
+              "start": 100897,
+              "end": 101348,
+              "text": "Les échauffements stratosphériques ont donc un impact certain sur les distributions\ndes températures hivernales de la moyenne atmosphère. Lorsque l’on isole et filtre cet impact,\non obtient des tendances de température plus proches de l’équilibre radiatif seul et de ce fait\nplus en accord avec les tendances d’été, peu impactées par la dynamique. Concernant\nl’occurrence des échauffements stratosphériques, on observe, aux altitudes où ces événements",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7894225716590881,
+              "start": 18226,
+              "end": 18679,
+              "text": "de fortes variations de température dans la moyenne atmosphère. Dans les cas les plus\nextrêmes, la température de la stratosphère peut augmenter d’une cinquantaine de degrés en\nl’espace de quelques jours seulement et l’écoulement circumpolaire – habituellement d’ouest\nen cette saison – peut s’inverser dans le même intervalle de temps. Les ESS constituent la\npremière cause de variabilité inter-saisonnière dans la stratosphère [Keckhut et al., 2011b].",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7853161096572876,
+              "start": 121226,
+              "end": 121310,
+              "text": "3.4.3. Évolution de la température au cours d’un échauffement stratosphérique\nmajeur",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.782379150390625,
+              "start": 2974,
+              "end": 3433,
+              "text": "Cependant, on observe (figure 1.2) que le gradient de température va du pôle d’été au\npôle d’hiver au niveau de la mésopause, et que les régions les plus froides de la basse\nstratosphère sont les latitudes tropicales. Ces observations semblent contredire prima facie le\ntaux de chauffage radiatif net représenté à la figure 1.3. L’explication à ce paradoxe apparent\ntient en la présence d’une importante activité ondulatoire dans l’atmosphère (c’est-à-dire la",
+              "relevant": true,
+              "matched_reference_indices": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "question_id": "q5",
+          "question": "Quel est le rôle des ondes planétaires dans les réchauffements stratosphériques ?",
+          "precision_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "f1_at_5": 0,
+          "relevant_retrieved": 0,
+          "matched_references": 0,
+          "total_references": 3,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.8108134865760803,
+              "start": 25673,
+              "end": 26038,
+              "text": "circulation stratosphérique de l’hémisphère nord en hiver [Andrews et al., 1987]. Des études\nrécentes indiquent que l’augmentation de la concentration en gaz à effet de serre pourrait\naccentuer le forçage des ondes troposphériques et renforcer l’activité des ondes planétaires\ndans la stratosphère [Butchart et al., 2006 ; Deckert and Dameris, 2008]. Compte tenu de",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.758580207824707,
+              "start": 26040,
+              "end": 26484,
+              "text": "l’importance du rôle joué par ces ondes dans la formation des échauffements stratosphériques,\nles changements constatés dans la composition de l’atmosphère ont certainement des\nconséquences sur ces phénomènes, notamment sur leur occurrence, du fait également d’un\naffaiblissement des vents zonaux dans la moyenne atmosphère [Schimanke et al ., 2012]. De\nmanière réciproque, ces répercussions sur l’activité dynamique (qu’elles prennent la forme",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7467756867408752,
+              "start": 9574,
+              "end": 9984,
+              "text": "deviennent instables et déferlent, modifiant l’état de l’atmosphère (température, vent, etc.) à\ntrès large échelle.\nC’est ainsi que les ondes atmosphériques peuvent être à l’origine de perturbations\nparfois très importantes dans la stratosphère et la mésosphère, ce qui explique la grande\nvariabilité interannuelle de ces couches.\nEn hiver, les trois principaux modes de variabilité de la température (à ne pas",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7398274540901184,
+              "start": 8,
+              "end": 435,
+              "text": "Le rôle joué par la stratosphère sur le climat est aujourd’hui avéré. Le couplage du\nsystème troposphère-stratosphère implique que les processus dynamiques de grande\namplitude de la moyenne atmosphère perturbent l’équilibre atmosphérique et l’écoulement\ndans les plus basses couches. Parmi ces phénomènes dynamiques, les échauffements\nstratosphériques soudains sont les plus emblématiques. Cette étude s’intéresse à l’impact de",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7327575087547302,
+              "start": 62174,
+              "end": 62630,
+              "text": "(1)\nLa température de fond correspond à un état habituel, « standard », ou encore non\n(fortement) perturbé de l’atmosphère. Elle résulte donc principalement de l’équilibre radiatif,\nmais aussi des contributions dynamiques mineures continues dues aux ondes de gravité ainsi\nqu’aux ondes planétaires. Elle est donc sensible à l’activité solaire [Keckhut et al., 2005 ;\nDunkerton et al., 1998], aux changements de composition de l’atmosphère en gaz à effet de",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        }
+      ]
+    },
+    "Character": {
+      "chunk_count": 657,
+      "precision_at_5": 0.12000000000000002,
+      "recall_at_5": 0.26666666666666666,
+      "f1_at_5": 0.1642857142857143,
+      "questions": [
+        {
+          "question_id": "q1",
+          "question": "Qu'est-ce qu'un réchauffement stratosphérique majeur ?",
+          "precision_at_5": 0.2,
+          "recall_at_5": 0.5,
+          "f1_at_5": 0.28571428571428575,
+          "relevant_retrieved": 1,
+          "matched_references": 1,
+          "total_references": 2,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.7502520084381104,
+              "start": 78300,
+              "end": 78800,
+              "text": "ntinuent à tirer la tendance moyenne vers les valeurs positives.)\n2.5. Évolution des températures au cours d’un échauffement stratosphérique\n\nDans ce chapitre, nous nous intéressons aux échauffements stratosphériques majeurs,\ncar ce sont les seuls à pouvoir être clairement identifiés et datés au moyen d’un proxy\nquantitatif dérivé de champs météorologiques horizontaux [Labitzke, 1981]. On calculera les\nanomalies de températures en prenant comme référence la température de fond obtenue au\nmoyen d",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.7311570048332214,
+              "start": 85050,
+              "end": 85550,
+              "text": " souligné que d’importantes variations de la\ncirculation de la moyenne atmosphère apparaissent en premier lieu dans la\nmésosphère, puis descendent jusqu’à la basse stratosphère, et enfin sont suivies de\nrégimes météorologiques anormaux dans la troposphère. Ceci s’accorde tout à fait\navec nos résultats, puisque nous observons qu’une importante anomalie de\ntempérature positive descend de la mésosphère jusque dans la stratosphère aux\nalentours de la date de l’échauffement, ce qui caractérise une pe",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7122123837471008,
+              "start": 91800,
+              "end": 92300,
+              "text": " échauffement stratosphérique majeur peut avoir lieu plus ou moins tôt dans\nl’hiver, si bien qu’il faut prendre en compte cette particularité pour obtenir une représentation\nla plus fidèle possible de l’évolution moyenne de la température au cours d’un échauffement\nstratosphérique. Les représentations composites qui suivent sont donc obtenues en décalant\nl’axe temporel en fonction de la date de chaque événement : chaque graphe annuel\n\nintermédiaire est centré sur la date de l’échauffement corres",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7077701687812805,
+              "start": 18900,
+              "end": 19400,
+              "text": " le premier modèle simulant des échauffements\nstratosphériques. Depuis, les études concernant ce phénomène se sont multipliées. Cependant,\nles mécanismes exacts de la formation d’un échauffement stratosphérique ne sont pas encore\ntout à fait compris, et cet événement reste difficile à prévoir. Intéressons-nous tout d’abord au\nconsensus actuel sur le déroulement d’un échauffement stratosphérique.\nEn hiver, la nuit polaire cause un refroidissement radiatif important de l’atmosphère\ndes hautes lati",
+              "relevant": true,
+              "matched_reference_indices": [
+                0
+              ]
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7029754519462585,
+              "start": 16200,
+              "end": 16700,
+              "text": "vorisant la destruction de l’ozone [Li et al.,\n2009 ; Gebhardt et al., 2013].\nPar ailleurs, l’analyse des tendances de température dans la stratosphère nous permet\nde distinguer les réponses du système climatique aux forçages naturels et anthropiques\n[Hansen et al., 1997]. Ainsi, bien que moins médiatisée et étudiée, l’évolution de la\ntempérature de la moyenne atmosphère n’en constitue pas moins un témoin des émissions\nanthropogéniques – et de leurs conséquences sur le climat planétaire – aussi ",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        },
+        {
+          "question_id": "q2",
+          "question": "Quels sont les différents types de réchauffement stratosphérique ?",
+          "precision_at_5": 0.2,
+          "recall_at_5": 0.3333333333333333,
+          "f1_at_5": 0.25,
+          "relevant_retrieved": 1,
+          "matched_references": 1,
+          "total_references": 3,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.7462701201438904,
+              "start": 78300,
+              "end": 78800,
+              "text": "ntinuent à tirer la tendance moyenne vers les valeurs positives.)\n2.5. Évolution des températures au cours d’un échauffement stratosphérique\n\nDans ce chapitre, nous nous intéressons aux échauffements stratosphériques majeurs,\ncar ce sont les seuls à pouvoir être clairement identifiés et datés au moyen d’un proxy\nquantitatif dérivé de champs météorologiques horizontaux [Labitzke, 1981]. On calculera les\nanomalies de températures en prenant comme référence la température de fond obtenue au\nmoyen d",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.718836784362793,
+              "start": 22050,
+              "end": 22550,
+              "text": "ho et al., 2004].\nIl existe différents types d’échauffements stratosphériques. On parle d’échauffement\nstratosphérique majeur si le gradient de température calculé à 10 hPa et en moyenne zonale\nentre le pôle (85°N, ou 85°S pour l’hémisphère sud) et 60°N (ou 60°S) est positif pendant\nplus de 5 jours, et que pendant cette période le vent zonal moyen mesuré à 60°N (60°S) et à\n10 hPa s’inverse (définition de l’Organisation Météorologique Mondiale, Andrews et al.\n[1987]). Cela correspond aux cas les ",
+              "relevant": true,
+              "matched_reference_indices": [
+                0
+              ]
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7053843140602112,
+              "start": 16200,
+              "end": 16700,
+              "text": "vorisant la destruction de l’ozone [Li et al.,\n2009 ; Gebhardt et al., 2013].\nPar ailleurs, l’analyse des tendances de température dans la stratosphère nous permet\nde distinguer les réponses du système climatique aux forçages naturels et anthropiques\n[Hansen et al., 1997]. Ainsi, bien que moins médiatisée et étudiée, l’évolution de la\ntempérature de la moyenne atmosphère n’en constitue pas moins un témoin des émissions\nanthropogéniques – et de leurs conséquences sur le climat planétaire – aussi ",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7023496627807617,
+              "start": 85050,
+              "end": 85550,
+              "text": " souligné que d’importantes variations de la\ncirculation de la moyenne atmosphère apparaissent en premier lieu dans la\nmésosphère, puis descendent jusqu’à la basse stratosphère, et enfin sont suivies de\nrégimes météorologiques anormaux dans la troposphère. Ceci s’accorde tout à fait\navec nos résultats, puisque nous observons qu’une importante anomalie de\ntempérature positive descend de la mésosphère jusque dans la stratosphère aux\nalentours de la date de l’échauffement, ce qui caractérise une pe",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.6964642405509949,
+              "start": 62550,
+              "end": 63050,
+              "text": " et al., 1998], aux changements de composition de l’atmosphère en gaz à effet de\nserre [Rind et al., 1998], à la concentration en ozone stratosphérique et à l’émission d’aérosols\n\npour la basse stratosphère. Cependant, nous nous basons pour cette étude sur une température\nde fond présentant un cycle annuel constant, ne dépendant que de l’altitude. De cette manière,\nl’évolution par rapport à cette référence constante de paramètres saisonniers caractéristiques\n(définis au chapitre suivant) permett",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        },
+        {
+          "question_id": "q3",
+          "question": "Comment évolue la température dans la stratosphère lors d'un réchauffement stratosphérique ?",
+          "precision_at_5": 0.2,
+          "recall_at_5": 0.5,
+          "f1_at_5": 0.28571428571428575,
+          "relevant_retrieved": 1,
+          "matched_references": 1,
+          "total_references": 2,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.7992770075798035,
+              "start": 78300,
+              "end": 78800,
+              "text": "ntinuent à tirer la tendance moyenne vers les valeurs positives.)\n2.5. Évolution des températures au cours d’un échauffement stratosphérique\n\nDans ce chapitre, nous nous intéressons aux échauffements stratosphériques majeurs,\ncar ce sont les seuls à pouvoir être clairement identifiés et datés au moyen d’un proxy\nquantitatif dérivé de champs météorologiques horizontaux [Labitzke, 1981]. On calculera les\nanomalies de températures en prenant comme référence la température de fond obtenue au\nmoyen d",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.7813372611999512,
+              "start": 22050,
+              "end": 22550,
+              "text": "ho et al., 2004].\nIl existe différents types d’échauffements stratosphériques. On parle d’échauffement\nstratosphérique majeur si le gradient de température calculé à 10 hPa et en moyenne zonale\nentre le pôle (85°N, ou 85°S pour l’hémisphère sud) et 60°N (ou 60°S) est positif pendant\nplus de 5 jours, et que pendant cette période le vent zonal moyen mesuré à 60°N (60°S) et à\n10 hPa s’inverse (définition de l’Organisation Météorologique Mondiale, Andrews et al.\n[1987]). Cela correspond aux cas les ",
+              "relevant": true,
+              "matched_reference_indices": [
+                1
+              ]
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7723183631896973,
+              "start": 16200,
+              "end": 16700,
+              "text": "vorisant la destruction de l’ozone [Li et al.,\n2009 ; Gebhardt et al., 2013].\nPar ailleurs, l’analyse des tendances de température dans la stratosphère nous permet\nde distinguer les réponses du système climatique aux forçages naturels et anthropiques\n[Hansen et al., 1997]. Ainsi, bien que moins médiatisée et étudiée, l’évolution de la\ntempérature de la moyenne atmosphère n’en constitue pas moins un témoin des émissions\nanthropogéniques – et de leurs conséquences sur le climat planétaire – aussi ",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7699812650680542,
+              "start": 85050,
+              "end": 85550,
+              "text": " souligné que d’importantes variations de la\ncirculation de la moyenne atmosphère apparaissent en premier lieu dans la\nmésosphère, puis descendent jusqu’à la basse stratosphère, et enfin sont suivies de\nrégimes météorologiques anormaux dans la troposphère. Ceci s’accorde tout à fait\navec nos résultats, puisque nous observons qu’une importante anomalie de\ntempérature positive descend de la mésosphère jusque dans la stratosphère aux\nalentours de la date de l’échauffement, ce qui caractérise une pe",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7550767660140991,
+              "start": 62550,
+              "end": 63050,
+              "text": " et al., 1998], aux changements de composition de l’atmosphère en gaz à effet de\nserre [Rind et al., 1998], à la concentration en ozone stratosphérique et à l’émission d’aérosols\n\npour la basse stratosphère. Cependant, nous nous basons pour cette étude sur une température\nde fond présentant un cycle annuel constant, ne dépendant que de l’altitude. De cette manière,\nl’évolution par rapport à cette référence constante de paramètres saisonniers caractéristiques\n(définis au chapitre suivant) permett",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        },
+        {
+          "question_id": "q4",
+          "question": "Quels phénomènes physiques influencent la température de la stratosphère ?",
+          "precision_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "f1_at_5": 0,
+          "relevant_retrieved": 0,
+          "matched_references": 0,
+          "total_references": 4,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.8003602623939514,
+              "start": 10800,
+              "end": 11300,
+              "text": "en cette saison.\n1.1.4. Tendances de température\nLa température de l’atmosphère est expliquée par de nombreux facteurs parmi lesquels\non peut citer le rayonnement solaire incident (partant, la localisation sur le globe ainsi que le\nmoment dans la journée et dans l’année), l’humidité et l’altitude des masses d’air, la présence\nde réactions chimiques, etc. Le rayonnement solaire incident constitue la source très\nmajoritaire d’énergie du système physique constitué de la surface de la Terre (compren",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.7816539406776428,
+              "start": 78300,
+              "end": 78800,
+              "text": "ntinuent à tirer la tendance moyenne vers les valeurs positives.)\n2.5. Évolution des températures au cours d’un échauffement stratosphérique\n\nDans ce chapitre, nous nous intéressons aux échauffements stratosphériques majeurs,\ncar ce sont les seuls à pouvoir être clairement identifiés et datés au moyen d’un proxy\nquantitatif dérivé de champs météorologiques horizontaux [Labitzke, 1981]. On calculera les\nanomalies de températures en prenant comme référence la température de fond obtenue au\nmoyen d",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7737953662872314,
+              "start": 16200,
+              "end": 16700,
+              "text": "vorisant la destruction de l’ozone [Li et al.,\n2009 ; Gebhardt et al., 2013].\nPar ailleurs, l’analyse des tendances de température dans la stratosphère nous permet\nde distinguer les réponses du système climatique aux forçages naturels et anthropiques\n[Hansen et al., 1997]. Ainsi, bien que moins médiatisée et étudiée, l’évolution de la\ntempérature de la moyenne atmosphère n’en constitue pas moins un témoin des émissions\nanthropogéniques – et de leurs conséquences sur le climat planétaire – aussi ",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7552716732025146,
+              "start": 85050,
+              "end": 85550,
+              "text": " souligné que d’importantes variations de la\ncirculation de la moyenne atmosphère apparaissent en premier lieu dans la\nmésosphère, puis descendent jusqu’à la basse stratosphère, et enfin sont suivies de\nrégimes météorologiques anormaux dans la troposphère. Ceci s’accorde tout à fait\navec nos résultats, puisque nous observons qu’une importante anomalie de\ntempérature positive descend de la mésosphère jusque dans la stratosphère aux\nalentours de la date de l’échauffement, ce qui caractérise une pe",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7517963647842407,
+              "start": 0,
+              "end": 500,
+              "text": "Résumé\n\nLe rôle joué par la stratosphère sur le climat est aujourd’hui avéré. Le couplage du\nsystème troposphère-stratosphère implique que les processus dynamiques de grande\namplitude de la moyenne atmosphère perturbent l’équilibre atmosphérique et l’écoulement\ndans les plus basses couches. Parmi ces phénomènes dynamiques, les échauffements\nstratosphériques soudains sont les plus emblématiques. Cette étude s’intéresse à l’impact de\nces événements sur la variabilité de la moyenne atmosphère et su",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        },
+        {
+          "question_id": "q5",
+          "question": "Quel est le rôle des ondes planétaires dans les réchauffements stratosphériques ?",
+          "precision_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "f1_at_5": 0,
+          "relevant_retrieved": 0,
+          "matched_references": 0,
+          "total_references": 3,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.8178966045379639,
+              "start": 25650,
+              "end": 26150,
+              "text": "e de variabilité de la\ncirculation stratosphérique de l’hémisphère nord en hiver [Andrews et al., 1987]. Des études\nrécentes indiquent que l’augmentation de la concentration en gaz à effet de serre pourrait\naccentuer le forçage des ondes troposphériques et renforcer l’activité des ondes planétaires\ndans la stratosphère [Butchart et al., 2006 ; Deckert and Dameris, 2008]. Compte tenu de\n\nl’importance du rôle joué par ces ondes dans la formation des échauffements stratosphériques,\nles changements ",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.7464491724967957,
+              "start": 9450,
+              "end": 9950,
+              "text": "palement en hiver. De manière\nsimilaire aux ondes de gravité, les ondes planétaires peuvent atteindre des niveaux où elles\n\ndeviennent instables et déferlent, modifiant l’état de l’atmosphère (température, vent, etc.) à\ntrès large échelle.\nC’est ainsi que les ondes atmosphériques peuvent être à l’origine de perturbations\nparfois très importantes dans la stratosphère et la mésosphère, ce qui explique la grande\nvariabilité interannuelle de ces couches.\nEn hiver, les trois principaux modes de varia",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7416684031486511,
+              "start": 193950,
+              "end": 194450,
+              "text": "observent Matthewman\net al. [2009] non seulement pour les échauffements stratosphériques majeurs de février\n1979 et janvier 1987, mais aussi pour les évolutions composites différenciées selon le\ntype d’événement.\n4.5. Sensibilité du modèle à l’amplitude des ondes planétaires du géopotentiel\n\nLe rôle majeur joué par les ondes planétaires dans la naissance d’un échauffement\nstratosphérique est avéré [Andrews et al., 1987]. Cependant, l’influence exacte des différents\nmodes d’ondes – notamment les ",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7349702715873718,
+              "start": 0,
+              "end": 500,
+              "text": "Résumé\n\nLe rôle joué par la stratosphère sur le climat est aujourd’hui avéré. Le couplage du\nsystème troposphère-stratosphère implique que les processus dynamiques de grande\namplitude de la moyenne atmosphère perturbent l’équilibre atmosphérique et l’écoulement\ndans les plus basses couches. Parmi ces phénomènes dynamiques, les échauffements\nstratosphériques soudains sont les plus emblématiques. Cette étude s’intéresse à l’impact de\nces événements sur la variabilité de la moyenne atmosphère et su",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7284165024757385,
+              "start": 9900,
+              "end": 10400,
+              "text": "hes.\nEn hiver, les trois principaux modes de variabilité de la température (à ne pas\nconfondre avec les modes d’onde décrits ci-dessus) reflètent la répartition verticale de\nl’impact de ces ondes [Keckhut et al., 2011b]. Le mode principal montre (figure 1.6) une forte\nanti-corrélation entre la haute stratosphère et la mésosphère, très probablement associée à la\npropagation des ondes planétaires et aux échauffements stratosphériques associés (voir le\nparagraphe 1.2. pour une description détaillée",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        }
+      ]
+    },
+    "Word": {
+      "chunk_count": 511,
+      "precision_at_5": 0.08,
+      "recall_at_5": 0.16666666666666666,
+      "f1_at_5": 0.10714285714285716,
+      "questions": [
+        {
+          "question_id": "q1",
+          "question": "Qu'est-ce qu'un réchauffement stratosphérique majeur ?",
+          "precision_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "f1_at_5": 0,
+          "relevant_retrieved": 0,
+          "matched_references": 0,
+          "total_references": 2,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.7361926436424255,
+              "start": 85250,
+              "end": 85959,
+              "text": "de\nrégimes météorologiques anormaux dans la troposphère. Ceci s’accorde tout à fait\navec nos résultats, puisque nous observons qu’une importante anomalie de\ntempérature positive descend de la mésosphère jusque dans la stratosphère aux\nalentours de la date de l’échauffement, ce qui caractérise une perturbation majeure de\nl’écoulement stratosphérique. Ensuite, comme nous l’avons noté ci-dessus, on\nremarque des anomalies de températures dans la troposphère. Cette propagation vers\nle bas des anomalies de températures induit un couplage entre la stratosphère et la\ntroposphère, ce qui permet une meilleure prédictibilité météorologique sur des\néchelles temporelles allant du mois à la saison [Körnich, 2010].",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.7268763184547424,
+              "start": 151995,
+              "end": 152719,
+              "text": "chaudes présente dans la haute stratosphère deux mois avant\nl’échauffement est toujours visible sur les données CMAM moyennés zonalement.\nElle résulte donc des contributions additionnelles citées lors de l’étude des données\nOHP (« une succession d’ondes de Rossby qui déferlent dans la stratosphère, ajoutée\naux contributions additionnelles constituées par les variations continues de la\nstratosphère », paragraphe 2.5.2.3.), et pourrait notamment s’interpréter comme le\nsigne d’un échauffement stratosphérique mineur. Cet échauffement ressort davantage\nque les autres échauffements mineurs, ce qui peut s’expliquer par différentes raisons :\n\n-\nSoit cet échauffement est plus marqué (par son amplitude en température et\nplus",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7080647349357605,
+              "start": 78412,
+              "end": 79180,
+              "text": "échauffement stratosphérique\n\nDans ce chapitre, nous nous intéressons aux échauffements stratosphériques majeurs,\ncar ce sont les seuls à pouvoir être clairement identifiés et datés au moyen d’un proxy\nquantitatif dérivé de champs météorologiques horizontaux [Labitzke, 1981]. On calculera les\nanomalies de températures en prenant comme référence la température de fond obtenue au\nmoyen de la méthodologie développée ci-dessus (paragraphe 2.3.). Ce faisant, les évolutions\nqui seront représentées permettront de visualiser directement les conséquences des\néchauffements stratosphériques, puisque la composante radiative et dynamique de fond aura\nété filtrée.\n2.5.1. Évolution hivernale moyenne\n\nNous nous intéressons tout d’abord à l’évolution spatiotemporelle moyenne",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7037026286125183,
+              "start": 28187,
+              "end": 28810,
+              "text": "moyenne atmosphère\net de ses liens avec la troposphère. Le rôle clé que joue la stratosphère sur le système\nclimatique dans son ensemble a récemment suscité davantage d’attention. On sait maintenant\nque la dynamique et l’évolution de la moyenne atmosphère ont une influence déterminante\nsur le climat des premiers kilomètres de l’atmosphère. En effet, des exemples récents dans la\nlittérature ont montré que l’on peut attribuer aux changements à long terme que connaît la\nstratosphère des phénomènes aussi variés que le déplacement vers le pôle du courant-jet de\nl’hémisphère sud en été [Lee et al., 2013], une partie de la",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7022440433502197,
+              "start": 77283,
+              "end": 77893,
+              "text": "km\net au-delà (et il vaut environ 50 jours à 30 et 35 km d’altitude). Cependant, les anomalies de\ntempératures que causent les échauffements stratosphériques sont de plus en plus chaudes : la\ntendance est d’environ +1,5 K par décennie. Au total, c’est ce second élément qui possède\nl’impact le plus important sur les profils de température observés, puisqu’on a constaté (figure\n2.8) une différence positive entre la tendance moyenne et la tendance de fond. Les\néchauffements, qui sont de plus en plus chauds, tirent la tendance moyenne vers les valeurs\n\npositives. Globalement, on note que les deux profils de",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        },
+        {
+          "question_id": "q2",
+          "question": "Quels sont les différents types de réchauffement stratosphérique ?",
+          "precision_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "f1_at_5": 0,
+          "relevant_retrieved": 0,
+          "matched_references": 0,
+          "total_references": 3,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.7252177000045776,
+              "start": 78412,
+              "end": 79180,
+              "text": "échauffement stratosphérique\n\nDans ce chapitre, nous nous intéressons aux échauffements stratosphériques majeurs,\ncar ce sont les seuls à pouvoir être clairement identifiés et datés au moyen d’un proxy\nquantitatif dérivé de champs météorologiques horizontaux [Labitzke, 1981]. On calculera les\nanomalies de températures en prenant comme référence la température de fond obtenue au\nmoyen de la méthodologie développée ci-dessus (paragraphe 2.3.). Ce faisant, les évolutions\nqui seront représentées permettront de visualiser directement les conséquences des\néchauffements stratosphériques, puisque la composante radiative et dynamique de fond aura\nété filtrée.\n2.5.1. Évolution hivernale moyenne\n\nNous nous intéressons tout d’abord à l’évolution spatiotemporelle moyenne",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.7003517746925354,
+              "start": 151995,
+              "end": 152719,
+              "text": "chaudes présente dans la haute stratosphère deux mois avant\nl’échauffement est toujours visible sur les données CMAM moyennés zonalement.\nElle résulte donc des contributions additionnelles citées lors de l’étude des données\nOHP (« une succession d’ondes de Rossby qui déferlent dans la stratosphère, ajoutée\naux contributions additionnelles constituées par les variations continues de la\nstratosphère », paragraphe 2.5.2.3.), et pourrait notamment s’interpréter comme le\nsigne d’un échauffement stratosphérique mineur. Cet échauffement ressort davantage\nque les autres échauffements mineurs, ce qui peut s’expliquer par différentes raisons :\n\n-\nSoit cet échauffement est plus marqué (par son amplitude en température et\nplus",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.6956174969673157,
+              "start": 111347,
+              "end": 112027,
+              "text": " Etablir une étude globale de l’influence des échauffements stratosphériques sur\nles tendances de température, en incluant des comparaisons entre les hautes,\nFigure\n3.1 :\nNiveaux\nde calcul du modèle\nCMAM.\n\nmoyennes et basses latitudes dans les deux hémisphères, ainsi qu’entre les\ndifférentes longitudes à une latitude donnée ;\n Mener une étude de l’évolution des anomalies de températures au cours d’un\néchauffement stratosphérique, de façon similaire à la démarche du chapitre\nprécédent mais avec une vision globale. On considérera également\nl’hémisphère sud et notamment le cas exceptionnel de l’échauffement\nstratosphérique soudain majeur qui s’y est produit lors de l’hiver",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.6861630082130432,
+              "start": 29928,
+              "end": 30636,
+              "text": "2002 ; Gillett and Thompson, 2003 ; Norton, 2003 ; Charlton et al., 2004]. Par ailleurs, les\néchauffements stratosphériques ont également des conséquences sur la diminution de la\nconcentration en ozone [de Laat and van Weele, 2011 ; Päivärinta et al., 2013]. Ces différents\néléments sont autant d’indicateurs montrant qu’améliorer notre connaissance des\néchauffements stratosphériques et notamment de leurs conséquences troposphériques s’avère\ncrucial pour la compréhension du système climatique global.\nLes tendances de température (de la troposphère comme de la moyenne et de la haute\natmosphère) sont habituellement calculées à partir de moyennes mensuelles, les données\npouvant provenir de radiosondages,",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.6828505992889404,
+              "start": 85250,
+              "end": 85959,
+              "text": "de\nrégimes météorologiques anormaux dans la troposphère. Ceci s’accorde tout à fait\navec nos résultats, puisque nous observons qu’une importante anomalie de\ntempérature positive descend de la mésosphère jusque dans la stratosphère aux\nalentours de la date de l’échauffement, ce qui caractérise une perturbation majeure de\nl’écoulement stratosphérique. Ensuite, comme nous l’avons noté ci-dessus, on\nremarque des anomalies de températures dans la troposphère. Cette propagation vers\nle bas des anomalies de températures induit un couplage entre la stratosphère et la\ntroposphère, ce qui permet une meilleure prédictibilité météorologique sur des\néchelles temporelles allant du mois à la saison [Körnich, 2010].",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        },
+        {
+          "question_id": "q3",
+          "question": "Comment évolue la température dans la stratosphère lors d'un réchauffement stratosphérique ?",
+          "precision_at_5": 0.2,
+          "recall_at_5": 0.5,
+          "f1_at_5": 0.28571428571428575,
+          "relevant_retrieved": 1,
+          "matched_references": 1,
+          "total_references": 2,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.7660508751869202,
+              "start": 111347,
+              "end": 112027,
+              "text": " Etablir une étude globale de l’influence des échauffements stratosphériques sur\nles tendances de température, en incluant des comparaisons entre les hautes,\nFigure\n3.1 :\nNiveaux\nde calcul du modèle\nCMAM.\n\nmoyennes et basses latitudes dans les deux hémisphères, ainsi qu’entre les\ndifférentes longitudes à une latitude donnée ;\n Mener une étude de l’évolution des anomalies de températures au cours d’un\néchauffement stratosphérique, de façon similaire à la démarche du chapitre\nprécédent mais avec une vision globale. On considérera également\nl’hémisphère sud et notamment le cas exceptionnel de l’échauffement\nstratosphérique soudain majeur qui s’y est produit lors de l’hiver",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.7653099298477173,
+              "start": 22095,
+              "end": 22735,
+              "text": "d’échauffements stratosphériques. On parle d’échauffement\nstratosphérique majeur si le gradient de température calculé à 10 hPa et en moyenne zonale\nentre le pôle (85°N, ou 85°S pour l’hémisphère sud) et 60°N (ou 60°S) est positif pendant\nplus de 5 jours, et que pendant cette période le vent zonal moyen mesuré à 60°N (60°S) et à\n10 hPa s’inverse (définition de l’Organisation Météorologique Mondiale, Andrews et al.\n[1987]). Cela correspond aux cas les plus spectaculaires, qui s’accompagnent des\nperturbations les plus importantes. Le vortex peut alors être déporté loin de sa zone\nd’équilibre initiale centrée autour du pôle – cas nommé",
+              "relevant": true,
+              "matched_reference_indices": [
+                1
+              ]
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7600273489952087,
+              "start": 85250,
+              "end": 85959,
+              "text": "de\nrégimes météorologiques anormaux dans la troposphère. Ceci s’accorde tout à fait\navec nos résultats, puisque nous observons qu’une importante anomalie de\ntempérature positive descend de la mésosphère jusque dans la stratosphère aux\nalentours de la date de l’échauffement, ce qui caractérise une perturbation majeure de\nl’écoulement stratosphérique. Ensuite, comme nous l’avons noté ci-dessus, on\nremarque des anomalies de températures dans la troposphère. Cette propagation vers\nle bas des anomalies de températures induit un couplage entre la stratosphère et la\ntroposphère, ce qui permet une meilleure prédictibilité météorologique sur des\néchelles temporelles allant du mois à la saison [Körnich, 2010].",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7598564028739929,
+              "start": 151995,
+              "end": 152719,
+              "text": "chaudes présente dans la haute stratosphère deux mois avant\nl’échauffement est toujours visible sur les données CMAM moyennés zonalement.\nElle résulte donc des contributions additionnelles citées lors de l’étude des données\nOHP (« une succession d’ondes de Rossby qui déferlent dans la stratosphère, ajoutée\naux contributions additionnelles constituées par les variations continues de la\nstratosphère », paragraphe 2.5.2.3.), et pourrait notamment s’interpréter comme le\nsigne d’un échauffement stratosphérique mineur. Cet échauffement ressort davantage\nque les autres échauffements mineurs, ce qui peut s’expliquer par différentes raisons :\n\n-\nSoit cet échauffement est plus marqué (par son amplitude en température et\nplus",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7397209405899048,
+              "start": 55916,
+              "end": 56596,
+              "text": "souligné Hauchecorne et al. [1991] ; deuxièmement, la température\nest plus élevée (en hiver) que la température attendue avec une courbe sinusoïdale. Ces deux\naspects sont des signatures caractéristiques des événements dynamiques importants qui ont\nlieu en hiver aux moyennes et hautes latitudes, comme les échauffements stratosphériques. Un\n\nautre marqueur de l’activité dynamique renforcée qui a lieu en hiver est l’activité des ondes\natmosphériques : elle aussi atteint un maximum au cours de cette période [Wilson et al.,\n1991].\n\nUne deuxième façon de visualiser et d’étudier la variabilité de la température est de\ns’intéresser aux distributions des anomalies de températures",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        },
+        {
+          "question_id": "q4",
+          "question": "Quels phénomènes physiques influencent la température de la stratosphère ?",
+          "precision_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "f1_at_5": 0,
+          "relevant_retrieved": 0,
+          "matched_references": 0,
+          "total_references": 4,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.7885519862174988,
+              "start": 10834,
+              "end": 11484,
+              "text": "de température\nLa température de l’atmosphère est expliquée par de nombreux facteurs parmi lesquels\non peut citer le rayonnement solaire incident (partant, la localisation sur le globe ainsi que le\nmoment dans la journée et dans l’année), l’humidité et l’altitude des masses d’air, la présence\nde réactions chimiques, etc. Le rayonnement solaire incident constitue la source très\nmajoritaire d’énergie du système physique constitué de la surface de la Terre (comprenant\nnotamment l’eau qui s’y trouve sous forme liquide ou solide ainsi que la biosphère) et de\nl’atmosphère qui l’entoure. En effet, près de quatre mille fois plus d’énergie provient du",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.780445396900177,
+              "start": 111347,
+              "end": 112027,
+              "text": " Etablir une étude globale de l’influence des échauffements stratosphériques sur\nles tendances de température, en incluant des comparaisons entre les hautes,\nFigure\n3.1 :\nNiveaux\nde calcul du modèle\nCMAM.\n\nmoyennes et basses latitudes dans les deux hémisphères, ainsi qu’entre les\ndifférentes longitudes à une latitude donnée ;\n Mener une étude de l’évolution des anomalies de températures au cours d’un\néchauffement stratosphérique, de façon similaire à la démarche du chapitre\nprécédent mais avec une vision globale. On considérera également\nl’hémisphère sud et notamment le cas exceptionnel de l’échauffement\nstratosphérique soudain majeur qui s’y est produit lors de l’hiver",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7765004634857178,
+              "start": 55916,
+              "end": 56596,
+              "text": "souligné Hauchecorne et al. [1991] ; deuxièmement, la température\nest plus élevée (en hiver) que la température attendue avec une courbe sinusoïdale. Ces deux\naspects sont des signatures caractéristiques des événements dynamiques importants qui ont\nlieu en hiver aux moyennes et hautes latitudes, comme les échauffements stratosphériques. Un\n\nautre marqueur de l’activité dynamique renforcée qui a lieu en hiver est l’activité des ondes\natmosphériques : elle aussi atteint un maximum au cours de cette période [Wilson et al.,\n1991].\n\nUne deuxième façon de visualiser et d’étudier la variabilité de la température est de\ns’intéresser aux distributions des anomalies de températures",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7658125758171082,
+              "start": 85250,
+              "end": 85959,
+              "text": "de\nrégimes météorologiques anormaux dans la troposphère. Ceci s’accorde tout à fait\navec nos résultats, puisque nous observons qu’une importante anomalie de\ntempérature positive descend de la mésosphère jusque dans la stratosphère aux\nalentours de la date de l’échauffement, ce qui caractérise une perturbation majeure de\nl’écoulement stratosphérique. Ensuite, comme nous l’avons noté ci-dessus, on\nremarque des anomalies de températures dans la troposphère. Cette propagation vers\nle bas des anomalies de températures induit un couplage entre la stratosphère et la\ntroposphère, ce qui permet une meilleure prédictibilité météorologique sur des\néchelles temporelles allant du mois à la saison [Körnich, 2010].",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7517963647842407,
+              "start": 0,
+              "end": 777,
+              "text": "Résumé\n\nLe rôle joué par la stratosphère sur le climat est aujourd’hui avéré. Le couplage du\nsystème troposphère-stratosphère implique que les processus dynamiques de grande\namplitude de la moyenne atmosphère perturbent l’équilibre atmosphérique et l’écoulement\ndans les plus basses couches. Parmi ces phénomènes dynamiques, les échauffements\nstratosphériques soudains sont les plus emblématiques. Cette étude s’intéresse à l’impact de\nces événements sur la variabilité de la moyenne atmosphère et sur l’estimation des tendances\nde température. Nous cherchons également à mieux caractériser l’évolution spatio-temporelle\ndes échauffements stratosphériques, depuis leurs causes jusqu’à leurs conséquences. Tout\nd’abord, une méthodologie novatrice d’analyse statistique de séries",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        },
+        {
+          "question_id": "q5",
+          "question": "Quel est le rôle des ondes planétaires dans les réchauffements stratosphériques ?",
+          "precision_at_5": 0.2,
+          "recall_at_5": 0.3333333333333333,
+          "f1_at_5": 0.25,
+          "relevant_retrieved": 1,
+          "matched_references": 1,
+          "total_references": 3,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.8154357671737671,
+              "start": 25701,
+              "end": 26383,
+              "text": "de l’hémisphère nord en hiver [Andrews et al., 1987]. Des études\nrécentes indiquent que l’augmentation de la concentration en gaz à effet de serre pourrait\naccentuer le forçage des ondes troposphériques et renforcer l’activité des ondes planétaires\ndans la stratosphère [Butchart et al., 2006 ; Deckert and Dameris, 2008]. Compte tenu de\n\nl’importance du rôle joué par ces ondes dans la formation des échauffements stratosphériques,\nles changements constatés dans la composition de l’atmosphère ont certainement des\nconséquences sur ces phénomènes, notamment sur leur occurrence, du fait également d’un\naffaiblissement des vents zonaux dans la moyenne atmosphère [Schimanke et al .,",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.7642596364021301,
+              "start": 9642,
+              "end": 10318,
+              "text": "(température, vent, etc.) à\ntrès large échelle.\nC’est ainsi que les ondes atmosphériques peuvent être à l’origine de perturbations\nparfois très importantes dans la stratosphère et la mésosphère, ce qui explique la grande\nvariabilité interannuelle de ces couches.\nEn hiver, les trois principaux modes de variabilité de la température (à ne pas\nconfondre avec les modes d’onde décrits ci-dessus) reflètent la répartition verticale de\nl’impact de ces ondes [Keckhut et al., 2011b]. Le mode principal montre (figure 1.6) une forte\nanti-corrélation entre la haute stratosphère et la mésosphère, très probablement associée à la\npropagation des ondes planétaires et aux échauffements",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7521699666976929,
+              "start": 62356,
+              "end": 63024,
+              "text": "mais aussi des contributions dynamiques mineures continues dues aux ondes de gravité ainsi\nqu’aux ondes planétaires. Elle est donc sensible à l’activité solaire [Keckhut et al., 2005 ;\nDunkerton et al., 1998], aux changements de composition de l’atmosphère en gaz à effet de\nserre [Rind et al., 1998], à la concentration en ozone stratosphérique et à l’émission d’aérosols\n\npour la basse stratosphère. Cependant, nous nous basons pour cette étude sur une température\nde fond présentant un cycle annuel constant, ne dépendant que de l’altitude. De cette manière,\nl’évolution par rapport à cette référence constante de paramètres saisonniers caractéristiques\n(définis au",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7349702715873718,
+              "start": 0,
+              "end": 777,
+              "text": "Résumé\n\nLe rôle joué par la stratosphère sur le climat est aujourd’hui avéré. Le couplage du\nsystème troposphère-stratosphère implique que les processus dynamiques de grande\namplitude de la moyenne atmosphère perturbent l’équilibre atmosphérique et l’écoulement\ndans les plus basses couches. Parmi ces phénomènes dynamiques, les échauffements\nstratosphériques soudains sont les plus emblématiques. Cette étude s’intéresse à l’impact de\nces événements sur la variabilité de la moyenne atmosphère et sur l’estimation des tendances\nde température. Nous cherchons également à mieux caractériser l’évolution spatio-temporelle\ndes échauffements stratosphériques, depuis leurs causes jusqu’à leurs conséquences. Tout\nd’abord, une méthodologie novatrice d’analyse statistique de séries",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7218329310417175,
+              "start": 20949,
+              "end": 21566,
+              "text": "planétaires de mode 1 et 2\n\n[Matsuno, 1971 ; Andrews et al., 1987]. Les ondes déferlent tout d’abord dans la stratosphère,\naux hautes latitudes. La friction des ondes qui en découle crée une augmentation de la\ntempérature au pôle. En conséquence, le gradient méridien de température varie, impliquant\nun affaiblissement du vent zonal. Les ondes qui se propagent verticalement déferlent alors à\ndes altitudes de plus en plus basses, car des vents d’ouest moins intenses (et a fortiori des\nvents d’est) les empêchent de se propager plus haut. L’intégrité du vortex polaire est\ncompromise, si bien que de l’air extérieur",
+              "relevant": true,
+              "matched_reference_indices": [
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Sentence": {
+      "chunk_count": 743,
+      "precision_at_5": 0.2,
+      "recall_at_5": 0.39999999999999997,
+      "f1_at_5": 0.26428571428571435,
+      "questions": [
+        {
+          "question_id": "q1",
+          "question": "Qu'est-ce qu'un réchauffement stratosphérique majeur ?",
+          "precision_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "f1_at_5": 0,
+          "relevant_retrieved": 0,
+          "matched_references": 0,
+          "total_references": 2,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.749544084072113,
+              "start": 78189,
+              "end": 78688,
+              "text": "(D’hiver en hiver,\nles échauffements sont légèrement plus froids, mais ils sont plus nombreux si bien qu’ils\ncontinuent à tirer la tendance moyenne vers les valeurs positives.)\n2.5. Évolution des températures au cours d’un échauffement stratosphérique\n\nDans ce chapitre, nous nous intéressons aux échauffements stratosphériques majeurs,\ncar ce sont les seuls à pouvoir être clairement identifiés et datés au moyen d’un proxy\nquantitatif dérivé de champs météorologiques horizontaux [Labitzke, 1981].",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.7182419300079346,
+              "start": 88403,
+              "end": 88789,
+              "text": " La stratosphère est donc globalement plus chaude lors d’un hiver avec échauffement\nmajeur, tandis que la mésosphère démontre des différences de températures marquées\nentre un hiver avec échauffement majeur et un hiver sans échauffement majeur,\nsuccessivement positives et négatives. La troposphère, quant à elle, ne révèle pas de\ndifférences importantes entre les deux types d’hivers.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7171650528907776,
+              "start": 268642,
+              "end": 268914,
+              "text": "A main region of warming is visible in the stratosphere; it lasts around\none month and it is centred on the date of the SSW. To this main warming corresponds the\nmost important cold anomaly, which is observed in the high mesosphere at around the\nsame dates as the warming.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7157637476921082,
+              "start": 85307,
+              "end": 85708,
+              "text": "Ceci s’accorde tout à fait\navec nos résultats, puisque nous observons qu’une importante anomalie de\ntempérature positive descend de la mésosphère jusque dans la stratosphère aux\nalentours de la date de l’échauffement, ce qui caractérise une perturbation majeure de\nl’écoulement stratosphérique. Ensuite, comme nous l’avons noté ci-dessus, on\nremarque des anomalies de températures dans la troposphère.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7136576175689697,
+              "start": 124473,
+              "end": 124893,
+              "text": " À cet échauffement correspond la région du refroidissement le plus important (jusqu’à\n-8 K), qui a lieu sensiblement aux mêmes dates et concerne la haute mésosphère. De\nmanière plus générale, on souligne pour les données CMAM – comme on l’avait fait\npour les données lidar – l’anti-corrélation des anomalies de températures entre la haute\nstratosphère et la mésosphère, voire entre différents niveaux de la mésosphère.",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        },
+        {
+          "question_id": "q2",
+          "question": "Quels sont les différents types de réchauffement stratosphérique ?",
+          "precision_at_5": 0.4,
+          "recall_at_5": 0.6666666666666666,
+          "f1_at_5": 0.5,
+          "relevant_retrieved": 2,
+          "matched_references": 2,
+          "total_references": 3,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.7635998129844666,
+              "start": 78189,
+              "end": 78688,
+              "text": "(D’hiver en hiver,\nles échauffements sont légèrement plus froids, mais ils sont plus nombreux si bien qu’ils\ncontinuent à tirer la tendance moyenne vers les valeurs positives.)\n2.5. Évolution des températures au cours d’un échauffement stratosphérique\n\nDans ce chapitre, nous nous intéressons aux échauffements stratosphériques majeurs,\ncar ce sont les seuls à pouvoir être clairement identifiés et datés au moyen d’un proxy\nquantitatif dérivé de champs météorologiques horizontaux [Labitzke, 1981].",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.7053479552268982,
+              "start": 88403,
+              "end": 88789,
+              "text": " La stratosphère est donc globalement plus chaude lors d’un hiver avec échauffement\nmajeur, tandis que la mésosphère démontre des différences de températures marquées\nentre un hiver avec échauffement majeur et un hiver sans échauffement majeur,\nsuccessivement positives et négatives. La troposphère, quant à elle, ne révèle pas de\ndifférences importantes entre les deux types d’hivers.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7051084637641907,
+              "start": 1699,
+              "end": 2033,
+              "text": "Mots-clés : échauffement stratosphérique, tendances de température, couplage troposphère-\nstratosphère, dynamique stratosphérique, analyse statistique, évolutions composites.\n\nAux solstices et entre 30 km et 60 km d’altitude, la température est plus froide à\nmesure que l’on s’éloigne du pôle d’été pour se rapprocher du pôle d’hiver.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7019167542457581,
+              "start": 25435,
+              "end": 25754,
+              "text": "Mais de nombreux échauffements stratosphériques de plus petite\nampleur ont lieu chaque hiver : on parle alors d’échauffements stratosphériques mineurs.\nLes échauffements stratosphériques constituent la première cause de variabilité de la\ncirculation stratosphérique de l’hémisphère nord en hiver [Andrews et al., 1987].",
+              "relevant": true,
+              "matched_reference_indices": [
+                1
+              ]
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.6981191039085388,
+              "start": 21737,
+              "end": 22128,
+              "text": "D’importantes variations de température sont alors\nobservées, parfois jusqu’à des latitudes assez basses (40°N) : on observe notamment (à 60°N)\ndes augmentations de 10 K à 60 K dans la stratosphère qui s’étendent sur plusieurs semaines\n[Labitzke, 1972], auxquelles s’associe un refroidissement de la mésosphère [Cho et al., 2004].\nIl existe différents types d’échauffements stratosphériques.",
+              "relevant": true,
+              "matched_reference_indices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "question_id": "q3",
+          "question": "Comment évolue la température dans la stratosphère lors d'un réchauffement stratosphérique ?",
+          "precision_at_5": 0.4,
+          "recall_at_5": 1.0,
+          "f1_at_5": 0.5714285714285715,
+          "relevant_retrieved": 2,
+          "matched_references": 2,
+          "total_references": 2,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.7925808429718018,
+              "start": 18120,
+              "end": 18562,
+              "text": "Ils prennent la\nforme de perturbations conséquentes de l’écoulement moyen, et se traduisent notamment par\nde fortes variations de température dans la moyenne atmosphère. Dans les cas les plus\nextrêmes, la température de la stratosphère peut augmenter d’une cinquantaine de degrés en\nl’espace de quelques jours seulement et l’écoulement circumpolaire – habituellement d’ouest\nen cette saison – peut s’inverser dans le même intervalle de temps.",
+              "relevant": true,
+              "matched_reference_indices": [
+                0
+              ]
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.7911274433135986,
+              "start": 78189,
+              "end": 78688,
+              "text": "(D’hiver en hiver,\nles échauffements sont légèrement plus froids, mais ils sont plus nombreux si bien qu’ils\ncontinuent à tirer la tendance moyenne vers les valeurs positives.)\n2.5. Évolution des températures au cours d’un échauffement stratosphérique\n\nDans ce chapitre, nous nous intéressons aux échauffements stratosphériques majeurs,\ncar ce sont les seuls à pouvoir être clairement identifiés et datés au moyen d’un proxy\nquantitatif dérivé de champs météorologiques horizontaux [Labitzke, 1981].",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7807697057723999,
+              "start": 2974,
+              "end": 3302,
+              "text": "Cependant, on observe (figure 1.2) que le gradient de température va du pôle d’été au\npôle d’hiver au niveau de la mésopause, et que les régions les plus froides de la basse\nstratosphère sont les latitudes tropicales. Ces observations semblent contredire prima facie le\ntaux de chauffage radiatif net représenté à la figure 1.3.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7803390026092529,
+              "start": 91785,
+              "end": 92082,
+              "text": "Méthodologie\nUn échauffement stratosphérique majeur peut avoir lieu plus ou moins tôt dans\nl’hiver, si bien qu’il faut prendre en compte cette particularité pour obtenir une représentation\nla plus fidèle possible de l’évolution moyenne de la température au cours d’un échauffement\nstratosphérique.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7772481441497803,
+              "start": 22129,
+              "end": 22629,
+              "text": "On parle d’échauffement\nstratosphérique majeur si le gradient de température calculé à 10 hPa et en moyenne zonale\nentre le pôle (85°N, ou 85°S pour l’hémisphère sud) et 60°N (ou 60°S) est positif pendant\nplus de 5 jours, et que pendant cette période le vent zonal moyen mesuré à 60°N (60°S) et à\n10 hPa s’inverse (définition de l’Organisation Météorologique Mondiale, Andrews et al.\n[1987]). Cela correspond aux cas les plus spectaculaires, qui s’accompagnent des\nperturbations les plus importantes.",
+              "relevant": true,
+              "matched_reference_indices": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "question_id": "q4",
+          "question": "Quels phénomènes physiques influencent la température de la stratosphère ?",
+          "precision_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "f1_at_5": 0,
+          "relevant_retrieved": 0,
+          "matched_references": 0,
+          "total_references": 4,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.7907660603523254,
+              "start": 10824,
+              "end": 11156,
+              "text": "Tendances de température\nLa température de l’atmosphère est expliquée par de nombreux facteurs parmi lesquels\non peut citer le rayonnement solaire incident (partant, la localisation sur le globe ainsi que le\nmoment dans la journée et dans l’année), l’humidité et l’altitude des masses d’air, la présence\nde réactions chimiques, etc.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.7880334854125977,
+              "start": 18120,
+              "end": 18562,
+              "text": "Ils prennent la\nforme de perturbations conséquentes de l’écoulement moyen, et se traduisent notamment par\nde fortes variations de température dans la moyenne atmosphère. Dans les cas les plus\nextrêmes, la température de la stratosphère peut augmenter d’une cinquantaine de degrés en\nl’espace de quelques jours seulement et l’écoulement circumpolaire – habituellement d’ouest\nen cette saison – peut s’inverser dans le même intervalle de temps.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7650667428970337,
+              "start": 85307,
+              "end": 85708,
+              "text": "Ceci s’accorde tout à fait\navec nos résultats, puisque nous observons qu’une importante anomalie de\ntempérature positive descend de la mésosphère jusque dans la stratosphère aux\nalentours de la date de l’échauffement, ce qui caractérise une perturbation majeure de\nl’écoulement stratosphérique. Ensuite, comme nous l’avons noté ci-dessus, on\nremarque des anomalies de températures dans la troposphère.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7596275210380554,
+              "start": 0,
+              "end": 397,
+              "text": "Résumé\n\nLe rôle joué par la stratosphère sur le climat est aujourd’hui avéré. Le couplage du\nsystème troposphère-stratosphère implique que les processus dynamiques de grande\namplitude de la moyenne atmosphère perturbent l’équilibre atmosphérique et l’écoulement\ndans les plus basses couches. Parmi ces phénomènes dynamiques, les échauffements\nstratosphériques soudains sont les plus emblématiques.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7583285570144653,
+              "start": 55944,
+              "end": 56254,
+              "text": "[1991] ; deuxièmement, la température\nest plus élevée (en hiver) que la température attendue avec une courbe sinusoïdale. Ces deux\naspects sont des signatures caractéristiques des événements dynamiques importants qui ont\nlieu en hiver aux moyennes et hautes latitudes, comme les échauffements stratosphériques.",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        },
+        {
+          "question_id": "q5",
+          "question": "Quel est le rôle des ondes planétaires dans les réchauffements stratosphériques ?",
+          "precision_at_5": 0.2,
+          "recall_at_5": 0.3333333333333333,
+          "f1_at_5": 0.25,
+          "relevant_retrieved": 1,
+          "matched_references": 1,
+          "total_references": 3,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.7648720145225525,
+              "start": 25755,
+              "end": 26023,
+              "text": "Des études\nrécentes indiquent que l’augmentation de la concentration en gaz à effet de serre pourrait\naccentuer le forçage des ondes troposphériques et renforcer l’activité des ondes planétaires\ndans la stratosphère [Butchart et al., 2006 ; Deckert and Dameris, 2008].",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.745499312877655,
+              "start": 9905,
+              "end": 10369,
+              "text": "En hiver, les trois principaux modes de variabilité de la température (à ne pas\nconfondre avec les modes d’onde décrits ci-dessus) reflètent la répartition verticale de\nl’impact de ces ondes [Keckhut et al., 2011b]. Le mode principal montre (figure 1.6) une forte\nanti-corrélation entre la haute stratosphère et la mésosphère, très probablement associée à la\npropagation des ondes planétaires et aux échauffements stratosphériques associés (voir le\nparagraphe 1.2.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7454481720924377,
+              "start": 26024,
+              "end": 26390,
+              "text": "Compte tenu de\n\nl’importance du rôle joué par ces ondes dans la formation des échauffements stratosphériques,\nles changements constatés dans la composition de l’atmosphère ont certainement des\nconséquences sur ces phénomènes, notamment sur leur occurrence, du fait également d’un\naffaiblissement des vents zonaux dans la moyenne atmosphère [Schimanke et al ., 2012].",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7288011312484741,
+              "start": 0,
+              "end": 397,
+              "text": "Résumé\n\nLe rôle joué par la stratosphère sur le climat est aujourd’hui avéré. Le couplage du\nsystème troposphère-stratosphère implique que les processus dynamiques de grande\namplitude de la moyenne atmosphère perturbent l’équilibre atmosphérique et l’écoulement\ndans les plus basses couches. Parmi ces phénomènes dynamiques, les échauffements\nstratosphériques soudains sont les plus emblématiques.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7216155529022217,
+              "start": 20790,
+              "end": 21283,
+              "text": "Ce changement\nest dû aux ondes atmosphériques qui entrent en interaction avec l’écoulement moyen. Les\nondes concernées sont principalement les ondes de Rossby planétaires de mode 1 et 2\n\n[Matsuno, 1971 ; Andrews et al., 1987]. Les ondes déferlent tout d’abord dans la stratosphère,\naux hautes latitudes. La friction des ondes qui en découle crée une augmentation de la\ntempérature au pôle. En conséquence, le gradient méridien de température varie, impliquant\nun affaiblissement du vent zonal.",
+              "relevant": true,
+              "matched_reference_indices": [
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Paragraph": {
+      "chunk_count": 298,
+      "precision_at_5": 0.04,
+      "recall_at_5": 0.05,
+      "f1_at_5": 0.044444444444444446,
+      "questions": [
+        {
+          "question_id": "q1",
+          "question": "Qu'est-ce qu'un réchauffement stratosphérique majeur ?",
+          "precision_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "f1_at_5": 0,
+          "relevant_retrieved": 0,
+          "matched_references": 0,
+          "total_references": 2,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.744516134262085,
+              "start": 121226,
+              "end": 121310,
+              "text": "3.4.3. Évolution de la température au cours d’un échauffement stratosphérique\nmajeur",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.7176148295402527,
+              "start": 2974,
+              "end": 4210,
+              "text": "Cependant, on observe (figure 1.2) que le gradient de température va du pôle d’été au\npôle d’hiver au niveau de la mésopause, et que les régions les plus froides de la basse\nstratosphère sont les latitudes tropicales. Ces observations semblent contredire prima facie le\ntaux de chauffage radiatif net représenté à la figure 1.3. L’explication à ce paradoxe apparent\ntient en la présence d’une importante activité ondulatoire dans l’atmosphère (c’est-à-dire la\nprésence d’écarts par rapport à la symétrie zonale). La structure thermique de l’atmosphère, et\nnotamment de la moyenne atmosphère, est intimement dépendante de cette activité\ndynamique. En effet, une parcelle d’air en mouvement adiabatique vertical vers le bas se\nréchauffe par compression, tandis qu’une parcelle qui monte se refroidit par détente, comme\nnous l’avons déjà vu. L’activité ondulatoire de l’atmosphère, notamment celle de la moyenne\natmosphère, est décrite plus en détail au paragraphe suivant (1.1.3.).\nTout comme la température, la vitesse du vent varie en moyenne davantage selon la\nlatitude que selon la longitude, si bien que représenter des valeurs moyennées zonalement fait\nsens. Le vent zonal présente lui aussi un cycle saisonnier marqué (figure 1.4).",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7066408395767212,
+              "start": 100897,
+              "end": 103051,
+              "text": "Les échauffements stratosphériques ont donc un impact certain sur les distributions\ndes températures hivernales de la moyenne atmosphère. Lorsque l’on isole et filtre cet impact,\non obtient des tendances de température plus proches de l’équilibre radiatif seul et de ce fait\nplus en accord avec les tendances d’été, peu impactées par la dynamique. Concernant\nl’occurrence des échauffements stratosphériques, on observe, aux altitudes où ces événements\nont le plus fort impact, une tendance légèrement décroissante du nombre de jours concernés\nchaque hiver. Mais cette évolution est compensée et même inversée, du point de vue des\nconséquences sur la répartition des températures, par une tendance positive de l’anomalie de\ntempérature attribuable à ces échauffements stratosphériques. Par ailleurs, le calcul\nd’évolutions synthétiques d’anomalies de températures à partir de plusieurs hivers montre une\ncertaine reproductibilité. On est en mesure de distinguer de manière significative un hiver\navec échauffement stratosphérique majeur d’un hiver sans échauffement majeur, notamment\npar des anomalies de températures positives dans la haute mésosphère (quelques mois avant\nl’échauffement) et la stratosphère (au cours de l’échauffement). Le type d’échauffement\ns’avère lui aussi déterminant pour l’évolution de la température au cours de l’hiver : les\néchauffements de type rupture amènent des anomalies troposphériques (froides pendant\nl’échauffement et chaudes après) plus marquées, tandis que les échauffements de type\ndéplacement témoignent de l’activité marquée de l’onde planétaire de mode 1, qui dicte les\nvariations des anomalies dans la stratosphère.\nCependant, comme souligné par Angot et al. [2012], cette seule étude des données\nlidar de l’OHP ne permet pas de conclure à une échelle régionale, ou a fortiori globale. Pour\navancer en ce sens, il s’agit maintenant d’asseoir les hypothèses prises ainsi que la\nméthodologie – développée en accord avec ces hypothèses – par une analyse s’appuyant sur\nun modèle de climat. Cette analyse permettra également de vérifier si les résultats obtenus\nsont extensibles à d’autres latitudes et longitudes.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7016309499740601,
+              "start": 8,
+              "end": 1697,
+              "text": "Le rôle joué par la stratosphère sur le climat est aujourd’hui avéré. Le couplage du\nsystème troposphère-stratosphère implique que les processus dynamiques de grande\namplitude de la moyenne atmosphère perturbent l’équilibre atmosphérique et l’écoulement\ndans les plus basses couches. Parmi ces phénomènes dynamiques, les échauffements\nstratosphériques soudains sont les plus emblématiques. Cette étude s’intéresse à l’impact de\nces événements sur la variabilité de la moyenne atmosphère et sur l’estimation des tendances\nde température. Nous cherchons également à mieux caractériser l’évolution spatio-temporelle\ndes échauffements stratosphériques, depuis leurs causes jusqu’à leurs conséquences. Tout\nd’abord, une méthodologie novatrice d’analyse statistique de séries temporelles est\ndéveloppée et testée sur des mesures lidar de l’Observatoire de Haute-Provence. L’impact des\névénements dynamiques les plus importants peut ainsi être efficacement isolé de la\ncontribution radiative de fond, ce qui explique les différences observées entre l’été et l’hiver.\nEnsuite, une simulation du Canadian Middle Atmosphere Model nous permet de valider la\nméthodologie et d’étendre notre étude à l’ensemble du globe. On montre que les variations\nspatiales sont elles aussi majoritairement causées par l’activité dynamique. Les conditions de\nformation d’un échauffement stratosphérique sont également étudiées, à l’aide de tests de\nsensibilité du modèle RACCORD. On prouve l’importance du rappel vers la météorologie\npour produire un échauffement majeur, particulièrement dans le cas d’une rupture du vortex.\nEnfin, la méthode et nos résultats sont mis à profit dans une analyse de l’hiver 2012-2013.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.6911537051200867,
+              "start": 94050,
+              "end": 94503,
+              "text": "figure 2.10 illustre le fait que les échauffements stratosphériques (majeurs) peuvent\navoir lieu plus ou moins tôt (ou tard) pendant l’hiver.\n L’anomalie froide de la mésosphère, qui fait écho à l’anomalie positive principale de\nla stratosphère, n’est ni aussi marquée (de -3 K à -8 K) ni aussi étendue – tant\nspatialement que temporellement – que celle vue précédemment.\n2.5.2.3. Évolutions composites moyennes distinguées selon le type d’échauffement",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        },
+        {
+          "question_id": "q2",
+          "question": "Quels sont les différents types de réchauffement stratosphérique ?",
+          "precision_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "f1_at_5": 0,
+          "relevant_retrieved": 0,
+          "matched_references": 0,
+          "total_references": 3,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.725990355014801,
+              "start": 121226,
+              "end": 121310,
+              "text": "3.4.3. Évolution de la température au cours d’un échauffement stratosphérique\nmajeur",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.7109631896018982,
+              "start": 2974,
+              "end": 4210,
+              "text": "Cependant, on observe (figure 1.2) que le gradient de température va du pôle d’été au\npôle d’hiver au niveau de la mésopause, et que les régions les plus froides de la basse\nstratosphère sont les latitudes tropicales. Ces observations semblent contredire prima facie le\ntaux de chauffage radiatif net représenté à la figure 1.3. L’explication à ce paradoxe apparent\ntient en la présence d’une importante activité ondulatoire dans l’atmosphère (c’est-à-dire la\nprésence d’écarts par rapport à la symétrie zonale). La structure thermique de l’atmosphère, et\nnotamment de la moyenne atmosphère, est intimement dépendante de cette activité\ndynamique. En effet, une parcelle d’air en mouvement adiabatique vertical vers le bas se\nréchauffe par compression, tandis qu’une parcelle qui monte se refroidit par détente, comme\nnous l’avons déjà vu. L’activité ondulatoire de l’atmosphère, notamment celle de la moyenne\natmosphère, est décrite plus en détail au paragraphe suivant (1.1.3.).\nTout comme la température, la vitesse du vent varie en moyenne davantage selon la\nlatitude que selon la longitude, si bien que représenter des valeurs moyennées zonalement fait\nsens. Le vent zonal présente lui aussi un cycle saisonnier marqué (figure 1.4).",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.6858965754508972,
+              "start": 78442,
+              "end": 79105,
+              "text": "Dans ce chapitre, nous nous intéressons aux échauffements stratosphériques majeurs,\ncar ce sont les seuls à pouvoir être clairement identifiés et datés au moyen d’un proxy\nquantitatif dérivé de champs météorologiques horizontaux [Labitzke, 1981]. On calculera les\nanomalies de températures en prenant comme référence la température de fond obtenue au\nmoyen de la méthodologie développée ci-dessus (paragraphe 2.3.). Ce faisant, les évolutions\nqui seront représentées permettront de visualiser directement les conséquences des\néchauffements stratosphériques, puisque la composante radiative et dynamique de fond aura\nété filtrée.\n2.5.1. Évolution hivernale moyenne",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.6850684285163879,
+              "start": 100897,
+              "end": 103051,
+              "text": "Les échauffements stratosphériques ont donc un impact certain sur les distributions\ndes températures hivernales de la moyenne atmosphère. Lorsque l’on isole et filtre cet impact,\non obtient des tendances de température plus proches de l’équilibre radiatif seul et de ce fait\nplus en accord avec les tendances d’été, peu impactées par la dynamique. Concernant\nl’occurrence des échauffements stratosphériques, on observe, aux altitudes où ces événements\nont le plus fort impact, une tendance légèrement décroissante du nombre de jours concernés\nchaque hiver. Mais cette évolution est compensée et même inversée, du point de vue des\nconséquences sur la répartition des températures, par une tendance positive de l’anomalie de\ntempérature attribuable à ces échauffements stratosphériques. Par ailleurs, le calcul\nd’évolutions synthétiques d’anomalies de températures à partir de plusieurs hivers montre une\ncertaine reproductibilité. On est en mesure de distinguer de manière significative un hiver\navec échauffement stratosphérique majeur d’un hiver sans échauffement majeur, notamment\npar des anomalies de températures positives dans la haute mésosphère (quelques mois avant\nl’échauffement) et la stratosphère (au cours de l’échauffement). Le type d’échauffement\ns’avère lui aussi déterminant pour l’évolution de la température au cours de l’hiver : les\néchauffements de type rupture amènent des anomalies troposphériques (froides pendant\nl’échauffement et chaudes après) plus marquées, tandis que les échauffements de type\ndéplacement témoignent de l’activité marquée de l’onde planétaire de mode 1, qui dicte les\nvariations des anomalies dans la stratosphère.\nCependant, comme souligné par Angot et al. [2012], cette seule étude des données\nlidar de l’OHP ne permet pas de conclure à une échelle régionale, ou a fortiori globale. Pour\navancer en ce sens, il s’agit maintenant d’asseoir les hypothèses prises ainsi que la\nméthodologie – développée en accord avec ces hypothèses – par une analyse s’appuyant sur\nun modèle de climat. Cette analyse permettra également de vérifier si les résultats obtenus\nsont extensibles à d’autres latitudes et longitudes.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.6690261960029602,
+              "start": 94050,
+              "end": 94503,
+              "text": "figure 2.10 illustre le fait que les échauffements stratosphériques (majeurs) peuvent\navoir lieu plus ou moins tôt (ou tard) pendant l’hiver.\n L’anomalie froide de la mésosphère, qui fait écho à l’anomalie positive principale de\nla stratosphère, n’est ni aussi marquée (de -3 K à -8 K) ni aussi étendue – tant\nspatialement que temporellement – que celle vue précédemment.\n2.5.2.3. Évolutions composites moyennes distinguées selon le type d’échauffement",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        },
+        {
+          "question_id": "q3",
+          "question": "Comment évolue la température dans la stratosphère lors d'un réchauffement stratosphérique ?",
+          "precision_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "f1_at_5": 0,
+          "relevant_retrieved": 0,
+          "matched_references": 0,
+          "total_references": 2,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.8304364681243896,
+              "start": 121226,
+              "end": 121310,
+              "text": "3.4.3. Évolution de la température au cours d’un échauffement stratosphérique\nmajeur",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.7872650027275085,
+              "start": 2974,
+              "end": 4210,
+              "text": "Cependant, on observe (figure 1.2) que le gradient de température va du pôle d’été au\npôle d’hiver au niveau de la mésopause, et que les régions les plus froides de la basse\nstratosphère sont les latitudes tropicales. Ces observations semblent contredire prima facie le\ntaux de chauffage radiatif net représenté à la figure 1.3. L’explication à ce paradoxe apparent\ntient en la présence d’une importante activité ondulatoire dans l’atmosphère (c’est-à-dire la\nprésence d’écarts par rapport à la symétrie zonale). La structure thermique de l’atmosphère, et\nnotamment de la moyenne atmosphère, est intimement dépendante de cette activité\ndynamique. En effet, une parcelle d’air en mouvement adiabatique vertical vers le bas se\nréchauffe par compression, tandis qu’une parcelle qui monte se refroidit par détente, comme\nnous l’avons déjà vu. L’activité ondulatoire de l’atmosphère, notamment celle de la moyenne\natmosphère, est décrite plus en détail au paragraphe suivant (1.1.3.).\nTout comme la température, la vitesse du vent varie en moyenne davantage selon la\nlatitude que selon la longitude, si bien que représenter des valeurs moyennées zonalement fait\nsens. Le vent zonal présente lui aussi un cycle saisonnier marqué (figure 1.4).",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7581360340118408,
+              "start": 100897,
+              "end": 103051,
+              "text": "Les échauffements stratosphériques ont donc un impact certain sur les distributions\ndes températures hivernales de la moyenne atmosphère. Lorsque l’on isole et filtre cet impact,\non obtient des tendances de température plus proches de l’équilibre radiatif seul et de ce fait\nplus en accord avec les tendances d’été, peu impactées par la dynamique. Concernant\nl’occurrence des échauffements stratosphériques, on observe, aux altitudes où ces événements\nont le plus fort impact, une tendance légèrement décroissante du nombre de jours concernés\nchaque hiver. Mais cette évolution est compensée et même inversée, du point de vue des\nconséquences sur la répartition des températures, par une tendance positive de l’anomalie de\ntempérature attribuable à ces échauffements stratosphériques. Par ailleurs, le calcul\nd’évolutions synthétiques d’anomalies de températures à partir de plusieurs hivers montre une\ncertaine reproductibilité. On est en mesure de distinguer de manière significative un hiver\navec échauffement stratosphérique majeur d’un hiver sans échauffement majeur, notamment\npar des anomalies de températures positives dans la haute mésosphère (quelques mois avant\nl’échauffement) et la stratosphère (au cours de l’échauffement). Le type d’échauffement\ns’avère lui aussi déterminant pour l’évolution de la température au cours de l’hiver : les\néchauffements de type rupture amènent des anomalies troposphériques (froides pendant\nl’échauffement et chaudes après) plus marquées, tandis que les échauffements de type\ndéplacement témoignent de l’activité marquée de l’onde planétaire de mode 1, qui dicte les\nvariations des anomalies dans la stratosphère.\nCependant, comme souligné par Angot et al. [2012], cette seule étude des données\nlidar de l’OHP ne permet pas de conclure à une échelle régionale, ou a fortiori globale. Pour\navancer en ce sens, il s’agit maintenant d’asseoir les hypothèses prises ainsi que la\nméthodologie – développée en accord avec ces hypothèses – par une analyse s’appuyant sur\nun modèle de climat. Cette analyse permettra également de vérifier si les résultats obtenus\nsont extensibles à d’autres latitudes et longitudes.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7400417327880859,
+              "start": 8,
+              "end": 1697,
+              "text": "Le rôle joué par la stratosphère sur le climat est aujourd’hui avéré. Le couplage du\nsystème troposphère-stratosphère implique que les processus dynamiques de grande\namplitude de la moyenne atmosphère perturbent l’équilibre atmosphérique et l’écoulement\ndans les plus basses couches. Parmi ces phénomènes dynamiques, les échauffements\nstratosphériques soudains sont les plus emblématiques. Cette étude s’intéresse à l’impact de\nces événements sur la variabilité de la moyenne atmosphère et sur l’estimation des tendances\nde température. Nous cherchons également à mieux caractériser l’évolution spatio-temporelle\ndes échauffements stratosphériques, depuis leurs causes jusqu’à leurs conséquences. Tout\nd’abord, une méthodologie novatrice d’analyse statistique de séries temporelles est\ndéveloppée et testée sur des mesures lidar de l’Observatoire de Haute-Provence. L’impact des\névénements dynamiques les plus importants peut ainsi être efficacement isolé de la\ncontribution radiative de fond, ce qui explique les différences observées entre l’été et l’hiver.\nEnsuite, une simulation du Canadian Middle Atmosphere Model nous permet de valider la\nméthodologie et d’étendre notre étude à l’ensemble du globe. On montre que les variations\nspatiales sont elles aussi majoritairement causées par l’activité dynamique. Les conditions de\nformation d’un échauffement stratosphérique sont également étudiées, à l’aide de tests de\nsensibilité du modèle RACCORD. On prouve l’importance du rappel vers la météorologie\npour produire un échauffement majeur, particulièrement dans le cas d’une rupture du vortex.\nEnfin, la méthode et nos résultats sont mis à profit dans une analyse de l’hiver 2012-2013.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7302379608154297,
+              "start": 228587,
+              "end": 231609,
+              "text": "Les échauffements stratosphériques constituent la principale cause de variabilité de la\ntempérature dans la moyenne atmosphère en hiver. À cette saison, les distributions statistiques\nd’anomalies de températures présentent un profil qui résulte de la somme de deux\ngaussiennes. Deux contributions provenant de causes physiques différentes s’ajoutent et\nexpliquent cette forme de distribution. Or les observations comme les modèles ont établi que\nl’activité dynamique hivernale dans la moyenne atmosphère de l’hémisphère nord est\nparticulièrement importante. De ce fait, on identifie les deux contributions observées comme\nétant celle provenant de l’équilibre radiatif et celle due aux processus dynamiques. On\ns’appuie dans un premier temps sur une série de données lidar – qui ne souffre donc pas des\nbiais intrinsèques aux données satellites –, exceptionnelle par sa longueur ainsi que sa\nrégularité, et qui permet une étude à l’extension verticale importante. Une méthodologie\nnovatrice est développée pour isoler et déterminer ces deux composantes, permettant par la\nsuite de les étudier séparément. Les observations combinées à l’historique des échauffements\nstratosphériques majeurs recensés confirment que cette identification est fidèle à la réalité.\nLes tendances de températures sont habituellement calculées à partir de simples\nmoyennes mensuelles, qui ne prennent donc pas compte de la réalité bimodale de la\ndistribution des températures en hiver. Nous montrons – d’abord à un niveau local grâce aux\ndonnées lidar de l’OHP, puis à une échelle globale avec les simulations CMAM – que cela\ninduit un biais par rapport à la tendance de la seule composante radiative, que l’on peut\nobtenir par la méthodologie que nous avons développée. Or c’est précisément cette\ncomposante qui traduit le forçage radiatif additionnel des gaz à effet de serre émis par les\nactivités humaines. C’est ainsi la présence d’une activité dynamique hivernale\nparticulièrement intense qui explique la différence entre les tendances observées l’été et\nl’hiver : nous pouvons filtrer cette composante dynamique, ce qui permet de réconcilier les\ntendances des deux saisons. L’étude globale permise par les simulations issues de CMAM\nvient confirmer ces constatations et étend leur validité à toutes les régions du monde. La\ncontribution dynamique est plus importante aux pôles que sous les tropiques, et est également\nlégèrement plus marquée dans l’hémisphère nord. Les données CMAM montrent en outre que\nles variations observées selon la longitude sont elles aussi attribuables en partie à l’effet de la\ncontribution dynamique, qui varie le long d’un même parallèle. Enfin, concernant\nl’occurrence des échauffements stratosphériques, on note qu’à 40 km et au-delà, une\nsoixantaine de jours sont affectés chaque hiver par ces événements. Cette occurrence semble\nen très légère diminution (-0,9 jour par an à l’OHP) ou stable (-0.1 jour par an autour de 45°N\nd’après les simulations CMAM). En dessous de 40 km, chaque hiver les échauffements",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        },
+        {
+          "question_id": "q4",
+          "question": "Quels phénomènes physiques influencent la température de la stratosphère ?",
+          "precision_at_5": 0.2,
+          "recall_at_5": 0.25,
+          "f1_at_5": 0.22222222222222224,
+          "relevant_retrieved": 1,
+          "matched_references": 1,
+          "total_references": 4,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.7853161096572876,
+              "start": 121226,
+              "end": 121310,
+              "text": "3.4.3. Évolution de la température au cours d’un échauffement stratosphérique\nmajeur",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.7829430103302002,
+              "start": 62174,
+              "end": 62728,
+              "text": "(1)\nLa température de fond correspond à un état habituel, « standard », ou encore non\n(fortement) perturbé de l’atmosphère. Elle résulte donc principalement de l’équilibre radiatif,\nmais aussi des contributions dynamiques mineures continues dues aux ondes de gravité ainsi\nqu’aux ondes planétaires. Elle est donc sensible à l’activité solaire [Keckhut et al., 2005 ;\nDunkerton et al., 1998], aux changements de composition de l’atmosphère en gaz à effet de\nserre [Rind et al., 1998], à la concentration en ozone stratosphérique et à l’émission d’aérosols",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7787134051322937,
+              "start": 2974,
+              "end": 4210,
+              "text": "Cependant, on observe (figure 1.2) que le gradient de température va du pôle d’été au\npôle d’hiver au niveau de la mésopause, et que les régions les plus froides de la basse\nstratosphère sont les latitudes tropicales. Ces observations semblent contredire prima facie le\ntaux de chauffage radiatif net représenté à la figure 1.3. L’explication à ce paradoxe apparent\ntient en la présence d’une importante activité ondulatoire dans l’atmosphère (c’est-à-dire la\nprésence d’écarts par rapport à la symétrie zonale). La structure thermique de l’atmosphère, et\nnotamment de la moyenne atmosphère, est intimement dépendante de cette activité\ndynamique. En effet, une parcelle d’air en mouvement adiabatique vertical vers le bas se\nréchauffe par compression, tandis qu’une parcelle qui monte se refroidit par détente, comme\nnous l’avons déjà vu. L’activité ondulatoire de l’atmosphère, notamment celle de la moyenne\natmosphère, est décrite plus en détail au paragraphe suivant (1.1.3.).\nTout comme la température, la vitesse du vent varie en moyenne davantage selon la\nlatitude que selon la longitude, si bien que représenter des valeurs moyennées zonalement fait\nsens. Le vent zonal présente lui aussi un cycle saisonnier marqué (figure 1.4).",
+              "relevant": true,
+              "matched_reference_indices": [
+                1
+              ]
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7556478977203369,
+              "start": 8,
+              "end": 1697,
+              "text": "Le rôle joué par la stratosphère sur le climat est aujourd’hui avéré. Le couplage du\nsystème troposphère-stratosphère implique que les processus dynamiques de grande\namplitude de la moyenne atmosphère perturbent l’équilibre atmosphérique et l’écoulement\ndans les plus basses couches. Parmi ces phénomènes dynamiques, les échauffements\nstratosphériques soudains sont les plus emblématiques. Cette étude s’intéresse à l’impact de\nces événements sur la variabilité de la moyenne atmosphère et sur l’estimation des tendances\nde température. Nous cherchons également à mieux caractériser l’évolution spatio-temporelle\ndes échauffements stratosphériques, depuis leurs causes jusqu’à leurs conséquences. Tout\nd’abord, une méthodologie novatrice d’analyse statistique de séries temporelles est\ndéveloppée et testée sur des mesures lidar de l’Observatoire de Haute-Provence. L’impact des\névénements dynamiques les plus importants peut ainsi être efficacement isolé de la\ncontribution radiative de fond, ce qui explique les différences observées entre l’été et l’hiver.\nEnsuite, une simulation du Canadian Middle Atmosphere Model nous permet de valider la\nméthodologie et d’étendre notre étude à l’ensemble du globe. On montre que les variations\nspatiales sont elles aussi majoritairement causées par l’activité dynamique. Les conditions de\nformation d’un échauffement stratosphérique sont également étudiées, à l’aide de tests de\nsensibilité du modèle RACCORD. On prouve l’importance du rappel vers la météorologie\npour produire un échauffement majeur, particulièrement dans le cas d’une rupture du vortex.\nEnfin, la méthode et nos résultats sont mis à profit dans une analyse de l’hiver 2012-2013.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7495637536048889,
+              "start": 100897,
+              "end": 103051,
+              "text": "Les échauffements stratosphériques ont donc un impact certain sur les distributions\ndes températures hivernales de la moyenne atmosphère. Lorsque l’on isole et filtre cet impact,\non obtient des tendances de température plus proches de l’équilibre radiatif seul et de ce fait\nplus en accord avec les tendances d’été, peu impactées par la dynamique. Concernant\nl’occurrence des échauffements stratosphériques, on observe, aux altitudes où ces événements\nont le plus fort impact, une tendance légèrement décroissante du nombre de jours concernés\nchaque hiver. Mais cette évolution est compensée et même inversée, du point de vue des\nconséquences sur la répartition des températures, par une tendance positive de l’anomalie de\ntempérature attribuable à ces échauffements stratosphériques. Par ailleurs, le calcul\nd’évolutions synthétiques d’anomalies de températures à partir de plusieurs hivers montre une\ncertaine reproductibilité. On est en mesure de distinguer de manière significative un hiver\navec échauffement stratosphérique majeur d’un hiver sans échauffement majeur, notamment\npar des anomalies de températures positives dans la haute mésosphère (quelques mois avant\nl’échauffement) et la stratosphère (au cours de l’échauffement). Le type d’échauffement\ns’avère lui aussi déterminant pour l’évolution de la température au cours de l’hiver : les\néchauffements de type rupture amènent des anomalies troposphériques (froides pendant\nl’échauffement et chaudes après) plus marquées, tandis que les échauffements de type\ndéplacement témoignent de l’activité marquée de l’onde planétaire de mode 1, qui dicte les\nvariations des anomalies dans la stratosphère.\nCependant, comme souligné par Angot et al. [2012], cette seule étude des données\nlidar de l’OHP ne permet pas de conclure à une échelle régionale, ou a fortiori globale. Pour\navancer en ce sens, il s’agit maintenant d’asseoir les hypothèses prises ainsi que la\nméthodologie – développée en accord avec ces hypothèses – par une analyse s’appuyant sur\nun modèle de climat. Cette analyse permettra également de vérifier si les résultats obtenus\nsont extensibles à d’autres latitudes et longitudes.",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        },
+        {
+          "question_id": "q5",
+          "question": "Quel est le rôle des ondes planétaires dans les réchauffements stratosphériques ?",
+          "precision_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "f1_at_5": 0,
+          "relevant_retrieved": 0,
+          "matched_references": 0,
+          "total_references": 3,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.7589734792709351,
+              "start": 26040,
+              "end": 27456,
+              "text": "l’importance du rôle joué par ces ondes dans la formation des échauffements stratosphériques,\nles changements constatés dans la composition de l’atmosphère ont certainement des\nconséquences sur ces phénomènes, notamment sur leur occurrence, du fait également d’un\naffaiblissement des vents zonaux dans la moyenne atmosphère [Schimanke et al ., 2012]. De\nmanière réciproque, ces répercussions sur l’activité dynamique (qu’elles prennent la forme\nd’une augmentation d’intensité, d’un décalage temporel, d’une occurrence croissante ou de\ntoute autre perturbation) pourraient modifier la circulation de la stratosphère et donc\négalement celle de la troposphère ainsi que les températures dans la troposphère jusqu’au\nniveau du sol [Baldwin et al., 1994 ; Baldwin and Dunkerton, 2001 ; Baldwin et al., 2001 ;\nBaldwin et al., 2003 ; Baldwin et al., 2007].\nDe nombreuses questions restent ouvertes concernant les ESS, que ce soit au sujet des\nconditions atmosphériques et dynamiques qui mènent à leur formation, de leur déroulement\nprécis (l’enchaînement des événements qui les caractérisent), ou encore de leurs conséquences\nà court et moyen terme sur la météorologie troposphérique ou à plus long terme sur les\ntendances de température observées. Il apparaît crucial d’apporter des réponses à ces\nquestions, particulièrement dans le contexte actuel.\n1.3. Contexte scientifique général, motivations et objectifs de l’étude",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.75047767162323,
+              "start": 9574,
+              "end": 10420,
+              "text": "deviennent instables et déferlent, modifiant l’état de l’atmosphère (température, vent, etc.) à\ntrès large échelle.\nC’est ainsi que les ondes atmosphériques peuvent être à l’origine de perturbations\nparfois très importantes dans la stratosphère et la mésosphère, ce qui explique la grande\nvariabilité interannuelle de ces couches.\nEn hiver, les trois principaux modes de variabilité de la température (à ne pas\nconfondre avec les modes d’onde décrits ci-dessus) reflètent la répartition verticale de\nl’impact de ces ondes [Keckhut et al., 2011b]. Le mode principal montre (figure 1.6) une forte\nanti-corrélation entre la haute stratosphère et la mésosphère, très probablement associée à la\npropagation des ondes planétaires et aux échauffements stratosphériques associés (voir le\nparagraphe 1.2. pour une description détaillée de ces événements).",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.744019091129303,
+              "start": 8,
+              "end": 1697,
+              "text": "Le rôle joué par la stratosphère sur le climat est aujourd’hui avéré. Le couplage du\nsystème troposphère-stratosphère implique que les processus dynamiques de grande\namplitude de la moyenne atmosphère perturbent l’équilibre atmosphérique et l’écoulement\ndans les plus basses couches. Parmi ces phénomènes dynamiques, les échauffements\nstratosphériques soudains sont les plus emblématiques. Cette étude s’intéresse à l’impact de\nces événements sur la variabilité de la moyenne atmosphère et sur l’estimation des tendances\nde température. Nous cherchons également à mieux caractériser l’évolution spatio-temporelle\ndes échauffements stratosphériques, depuis leurs causes jusqu’à leurs conséquences. Tout\nd’abord, une méthodologie novatrice d’analyse statistique de séries temporelles est\ndéveloppée et testée sur des mesures lidar de l’Observatoire de Haute-Provence. L’impact des\névénements dynamiques les plus importants peut ainsi être efficacement isolé de la\ncontribution radiative de fond, ce qui explique les différences observées entre l’été et l’hiver.\nEnsuite, une simulation du Canadian Middle Atmosphere Model nous permet de valider la\nméthodologie et d’étendre notre étude à l’ensemble du globe. On montre que les variations\nspatiales sont elles aussi majoritairement causées par l’activité dynamique. Les conditions de\nformation d’un échauffement stratosphérique sont également étudiées, à l’aide de tests de\nsensibilité du modèle RACCORD. On prouve l’importance du rappel vers la météorologie\npour produire un échauffement majeur, particulièrement dans le cas d’une rupture du vortex.\nEnfin, la méthode et nos résultats sont mis à profit dans une analyse de l’hiver 2012-2013.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7346230149269104,
+              "start": 62174,
+              "end": 62728,
+              "text": "(1)\nLa température de fond correspond à un état habituel, « standard », ou encore non\n(fortement) perturbé de l’atmosphère. Elle résulte donc principalement de l’équilibre radiatif,\nmais aussi des contributions dynamiques mineures continues dues aux ondes de gravité ainsi\nqu’aux ondes planétaires. Elle est donc sensible à l’activité solaire [Keckhut et al., 2005 ;\nDunkerton et al., 1998], aux changements de composition de l’atmosphère en gaz à effet de\nserre [Rind et al., 1998], à la concentration en ozone stratosphérique et à l’émission d’aérosols",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7230870127677917,
+              "start": 204242,
+              "end": 204871,
+              "text": "On cherche ici à clarifier l’influence de l’évolution de l’état de l’atmosphère sur le\ndéclenchement d’un échauffement stratosphérique majeur. Une succession particulière\nd’augmentations et de diminutions de l’amplitude de chaque type d’onde planétaire doit-elle\navoir lieu, ou une activité ondulatoire globalement importante suffit-elle à amorcer un tel\névénement ? On s’appuie sur l’évolution temporelle de l’amplitude des ondes 1 et 2 étudiée\nau début du paragraphe précédent (figure 4.16). On a avancé l’hypothèse selon laquelle la\npériode allant de un mois à une vingtaine de jours avant l’échauffement est capitale quant au",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        }
+      ]
+    },
+    "Fixed Token": {
+      "chunk_count": 693,
+      "precision_at_5": 0.24000000000000005,
+      "recall_at_5": 0.4,
+      "f1_at_5": 0.29603174603174603,
+      "questions": [
+        {
+          "question_id": "q1",
+          "question": "Qu'est-ce qu'un réchauffement stratosphérique majeur ?",
+          "precision_at_5": 0.2,
+          "recall_at_5": 0.5,
+          "f1_at_5": 0.28571428571428575,
+          "relevant_retrieved": 1,
+          "matched_references": 1,
+          "total_references": 2,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.7402750253677368,
+              "start": 85329,
+              "end": 85822,
+              "text": "fait\navec nos résultats, puisque nous observons qu’une importante anomalie de\ntempérature positive descend de la mésosphère jusque dans la stratosphère aux\nalentours de la date de l’échauffement, ce qui caractérise une perturbation majeure de\nl’écoulement stratosphérique. Ensuite, comme nous l’avons noté ci-dessus, on\nremarque des anomalies de températures dans la troposphère. Cette propagation vers\nle bas des anomalies de températures induit un couplage entre la stratosphère et la\ntropos",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.7337360382080078,
+              "start": 78208,
+              "end": 78686,
+              "text": "les échauffements sont légèrement plus froids, mais ils sont plus nombreux si bien qu’ils\ncontinuent à tirer la tendance moyenne vers les valeurs positives.)\n2.5. Évolution des températures au cours d’un échauffement stratosphérique\n\nDans ce chapitre, nous nous intéressons aux échauffements stratosphériques majeurs,\ncar ce sont les seuls à pouvoir être clairement identifiés et datés au moyen d’un proxy\nquantitatif dérivé de champs météorologiques horizontaux [Labitzke, 1981",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7265383005142212,
+              "start": 268610,
+              "end": 269115,
+              "text": "in the study of\nHPO lidar data. A main region of warming is visible in the stratosphere; it lasts around\none month and it is centred on the date of the SSW. To this main warming corresponds the\nmost important cold anomaly, which is observed in the high mesosphere at around the\nsame dates as the warming. In general, the figures exhibit an anti-correlation between the\nhigh stratosphere (sometimes up to the low mesosphere) and the mesosphere, which was\nnoticed in A2012, and reported in previous studies,",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7106702923774719,
+              "start": 91776,
+              "end": 92293,
+              "text": "2.5.2.1. Méthodologie\nUn échauffement stratosphérique majeur peut avoir lieu plus ou moins tôt dans\nl’hiver, si bien qu’il faut prendre en compte cette particularité pour obtenir une représentation\nla plus fidèle possible de l’évolution moyenne de la température au cours d’un échauffement\nstratosphérique. Les représentations composites qui suivent sont donc obtenues en décalant\nl’axe temporel en fonction de la date de chaque événement : chaque graphe annuel\n\nintermédiaire est centré sur la date de l’échauffement",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7104436755180359,
+              "start": 22015,
+              "end": 22425,
+              "text": "refroidissement de la mésosphère [Cho et al., 2004].\nIl existe différents types d’échauffements stratosphériques. On parle d’échauffement\nstratosphérique majeur si le gradient de température calculé à 10 hPa et en moyenne zonale\nentre le pôle (85°N, ou 85°S pour l’hémisphère sud) et 60°N (ou 60°S) est positif pendant\nplus de 5 jours, et que pendant cette période le vent zonal moyen mesuré à 60°N (60°S) et à",
+              "relevant": true,
+              "matched_reference_indices": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "question_id": "q2",
+          "question": "Quels sont les différents types de réchauffement stratosphérique ?",
+          "precision_at_5": 0.2,
+          "recall_at_5": 0.3333333333333333,
+          "f1_at_5": 0.25,
+          "relevant_retrieved": 1,
+          "matched_references": 1,
+          "total_references": 3,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.7540174722671509,
+              "start": 78208,
+              "end": 78686,
+              "text": "les échauffements sont légèrement plus froids, mais ils sont plus nombreux si bien qu’ils\ncontinuent à tirer la tendance moyenne vers les valeurs positives.)\n2.5. Évolution des températures au cours d’un échauffement stratosphérique\n\nDans ce chapitre, nous nous intéressons aux échauffements stratosphériques majeurs,\ncar ce sont les seuls à pouvoir être clairement identifiés et datés au moyen d’un proxy\nquantitatif dérivé de champs météorologiques horizontaux [Labitzke, 1981",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.7148240208625793,
+              "start": 22015,
+              "end": 22425,
+              "text": "refroidissement de la mésosphère [Cho et al., 2004].\nIl existe différents types d’échauffements stratosphériques. On parle d’échauffement\nstratosphérique majeur si le gradient de température calculé à 10 hPa et en moyenne zonale\nentre le pôle (85°N, ou 85°S pour l’hémisphère sud) et 60°N (ou 60°S) est positif pendant\nplus de 5 jours, et que pendant cette période le vent zonal moyen mesuré à 60°N (60°S) et à",
+              "relevant": true,
+              "matched_reference_indices": [
+                0
+              ]
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7041296362876892,
+              "start": 146031,
+              "end": 146451,
+              "text": "la longitude, ce\nqui affecte les tendances de température mesurées en hiver.\n3.6. Étude globale de l’évolution de la température au cours d’un échauffement\nstratosphérique\n3.6.1. Comparaison selon la latitude\n3.6.1.1. Hémisphère nord\n\nOn représente, pour cinq bandes de latitudes couvrant l’hémisphère nord (les bandes\n35N, 45N, 57N, 70N et 80N), les évolutions composites des anomalies de températures lors\nd’un échauff",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.6998664736747742,
+              "start": 16242,
+              "end": 16713,
+              "text": "al.,\n2009 ; Gebhardt et al., 2013].\nPar ailleurs, l’analyse des tendances de température dans la stratosphère nous permet\nde distinguer les réponses du système climatique aux forçages naturels et anthropiques\n[Hansen et al., 1997]. Ainsi, bien que moins médiatisée et étudiée, l’évolution de la\ntempérature de la moyenne atmosphère n’en constitue pas moins un témoin des émissions\nanthropogéniques – et de leurs conséquences sur le climat planétaire – aussi important que",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.695780336856842,
+              "start": 88257,
+              "end": 88768,
+              "text": "la fin janvier à début février, et au courant du mois de mars.\nDes anomalies froides de moindre amplitude leur correspondent dans la figure 2.10.\n La stratosphère est donc globalement plus chaude lors d’un hiver avec échauffement\nmajeur, tandis que la mésosphère démontre des différences de températures marquées\nentre un hiver avec échauffement majeur et un hiver sans échauffement majeur,\nsuccessivement positives et négatives. La troposphère, quant à elle, ne révèle pas de\ndifférences importantes entre les",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        },
+        {
+          "question_id": "q3",
+          "question": "Comment évolue la température dans la stratosphère lors d'un réchauffement stratosphérique ?",
+          "precision_at_5": 0.4,
+          "recall_at_5": 0.5,
+          "f1_at_5": 0.4444444444444445,
+          "relevant_retrieved": 2,
+          "matched_references": 1,
+          "total_references": 2,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.7953387498855591,
+              "start": 85329,
+              "end": 85822,
+              "text": "fait\navec nos résultats, puisque nous observons qu’une importante anomalie de\ntempérature positive descend de la mésosphère jusque dans la stratosphère aux\nalentours de la date de l’échauffement, ce qui caractérise une perturbation majeure de\nl’écoulement stratosphérique. Ensuite, comme nous l’avons noté ci-dessus, on\nremarque des anomalies de températures dans la troposphère. Cette propagation vers\nle bas des anomalies de températures induit un couplage entre la stratosphère et la\ntropos",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.7889290452003479,
+              "start": 22015,
+              "end": 22425,
+              "text": "refroidissement de la mésosphère [Cho et al., 2004].\nIl existe différents types d’échauffements stratosphériques. On parle d’échauffement\nstratosphérique majeur si le gradient de température calculé à 10 hPa et en moyenne zonale\nentre le pôle (85°N, ou 85°S pour l’hémisphère sud) et 60°N (ou 60°S) est positif pendant\nplus de 5 jours, et que pendant cette période le vent zonal moyen mesuré à 60°N (60°S) et à",
+              "relevant": true,
+              "matched_reference_indices": [
+                1
+              ]
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7818321585655212,
+              "start": 21628,
+              "end": 22060,
+              "text": "phérique qui descend dans la stratosphère en se réchauffant du fait de sa\ncompression [Kvissel et al, 2012]. D’importantes variations de température sont alors\nobservées, parfois jusqu’à des latitudes assez basses (40°N) : on observe notamment (à 60°N)\ndes augmentations de 10 K à 60 K dans la stratosphère qui s’étendent sur plusieurs semaines\n[Labitzke, 1972], auxquelles s’associe un refroidissement de la mésosphère [Cho et al.,",
+              "relevant": true,
+              "matched_reference_indices": [
+                1
+              ]
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7803923487663269,
+              "start": 16242,
+              "end": 16713,
+              "text": "al.,\n2009 ; Gebhardt et al., 2013].\nPar ailleurs, l’analyse des tendances de température dans la stratosphère nous permet\nde distinguer les réponses du système climatique aux forçages naturels et anthropiques\n[Hansen et al., 1997]. Ainsi, bien que moins médiatisée et étudiée, l’évolution de la\ntempérature de la moyenne atmosphère n’en constitue pas moins un témoin des émissions\nanthropogéniques – et de leurs conséquences sur le climat planétaire – aussi important que",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7717432379722595,
+              "start": 2869,
+              "end": 3351,
+              "text": "é par des valeurs négatives indiquant un\nrefroidissement radiatif. D’après Brasseur and Solomon [2005].\n\nCependant, on observe (figure 1.2) que le gradient de température va du pôle d’été au\npôle d’hiver au niveau de la mésopause, et que les régions les plus froides de la basse\nstratosphère sont les latitudes tropicales. Ces observations semblent contredire prima facie le\ntaux de chauffage radiatif net représenté à la figure 1.3. L’explication à ce paradoxe apparent\ntient en la",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        },
+        {
+          "question_id": "q4",
+          "question": "Quels phénomènes physiques influencent la température de la stratosphère ?",
+          "precision_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "f1_at_5": 0,
+          "relevant_retrieved": 0,
+          "matched_references": 0,
+          "total_references": 4,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.815128743648529,
+              "start": 85329,
+              "end": 85822,
+              "text": "fait\navec nos résultats, puisque nous observons qu’une importante anomalie de\ntempérature positive descend de la mésosphère jusque dans la stratosphère aux\nalentours de la date de l’échauffement, ce qui caractérise une perturbation majeure de\nl’écoulement stratosphérique. Ensuite, comme nous l’avons noté ci-dessus, on\nremarque des anomalies de températures dans la troposphère. Cette propagation vers\nle bas des anomalies de températures induit un couplage entre la stratosphère et la\ntropos",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.8041874766349792,
+              "start": 10776,
+              "end": 11285,
+              "text": "de gravité qui y a lieu en cette saison.\n1.1.4. Tendances de température\nLa température de l’atmosphère est expliquée par de nombreux facteurs parmi lesquels\non peut citer le rayonnement solaire incident (partant, la localisation sur le globe ainsi que le\nmoment dans la journée et dans l’année), l’humidité et l’altitude des masses d’air, la présence\nde réactions chimiques, etc. Le rayonnement solaire incident constitue la source très\nmajoritaire d’énergie du système physique constitué de la surface de la",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7888903617858887,
+              "start": 16242,
+              "end": 16713,
+              "text": "al.,\n2009 ; Gebhardt et al., 2013].\nPar ailleurs, l’analyse des tendances de température dans la stratosphère nous permet\nde distinguer les réponses du système climatique aux forçages naturels et anthropiques\n[Hansen et al., 1997]. Ainsi, bien que moins médiatisée et étudiée, l’évolution de la\ntempérature de la moyenne atmosphère n’en constitue pas moins un témoin des émissions\nanthropogéniques – et de leurs conséquences sur le climat planétaire – aussi important que",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7855981588363647,
+              "start": 62171,
+              "end": 62638,
+              "text": ".\n\n(1)\nLa température de fond correspond à un état habituel, « standard », ou encore non\n(fortement) perturbé de l’atmosphère. Elle résulte donc principalement de l’équilibre radiatif,\nmais aussi des contributions dynamiques mineures continues dues aux ondes de gravité ainsi\nqu’aux ondes planétaires. Elle est donc sensible à l’activité solaire [Keckhut et al., 2005 ;\nDunkerton et al., 1998], aux changements de composition de l’atmosphère en gaz à effet de\nserre [",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7740761041641235,
+              "start": 55900,
+              "end": 56374,
+              "text": "K), comme l’ont souligné Hauchecorne et al. [1991] ; deuxièmement, la température\nest plus élevée (en hiver) que la température attendue avec une courbe sinusoïdale. Ces deux\naspects sont des signatures caractéristiques des événements dynamiques importants qui ont\nlieu en hiver aux moyennes et hautes latitudes, comme les échauffements stratosphériques. Un\n\nautre marqueur de l’activité dynamique renforcée qui a lieu en hiver est l’activité des ondes\natmosphériques : elle",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        },
+        {
+          "question_id": "q5",
+          "question": "Quel est le rôle des ondes planétaires dans les réchauffements stratosphériques ?",
+          "precision_at_5": 0.4,
+          "recall_at_5": 0.6666666666666666,
+          "f1_at_5": 0.5,
+          "relevant_retrieved": 2,
+          "matched_references": 2,
+          "total_references": 3,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.8313854336738586,
+              "start": 25691,
+              "end": 26148,
+              "text": "sphérique de l’hémisphère nord en hiver [Andrews et al., 1987]. Des études\nrécentes indiquent que l’augmentation de la concentration en gaz à effet de serre pourrait\naccentuer le forçage des ondes troposphériques et renforcer l’activité des ondes planétaires\ndans la stratosphère [Butchart et al., 2006 ; Deckert and Dameris, 2008]. Compte tenu de\n\nl’importance du rôle joué par ces ondes dans la formation des échauffements stratosphériques,\nles changement",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.7595713138580322,
+              "start": 98822,
+              "end": 99257,
+              "text": "travers les ondes de Rossby de nombre d’onde 1.\nEn effet, les ondes planétaires qui se propagent jusqu’à la stratosphère [Sun et al.,\n2011] et même la haute mésosphère [Coy et al., 2011] peuvent contribuer à déclencher\nles échauffements stratosphériques.\n Du reste, on note que la région concernée par l’anomalie chaude principale est moins\nétendue verticalement que dans les cas de rupture du vortex, comme l’avaient souligné\nMatthew",
+              "relevant": true,
+              "matched_reference_indices": [
+                1
+              ]
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7579142451286316,
+              "start": 9585,
+              "end": 10035,
+              "text": "instables et déferlent, modifiant l’état de l’atmosphère (température, vent, etc.) à\ntrès large échelle.\nC’est ainsi que les ondes atmosphériques peuvent être à l’origine de perturbations\nparfois très importantes dans la stratosphère et la mésosphère, ce qui explique la grande\nvariabilité interannuelle de ces couches.\nEn hiver, les trois principaux modes de variabilité de la température (à ne pas\nconfondre avec les modes d’onde décrits ci-dessus)",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7346356511116028,
+              "start": 194166,
+              "end": 194620,
+              "text": ". Sensibilité du modèle à l’amplitude des ondes planétaires du géopotentiel\n\nLe rôle majeur joué par les ondes planétaires dans la naissance d’un échauffement\nstratosphérique est avéré [Andrews et al., 1987]. Cependant, l’influence exacte des différents\nmodes d’ondes – notamment les ondes de mode 1 et 2 – n’est pas encore pleinement\ncomprise. On cherche ici à s’appuyer sur les résultats donnés par différentes simulations\nissues du modèle RACCORD pour",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7230634093284607,
+              "start": 164575,
+              "end": 165017,
+              "text": "’atmosphère menant à de tels phénomènes s’est posée. L’importance du rôle joué par les\nondes planétaires atmosphériques est établie [Matsuno, 1971 ; Andrews et al., 1987].\nCependant, de nombreuses zones d’ombre perdurent, particulièrement en ce qui concerne les\néchauffements majeurs. Une relation simple entre la forme du vortex – et donc le type\nd’échauffement stratosphérique – et l’amplitude des ondes paraît difficile à déterminer\n[Waugh",
+              "relevant": true,
+              "matched_reference_indices": [
+                2
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Semantic": {
+      "chunk_count": 2230,
+      "precision_at_5": 0.08,
+      "recall_at_5": 0.13333333333333333,
+      "f1_at_5": 0.1,
+      "questions": [
+        {
+          "question_id": "q1",
+          "question": "Qu'est-ce qu'un réchauffement stratosphérique majeur ?",
+          "precision_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "f1_at_5": 0,
+          "relevant_retrieved": 0,
+          "matched_references": 0,
+          "total_references": 2,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.7465503215789795,
+              "start": 0,
+              "end": 77,
+              "text": "Résumé\n\nLe rôle joué par la stratosphère sur le climat est aujourd’hui avéré.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.736855685710907,
+              "start": 291988,
+              "end": 292055,
+              "text": " (2009), An update of observed stratospheric temperature trends, J.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7361770272254944,
+              "start": 100845,
+              "end": 101034,
+              "text": " Conclusions de l’étude des données lidar de l’OHP\n\nLes échauffements stratosphériques ont donc un impact certain sur les distributions\ndes températures hivernales de la moyenne atmosphère.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7340036034584045,
+              "start": 146112,
+              "end": 146205,
+              "text": " Étude globale de l’évolution de la température au cours d’un échauffement\nstratosphérique\n3.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7329157590866089,
+              "start": 36027,
+              "end": 36104,
+              "text": "\n Quels sont les conditions d’apparition d’un échauffement stratosphérique ?",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        },
+        {
+          "question_id": "q2",
+          "question": "Quels sont les différents types de réchauffement stratosphérique ?",
+          "precision_at_5": 0.2,
+          "recall_at_5": 0.3333333333333333,
+          "f1_at_5": 0.25,
+          "relevant_retrieved": 1,
+          "matched_references": 1,
+          "total_references": 3,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.7696263790130615,
+              "start": 279257,
+              "end": 279341,
+              "text": " we can examine how regions of different latitudes react to a stratospheric warming.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.7436187863349915,
+              "start": 22067,
+              "end": 22128,
+              "text": "\nIl existe différents types d’échauffements stratosphériques.",
+              "relevant": true,
+              "matched_reference_indices": [
+                0
+              ]
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7426790595054626,
+              "start": 36027,
+              "end": 36104,
+              "text": "\n Quels sont les conditions d’apparition d’un échauffement stratosphérique ?",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.740816593170166,
+              "start": 78370,
+              "end": 78853,
+              "text": " Évolution des températures au cours d’un échauffement stratosphérique\n\nDans ce chapitre, nous nous intéressons aux échauffements stratosphériques majeurs,\ncar ce sont les seuls à pouvoir être clairement identifiés et datés au moyen d’un proxy\nquantitatif dérivé de champs météorologiques horizontaux [Labitzke, 1981]. On calculera les\nanomalies de températures en prenant comme référence la température de fond obtenue au\nmoyen de la méthodologie développée ci-dessus (paragraphe 2.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7327906489372253,
+              "start": 291988,
+              "end": 292055,
+              "text": " (2009), An update of observed stratospheric temperature trends, J.",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        },
+        {
+          "question_id": "q3",
+          "question": "Comment évolue la température dans la stratosphère lors d'un réchauffement stratosphérique ?",
+          "precision_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "f1_at_5": 0,
+          "relevant_retrieved": 0,
+          "matched_references": 0,
+          "total_references": 2,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.8528174161911011,
+              "start": 146112,
+              "end": 146205,
+              "text": " Étude globale de l’évolution de la température au cours d’un échauffement\nstratosphérique\n3.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.832281231880188,
+              "start": 291988,
+              "end": 292055,
+              "text": " (2009), An update of observed stratospheric temperature trends, J.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.8224388360977173,
+              "start": 145974,
+              "end": 146107,
+              "text": " L’impact des échauffements stratosphériques varie selon la longitude, ce\nqui affecte les tendances de température mesurées en hiver.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.8178650140762329,
+              "start": 81136,
+              "end": 81249,
+              "text": "10 : Évolution de l’anomalie de température moyenne au cours d’un hiver\navec échauffement stratosphérique majeur.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.8113420009613037,
+              "start": 100845,
+              "end": 101034,
+              "text": " Conclusions de l’étude des données lidar de l’OHP\n\nLes échauffements stratosphériques ont donc un impact certain sur les distributions\ndes températures hivernales de la moyenne atmosphère.",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        },
+        {
+          "question_id": "q4",
+          "question": "Quels phénomènes physiques influencent la température de la stratosphère ?",
+          "precision_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "f1_at_5": 0,
+          "relevant_retrieved": 0,
+          "matched_references": 0,
+          "total_references": 4,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.8250765800476074,
+              "start": 291988,
+              "end": 292055,
+              "text": " (2009), An update of observed stratospheric temperature trends, J.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.8145718574523926,
+              "start": 146112,
+              "end": 146205,
+              "text": " Étude globale de l’évolution de la température au cours d’un échauffement\nstratosphérique\n3.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.8104003667831421,
+              "start": 16277,
+              "end": 16465,
+              "text": "\nPar ailleurs, l’analyse des tendances de température dans la stratosphère nous permet\nde distinguer les réponses du système climatique aux forçages naturels et anthropiques\n[Hansen et al.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.8101069927215576,
+              "start": 100845,
+              "end": 101034,
+              "text": " Conclusions de l’étude des données lidar de l’OHP\n\nLes échauffements stratosphériques ont donc un impact certain sur les distributions\ndes températures hivernales de la moyenne atmosphère.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.8089904189109802,
+              "start": 145974,
+              "end": 146107,
+              "text": " L’impact des échauffements stratosphériques varie selon la longitude, ce\nqui affecte les tendances de température mesurées en hiver.",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        },
+        {
+          "question_id": "q5",
+          "question": "Quel est le rôle des ondes planétaires dans les réchauffements stratosphériques ?",
+          "precision_at_5": 0.2,
+          "recall_at_5": 0.3333333333333333,
+          "f1_at_5": 0.25,
+          "relevant_retrieved": 1,
+          "matched_references": 1,
+          "total_references": 3,
+          "retrieved_chunks": [
+            {
+              "rank": 1,
+              "chunk_id": null,
+              "score": 0.7833698391914368,
+              "start": 25754,
+              "end": 25987,
+              "text": " Des études\nrécentes indiquent que l’augmentation de la concentration en gaz à effet de serre pourrait\naccentuer le forçage des ondes troposphériques et renforcer l’activité des ondes planétaires\ndans la stratosphère [Butchart et al.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 2,
+              "chunk_id": null,
+              "score": 0.7819923162460327,
+              "start": 98869,
+              "end": 98954,
+              "text": "\nEn effet, les ondes planétaires qui se propagent jusqu’à la stratosphère [Sun et al.",
+              "relevant": true,
+              "matched_reference_indices": [
+                1
+              ]
+            },
+            {
+              "rank": 3,
+              "chunk_id": null,
+              "score": 0.7721990346908569,
+              "start": 10156,
+              "end": 10367,
+              "text": "6) une forte\nanti-corrélation entre la haute stratosphère et la mésosphère, très probablement associée à la\npropagation des ondes planétaires et aux échauffements stratosphériques associés (voir le\nparagraphe 1.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 4,
+              "chunk_id": null,
+              "score": 0.7650814652442932,
+              "start": 194167,
+              "end": 194366,
+              "text": " Sensibilité du modèle à l’amplitude des ondes planétaires du géopotentiel\n\nLe rôle majeur joué par les ondes planétaires dans la naissance d’un échauffement\nstratosphérique est avéré [Andrews et al.",
+              "relevant": false,
+              "matched_reference_indices": []
+            },
+            {
+              "rank": 5,
+              "chunk_id": null,
+              "score": 0.7491794228553772,
+              "start": 36027,
+              "end": 36104,
+              "text": "\n Quels sont les conditions d’apparition d’un échauffement stratosphérique ?",
+              "relevant": false,
+              "matched_reference_indices": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "method": "Fixed Token",
+      "chunk_count": 693,
+      "precision_at_5": 0.24000000000000005,
+      "recall_at_5": 0.4,
+      "f1_at_5": 0.29603174603174603
+    },
+    {
+      "rank": 2,
+      "method": "Recursive Character",
+      "chunk_count": 778,
+      "precision_at_5": 0.2,
+      "recall_at_5": 0.41666666666666663,
+      "f1_at_5": 0.2658730158730159
+    },
+    {
+      "rank": 3,
+      "method": "Sentence",
+      "chunk_count": 743,
+      "precision_at_5": 0.2,
+      "recall_at_5": 0.39999999999999997,
+      "f1_at_5": 0.26428571428571435
+    },
+    {
+      "rank": 4,
+      "method": "Character",
+      "chunk_count": 657,
+      "precision_at_5": 0.12000000000000002,
+      "recall_at_5": 0.26666666666666666,
+      "f1_at_5": 0.1642857142857143
+    },
+    {
+      "rank": 5,
+      "method": "Word",
+      "chunk_count": 511,
+      "precision_at_5": 0.08,
+      "recall_at_5": 0.16666666666666666,
+      "f1_at_5": 0.10714285714285716
+    },
+    {
+      "rank": 6,
+      "method": "Semantic",
+      "chunk_count": 2230,
+      "precision_at_5": 0.08,
+      "recall_at_5": 0.13333333333333333,
+      "f1_at_5": 0.1
+    },
+    {
+      "rank": 7,
+      "method": "Paragraph",
+      "chunk_count": 298,
+      "precision_at_5": 0.04,
+      "recall_at_5": 0.05,
+      "f1_at_5": 0.044444444444444446
+    }
+  ]
+}

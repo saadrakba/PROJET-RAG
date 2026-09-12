@@ -1,0 +1,58 @@
+[
+  {
+    "rank": 1,
+    "method": "Fixed Token",
+    "chunk_count": 693,
+    "precision_at_5": 0.24000000000000005,
+    "recall_at_5": 0.4,
+    "f1_at_5": 0.29603174603174603
+  },
+  {
+    "rank": 2,
+    "method": "Recursive Character",
+    "chunk_count": 778,
+    "precision_at_5": 0.2,
+    "recall_at_5": 0.41666666666666663,
+    "f1_at_5": 0.2658730158730159
+  },
+  {
+    "rank": 3,
+    "method": "Sentence",
+    "chunk_count": 743,
+    "precision_at_5": 0.2,
+    "recall_at_5": 0.39999999999999997,
+    "f1_at_5": 0.26428571428571435
+  },
+  {
+    "rank": 4,
+    "method": "Character",
+    "chunk_count": 657,
+    "precision_at_5": 0.12000000000000002,
+    "recall_at_5": 0.26666666666666666,
+    "f1_at_5": 0.1642857142857143
+  },
+  {
+    "rank": 5,
+    "method": "Word",
+    "chunk_count": 511,
+    "precision_at_5": 0.08,
+    "recall_at_5": 0.16666666666666666,
+    "f1_at_5": 0.10714285714285716
+  },
+  {
+    "rank": 6,
+    "method": "Semantic",
+    "chunk_count": 2230,
+    "precision_at_5": 0.08,
+    "recall_at_5": 0.13333333333333333,
+    "f1_at_5": 0.1
+  },
+  {
+    "rank": 7,
+    "method": "Paragraph",
+    "chunk_count": 298,
+    "precision_at_5": 0.04,
+    "recall_at_5": 0.05,
+    "f1_at_5": 0.044444444444444446
+  }
+]

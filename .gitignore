@@ -1,0 +1,33 @@
+﻿# Environnement Python
+backend/venv/
+venv/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnements / secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.temp
+
+# Document source et fichiers potentiellement volumineux/confidentiels
+backend/data/33.pdf
+backend/data/33_raw.txt
+backend/data/33_cleaned.txt
+backend/data/33_cleaned_final.txt
+
+# Index vectoriel généré
+backend/data/vector_index.npz

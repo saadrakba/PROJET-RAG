@@ -1,0 +1,643 @@
+{
+  "q1": {
+    "question": "Qu'est-ce qu'un réchauffement stratosphérique majeur ?",
+    "candidates": [
+      {
+        "paragraph_id": 17,
+        "score": 4,
+        "keywords_found": [
+          "échauffement stratosphérique majeur",
+          "température",
+          "vortex polaire",
+          "gradient"
+        ],
+        "start": 20977,
+        "end": 23606,
+        "text": "[Matsuno, 1971 ; Andrews et al., 1987]. Les ondes déferlent tout d’abord dans la stratosphère,\naux hautes latitudes. La friction des ondes qui en découle crée une augmentation de la\ntempérature au pôle. En conséquence, le gradient méridien de température varie, impliquant\nun affaiblissement du vent zonal. Les ondes qui se propagent verticalement déferlent alors à\ndes altitudes de plus en plus basses, car des vents d’ouest moins intenses (et a fortiori des\nvents d’est) les empêchent de se propager plus haut. L’intégrité du vortex polaire est\ncompromise, si bien que de l’air extérieur chaud y pénètre. On note également des intrusions\nd’air mésosphérique qui descend dans la stratosphère en se réchauffant du fait de sa\ncompression [Kvissel et al, 2012]. D’importantes variations de température sont alors\nobservées, parfois jusqu’à des latitudes assez basses (40°N) : on observe notamment (à 60°N)\ndes augmentations de 10 K à 60 K dans la stratosphère qui s’étendent sur plusieurs semaines\n[Labitzke, 1972], auxquelles s’associe un refroidissement de la mésosphère [Cho et al., 2004].\nIl existe différents types d’échauffements stratosphériques. On parle d’échauffement\nstratosphérique majeur si le gradient de température calculé à 10 hPa et en moyenne zonale\nentre le pôle (85°N, ou 85°S pour l’hémisphère sud) et 60°N (ou 60°S) est positif pendant\nplus de 5 jours, et que pendant cette période le vent zonal moyen mesuré à 60°N (60°S) et à\n10 hPa s’inverse (définition de l’Organisation Météorologique Mondiale, Andrews et al.\n[1987]). Cela correspond aux cas les plus spectaculaires, qui s’accompagnent des\nperturbations les plus importantes. Le vortex peut alors être déporté loin de sa zone\nd’équilibre initiale centrée autour du pôle – cas nommé déplacement du vortex – (figure 1.8),\nou bien se scinder en deux parties après élongation – on parle alors de rupture du vortex\n(figure 1.9). La distinction entre ces deux types d’échauffements est analysée par Charlton\nand Polvani [2007], qui proposent une méthodologie quantitative de distinction basée sur\nl’étude de la vorticité absolue. La vorticité est un paramètre qui permet de décrire le\nmouvement de rotation d’un fluide. La vorticité absolue inclut en outre le paramètre de\nCoriolis, qui traduit la rotation propre de la Terre. La vorticité potentielle prend en compte\nl’éventuel étirement vertical (ou l’éventuelle compression verticale) de la masse d’air\nconsidérée, et reste constante si cette dernière subit une telle transformation. La vorticité\npotentielle est une grandeur caractéristique de la stratosphère car elle peut y prendre des\nvaleurs élevées."
+      },
+      {
+        "paragraph_id": 205,
+        "score": 4,
+        "keywords_found": [
+          "échauffement stratosphérique majeur",
+          "température",
+          "vortex polaire",
+          "gradient"
+        ],
+        "start": 210094,
+        "end": 211836,
+        "text": "En effet, lorsqu’on ne rappelle les variables que vers la climatologie, le modèle produit un\néchauffement mineur de type déplacement. On note également, en accord avec la littérature,\nque le critère d’inversion du vent zonal est globalement plus strict que celui concernant le\nchangement de signe du gradient de température entre le pôle et 60°N. Par ailleurs, modifier\nle seul niveau de forçage du géopotentiel n’a que très peu d’impact sur les simulations\nobtenues.\nConcernant l’amplitude des ondes planétaires, l’onde de mode 2 reste supérieure à\nl’onde de mode 1, même pour un échauffement de type déplacement. Cependant, l’étude\ncomparative des cas des hivers 2005-2006 et 2008-2009 semble indiquer qu’une rupture du\nvortex n’est possible que si l’amplitude de l’onde 2 atteint pendant au moins une semaine des\nvaleurs trois à quatre fois supérieures à celle de l’onde 1. La période cruciale quant au type\nd’échauffement à venir semble être située entre un mois et une vingtaine de jours avant\nl’échauffement, tandis que l’inversion des vents (et donc le déclenchement d’un échauffement\nstratosphérique majeur) paraît dépendre d’un pic de l’amplitude des ondes seulement\nquelques jours avant. On regrette de n’avoir pu tester suffisamment la dépendance temporelle\nde l’avènement d’un échauffement majeur pour pouvoir confirmer ou non ces hypothèses.\nL’étude du cas de 2006 corrobore l’hypothèse selon laquelle la climatologie donne des\névolutions douces qui ne produisent qu’un échauffement mineur accompagné d’un léger\ndéplacement du vortex polaire. Un échauffement majeur, même s’il est de type déplacement,\nest caractérisé par des évolutions rapides et importantes des indicateurs que sont le vent zonal\net le gradient de température."
+      },
+      {
+        "paragraph_id": 15,
+        "score": 3,
+        "keywords_found": [
+          "température",
+          "vortex polaire",
+          "gradient"
+        ],
+        "start": 17778,
+        "end": 19885,
+        "text": "emblématiques de cette activité dynamique. Ils ont lieu essentiellement dans l’hémisphère\nnord, notamment pour les plus intenses d’entre eux, et concernent les hautes et moyennes\nlatitudes. Dans l’hémisphère nord, ils se déclenchent au cours de la période qui s’étend\nd’octobre à mars (ce qui correspond à la saison d’hiver en météorologie). Ils prennent la\nforme de perturbations conséquentes de l’écoulement moyen, et se traduisent notamment par\nde fortes variations de température dans la moyenne atmosphère. Dans les cas les plus\nextrêmes, la température de la stratosphère peut augmenter d’une cinquantaine de degrés en\nl’espace de quelques jours seulement et l’écoulement circumpolaire – habituellement d’ouest\nen cette saison – peut s’inverser dans le même intervalle de temps. Les ESS constituent la\npremière cause de variabilité inter-saisonnière dans la stratosphère [Keckhut et al., 2011b].\nLes échauffements stratosphériques ont été observés pour la première fois en 1952 par\nRichard Scherhag, mais ce n’est qu’à la fin des années 1950 que leur extension planétaire a\nété connue. En 1971, Matsuno [1971] publie le premier modèle simulant des échauffements\nstratosphériques. Depuis, les études concernant ce phénomène se sont multipliées. Cependant,\nles mécanismes exacts de la formation d’un échauffement stratosphérique ne sont pas encore\ntout à fait compris, et cet événement reste difficile à prévoir. Intéressons-nous tout d’abord au\nconsensus actuel sur le déroulement d’un échauffement stratosphérique.\nEn hiver, la nuit polaire cause un refroidissement radiatif important de l’atmosphère\ndes hautes latitudes, créant une intense dépression centrée autour du pôle, nommée vortex\npolaire. Autour de cette dépression s’enroulent de puissants vents d’ouest qui forment le\ncourant jet de la nuit polaire (en anglais polar night jet stream). Ces vents zonaux sont régulés\npar le champ de température à travers l’équation du vent thermique (1a) : le gradient de\ntempérature – négatif en allant vers le pôle – provoque une augmentation de la vitesse du vent\navec l’altitude jusqu’à la tropopause."
+      },
+      {
+        "paragraph_id": 16,
+        "score": 3,
+        "keywords_found": [
+          "température",
+          "vortex polaire",
+          "gradient"
+        ],
+        "start": 19893,
+        "end": 20975,
+        "text": "où\nest le vecteur vent thermique horizontal, R la constante des gaz parfaits réduite (R = 287\nJ.kg−1.K−1), f le facteur de Coriolis (qui varie de -1 au pôle Sud à +1 au pôle Nord et s’annule\nau niveau de l’équateur), et deux niveaux de pression, le vecteur unitaire vertical\ndirigé vers le haut, et\nle vecteur gradient isobare (calculé sur une surface pression\nconstante) de la température (température moyennée sur la verticale entre les niveaux et\n).\nLe courant jet qui en résulte délimite deux régions bien distinctes de l’atmosphère qui\nen temps normal se mélangent très peu entre elles : l’intérieur du vortex polaire, composé\nd’air très froid, et l’extérieur, où l’éclairement solaire maintient une certaine température.\nLors d’un échauffement stratosphérique, le vent zonal se trouve affaibli, jusqu’à parfois\ns’inverser, et la circulation de la stratosphère devient hautement asymétrique. Ce changement\nest dû aux ondes atmosphériques qui entrent en interaction avec l’écoulement moyen. Les\nondes concernées sont principalement les ondes de Rossby planétaires de mode 1 et 2"
+      },
+      {
+        "paragraph_id": 159,
+        "score": 3,
+        "keywords_found": [
+          "échauffement stratosphérique majeur",
+          "température",
+          "vortex polaire"
+        ],
+        "start": 171368,
+        "end": 174410,
+        "text": "géopotentielle du premier niveau de pression (fixé par défaut à 250 hPa, mais que l’on pourra\nfaire varier dans nos tests) à partir des champs météorologiques (ECMWF). En dessous de ce\nniveau, on utilise directement les champs météorologiques sans les assimiler, le modèle\nMSDOL n’étant pas prévu pour aller jusqu’au sol (afin de limiter la complexité du modèle en\névitant de devoir intégrer tous les processus de la troposphère comme la convection, les\nnuages, etc.) et les analyses météorologiques étant de très bonne qualité à basse altitude.\nDans notre cas, l’objectif consiste à étudier l’évolution dans la stratosphère et la\nmésosphère des paramètres de vent et de température et donc de laisser le modèle\nrelativement libre de produire ses propres champs à partir du forçage des basses couches.\nCependant, déterminer les altitudes exactes où le forçage est prépondérant nécessite une étude\nde sensibilité préalable.\n4.2.2. Description des cas analysés\nOn s’intéressera particulièrement au cas de l’échauffement stratosphérique majeur de\nl’hiver 2008-2009, reconnu pour son intensité remarquable. Le vortex polaire s’est scindé en\ndeux parties distinctes, et l’échauffement a été classifié comme étant de type rupture. La date\nde l’événement est le 24 janvier. Nous choisissons de nous intéresser à cet événement car il\ncombine une intensité importante et une date récente, ce qui permet d’analyser un\néchauffement marqué et ce qui assure de travailler à partir de données de bonne qualité.\nEnsuite, nous comparerons les résultats obtenus au cas de l’hiver 2005-2006, un autre\nhiver récent comprenant un échauffement stratosphérique majeur de forte amplitude, mais\ncette fois-ci de type déplacement. La date de l’échauffement est le 21 janvier, soit quasiment\nle même jour de l’année que l’échauffement de 2008-2009, ce qui permettra de faciliter les\ncomparaisons en nous affranchissant de corriger d’éventuels biais dus au cycle annuel.\nLes données météorologiques utilisées proviennent des réanalyses ERA-Interim du\ncentre européen ECMWF.\n4.3. Sensibilité du modèle à la zone de transition\n4.3.1. Définition de la zone de transition\nLes rappels vers les champs de température et de vent provenant des modèles\nclimatologiques sont gouvernés par un coefficient α tandis que les rappels vers les champs\nprovenant des modèles météorologiques sont fonction d’un coefficient β. Le forçage par les\nanalyses a donc pour objectif de forcer l’évolution de la basse atmosphère alors qu’un rappel\ndoux vers les champs climatologiques permet d’empêcher le modèle de dériver. Un guidage\nfort vers la climatologie aura tendance à ne pas créer de fortes variations en maintenant les\nchamps proches des valeurs climatologiques. L’équation (3) représentée ci-dessous illustre les\néquations qui sont écrites dans le modèle et qui permettent de calculer la valeur de la variable\nx (qui peut être la température, le vent zonal ou le vent méridien) à l’instant et à\nl’altitude k, par rapport notamment à la valeur de x à la même altitude k et à l’instant ."
+      },
+      {
+        "paragraph_id": 175,
+        "score": 3,
+        "keywords_found": [
+          "échauffement stratosphérique majeur",
+          "température",
+          "gradient"
+        ],
+        "start": 186281,
+        "end": 188309,
+        "text": "Le résultat qui apparaît prima facie est que les courbes avec les rappels diminués se\ndistinguent clairement du cas de référence, lorsque alphamax et betamax sont laissés à leurs\nvaleurs par défaut. Par ailleurs, on note de nouveau que la sensibilité à pbc est faible, avec des\nvariations légèrement plus marquées pour les niveaux de forçage les plus élevés. On obtient\ndonc deux familles de courbes, caractérisées par la force des rappels plus que par le niveau du\nforçage. Lorsque les rappels sont diminués, le vent zonal s’affaiblit de manière plus douce et\navec une amplitude moins importante. Quant au gradient de température, c’est à partir de\nquelques jours avant la date de l’échauffement qu’il se distingue clairement du cas de\nréférence : son augmentation intervient quelques jours plus tard, et surtout cette dernière est\nbeaucoup moins marquée (les maxima atteints par les différentes courbes sont compris entre 0\nK et 3 K, à comparer aux maxima de référence qui valent 12 K environ). De plus, le gradient\nde température n’évolue plus après avoir atteint son maximum, contrairement au cas de\nréférence où il retrouvait rapidement ses valeurs pré-échauffement.\nLe modèle semble donc beaucoup plus sensible à une variation des coefficients de\nrappel vers la climatologie et la météorologie qu’à un changement du niveau de forçage du\ngéopotentiel. Il s’agit maintenant d’étudier plus en détails cette sensibilité aux rappels.\n4.4.3. Sensibilité à une diminution de l’un des rappels (vers la météorologie ou\nvers la climatologie) : déclenchement d’un échauffement stratosphérique majeur et\ntype d’échauffement\nPour étudier plus avant la sensibilité aux coefficients de rappel, nous analysons un\ncertain nombre de cas où α et β sont divisés par des facteurs différents (figures 4.11 et 4.12).\nOn étudie deux familles de courbes, que l’on distingue selon que le rappel vers la climatologie\nou vers la météorologie a été réduit. Pour chaque famille, on divise le coefficient\ncorrespondant par des valeurs allant de 5 à 100."
+      },
+      {
+        "paragraph_id": 212,
+        "score": 3,
+        "keywords_found": [
+          "échauffement stratosphérique majeur",
+          "température",
+          "vortex polaire"
+        ],
+        "start": 217488,
+        "end": 218590,
+        "text": "Nous nous intéressons ici à l’évolution tout au long de l’hiver de la température\nobtenue à l’OHP grâce aux données airglow OH. Elle est comparée aux données lidar\nmesurées à 87 km provenant également de l’OHP. Les données OH nous indiquent que le pré-\nconditionnement de la haute mésosphère depuis le mois d’octobre connaît d’autres phases\naussi intenses début novembre et mi-novembre, ce qui est visible également sur les données\nlidar. L’accord avec les données lidar est globalement satisfaisant. Un écart plus important\nentre les mesures des deux instruments est observé de la mi-janvier à la fin février : il pourrait\nêtre attribué à l’état particulièrement perturbé de l’atmosphère à cette période qui suit\nimmédiatement l’échauffement stratosphérique majeur. Cela se traduit notamment par le fait\nque le vortex polaire n’est pas encore intégralement reformé, ce qui peut avoir pour\nconséquence de modifier l’altitude de la couche OH. Ceci permet par ailleurs de constater que\nl’atmosphère n’a retrouvé son état initial que plusieurs mois après l’échauffement.\n5.3.3. Les données lidar de l’OHP."
+      },
+      {
+        "paragraph_id": 223,
+        "score": 3,
+        "keywords_found": [
+          "échauffement stratosphérique majeur",
+          "température",
+          "vortex polaire"
+        ],
+        "start": 226189,
+        "end": 228543,
+        "text": "Les résultats obtenus sont préliminaires et les données obtenues ne sont aujourd’hui ni\ntoutes disponibles ni toutes validées. Cependant, l’ensemble des éléments présentés ici nous\nparaît constituer une première base permettant d’expliquer l’évolution particulière du vortex\npolaire observée au cours de l’échauffement stratosphérique majeur de l’hiver 2012-2013. Les\nmesures de températures par airglow centrées à l’altitude de 87 km sont importantes pour\nétudier les signaux pré-échauffement que nous observons également dans les données lidar,\nmais avec davantage d’incertitude sur ces dernières. L’échauffement de janvier 2013 se\ndistingue des autres par l’évolution particulière du vortex, expliquée par un court pré-\nconditionnement pendant la première quinzaine de décembre suivi d’un fort regain d’activité\nde l’onde 3 à partir de début janvier. Cependant, cet exemple de l’hiver 2012-2013 confirme\nce qui a été remarqué dans les études précédentes sous différents aspects. Ce n’est pas tant le\nniveau des ondes qui semble jouer sur le déclenchement d’un échauffement majeur que la\nprésence d’un pic d’amplitude de l’un des modes d’onde quelques jours avant l’échauffement.\nLe type d’échauffement semble quant à lui dépendre d’un pré-conditionnement antérieur de\nl’atmosphère, par le biais d’une activité ondulatoire soutenue pendant une période dépassant\nune semaine et située entre un mois et une vingtaine de jours avant l’échauffement. Si pendant\ncette période le mode 2 prédomine de manière significative, l’échauffement sera de type\nrupture (cas des hivers 2008-2009 et 2012-2013). Sinon, il sera de type déplacement (hiver\n2005-2006).\nIl conviendra d’étudier les autres sources de données lorsqu’elles seront disponibles et\nauront été validées. Il s’agit des radiosondages journaliers lâchés depuis Nîmes, des données\nde vent mesurées par l’université de Berne grâce à un spectromètre micro-ondes et enfin des\ndonnées infrasons. La propagation des infrasons dépendant du vent et de la densité\natmosphérique, les données correspondantes sont plus difficiles à interpréter et nécessitent un\nmodèle atmosphérique. Ces sources complémentaires de données permettront de confirmer ou\nd’infirmer les hypothèses présentées dans notre étude, et contribueront probablement à\nrépondre à certaines des questions abordées ici mais qui restent ouvertes."
+      },
+      {
+        "paragraph_id": 226,
+        "score": 3,
+        "keywords_found": [
+          "échauffement stratosphérique majeur",
+          "température",
+          "vortex polaire"
+        ],
+        "start": 231946,
+        "end": 234871,
+        "text": "La méthodologie de séparation des composantes permet également de calculer les\nanomalies de températures au cours d’un hiver pour faire ressortir les évolutions\ncaractéristiques de l’activité dynamique intense liée aux échauffements stratosphériques. Les\nfigures synthétiques montrent une certaine reproductibilité pour les hivers présentant un\néchauffement stratosphérique majeur, notamment si l’on sépare les événements selon leur\ntype, qui spécifie de quelle façon le vortex polaire se comporte au cours de l’échauffement. La\nprincipale anomalie chaude se situe dans la stratosphère autour de la date de l’échauffement et\ndure environ un mois. Elle coïncide avec l’anomalie froide la plus importante, visible dans la\nmésosphère. De manière générale, on constate une anti-corrélation entre les anomalies\nstratosphériques et mésosphériques, en accord avec la littérature. Notre travail se distingue par\nl’extension verticale de l’étude menée sur les échauffements stratosphériques, ajoutée à une\nextension temporelle elle aussi particulièrement importante. Cette dernière permet de calculer\ndes évolutions composites à partir de nombreux cas d’échauffements stratosphériques\nmajeurs, et même de faire une distinction selon le type d’échauffement tout en conservant une\ncertaine validité statistique. Une anomalie chaude est observée dans la mésosphère deux à\ntrois mois avant l’échauffement, et peut en constituer un signe précurseur. On recense des\névolutions distinctives selon le type d’échauffement : la périodicité caractéristique des ondes\nde Rossby de mode 1 – qui est d’environ 18 jours – est clairement identifiable lorsque\nl’échauffement est de type déplacement. Dans le cas d’une rupture du vortex, les anomalies\ntroposphériques sont plus marquées aussi bien avant l’échauffement (anomalies froides)\nqu’après (anomalies chaudes), ce qui confirme le couplage bidirectionnel existant entre la\nstratosphère et la troposphère, et met en lumière l’importance du type d’échauffement dans la\nprévision des anomalies de température des premiers kilomètres de l’atmosphère. Des\ndifférences apparaissent lorsque l’on compare les évolutions des anomalies hivernales de\ntempérature selon la latitude ou selon la longitude. Les anomalies sont très significativement\nplus marquées au pôle ; on constate également un décalage temporel croissant entre les deux\nprincipales anomalies de signes opposés à mesure que l’on s’approche des latitudes les plus\nélevées. Selon la longitude d’observation, l’échauffement peut être perçu de manière plus ou\nmoins intense, et la date de son maximum peut varier d’un mois. Enfin, concernant\nl’hémisphère sud, l’hiver 2002, qui est le seul où on a observé un échauffement\nstratosphérique majeur, se distingue clairement des autres hivers : au cours de l’hiver 2002,\nles anomalies principales sont en effet deux fois plus marquées que lors d’un hiver moyen, et\ndurent trois fois plus longtemps."
+      },
+      {
+        "paragraph_id": 4,
+        "score": 2,
+        "keywords_found": [
+          "température",
+          "gradient"
+        ],
+        "start": 2974,
+        "end": 4210,
+        "text": "Cependant, on observe (figure 1.2) que le gradient de température va du pôle d’été au\npôle d’hiver au niveau de la mésopause, et que les régions les plus froides de la basse\nstratosphère sont les latitudes tropicales. Ces observations semblent contredire prima facie le\ntaux de chauffage radiatif net représenté à la figure 1.3. L’explication à ce paradoxe apparent\ntient en la présence d’une importante activité ondulatoire dans l’atmosphère (c’est-à-dire la\nprésence d’écarts par rapport à la symétrie zonale). La structure thermique de l’atmosphère, et\nnotamment de la moyenne atmosphère, est intimement dépendante de cette activité\ndynamique. En effet, une parcelle d’air en mouvement adiabatique vertical vers le bas se\nréchauffe par compression, tandis qu’une parcelle qui monte se refroidit par détente, comme\nnous l’avons déjà vu. L’activité ondulatoire de l’atmosphère, notamment celle de la moyenne\natmosphère, est décrite plus en détail au paragraphe suivant (1.1.3.).\nTout comme la température, la vitesse du vent varie en moyenne davantage selon la\nlatitude que selon la longitude, si bien que représenter des valeurs moyennées zonalement fait\nsens. Le vent zonal présente lui aussi un cycle saisonnier marqué (figure 1.4)."
+      }
+    ]
+  },
+  "q2": {
+    "question": "Quels sont les différents types de réchauffement stratosphérique ?",
+    "candidates": [
+      {
+        "paragraph_id": 0,
+        "score": 3,
+        "keywords_found": [
+          "échauffement stratosphérique",
+          "soudain",
+          "majeur"
+        ],
+        "start": 8,
+        "end": 1697,
+        "text": "Le rôle joué par la stratosphère sur le climat est aujourd’hui avéré. Le couplage du\nsystème troposphère-stratosphère implique que les processus dynamiques de grande\namplitude de la moyenne atmosphère perturbent l’équilibre atmosphérique et l’écoulement\ndans les plus basses couches. Parmi ces phénomènes dynamiques, les échauffements\nstratosphériques soudains sont les plus emblématiques. Cette étude s’intéresse à l’impact de\nces événements sur la variabilité de la moyenne atmosphère et sur l’estimation des tendances\nde température. Nous cherchons également à mieux caractériser l’évolution spatio-temporelle\ndes échauffements stratosphériques, depuis leurs causes jusqu’à leurs conséquences. Tout\nd’abord, une méthodologie novatrice d’analyse statistique de séries temporelles est\ndéveloppée et testée sur des mesures lidar de l’Observatoire de Haute-Provence. L’impact des\névénements dynamiques les plus importants peut ainsi être efficacement isolé de la\ncontribution radiative de fond, ce qui explique les différences observées entre l’été et l’hiver.\nEnsuite, une simulation du Canadian Middle Atmosphere Model nous permet de valider la\nméthodologie et d’étendre notre étude à l’ensemble du globe. On montre que les variations\nspatiales sont elles aussi majoritairement causées par l’activité dynamique. Les conditions de\nformation d’un échauffement stratosphérique sont également étudiées, à l’aide de tests de\nsensibilité du modèle RACCORD. On prouve l’importance du rappel vers la météorologie\npour produire un échauffement majeur, particulièrement dans le cas d’une rupture du vortex.\nEnfin, la méthode et nos résultats sont mis à profit dans une analyse de l’hiver 2012-2013."
+      },
+      {
+        "paragraph_id": 17,
+        "score": 3,
+        "keywords_found": [
+          "types",
+          "échauffement stratosphérique",
+          "majeur"
+        ],
+        "start": 20977,
+        "end": 23606,
+        "text": "[Matsuno, 1971 ; Andrews et al., 1987]. Les ondes déferlent tout d’abord dans la stratosphère,\naux hautes latitudes. La friction des ondes qui en découle crée une augmentation de la\ntempérature au pôle. En conséquence, le gradient méridien de température varie, impliquant\nun affaiblissement du vent zonal. Les ondes qui se propagent verticalement déferlent alors à\ndes altitudes de plus en plus basses, car des vents d’ouest moins intenses (et a fortiori des\nvents d’est) les empêchent de se propager plus haut. L’intégrité du vortex polaire est\ncompromise, si bien que de l’air extérieur chaud y pénètre. On note également des intrusions\nd’air mésosphérique qui descend dans la stratosphère en se réchauffant du fait de sa\ncompression [Kvissel et al, 2012]. D’importantes variations de température sont alors\nobservées, parfois jusqu’à des latitudes assez basses (40°N) : on observe notamment (à 60°N)\ndes augmentations de 10 K à 60 K dans la stratosphère qui s’étendent sur plusieurs semaines\n[Labitzke, 1972], auxquelles s’associe un refroidissement de la mésosphère [Cho et al., 2004].\nIl existe différents types d’échauffements stratosphériques. On parle d’échauffement\nstratosphérique majeur si le gradient de température calculé à 10 hPa et en moyenne zonale\nentre le pôle (85°N, ou 85°S pour l’hémisphère sud) et 60°N (ou 60°S) est positif pendant\nplus de 5 jours, et que pendant cette période le vent zonal moyen mesuré à 60°N (60°S) et à\n10 hPa s’inverse (définition de l’Organisation Météorologique Mondiale, Andrews et al.\n[1987]). Cela correspond aux cas les plus spectaculaires, qui s’accompagnent des\nperturbations les plus importantes. Le vortex peut alors être déporté loin de sa zone\nd’équilibre initiale centrée autour du pôle – cas nommé déplacement du vortex – (figure 1.8),\nou bien se scinder en deux parties après élongation – on parle alors de rupture du vortex\n(figure 1.9). La distinction entre ces deux types d’échauffements est analysée par Charlton\nand Polvani [2007], qui proposent une méthodologie quantitative de distinction basée sur\nl’étude de la vorticité absolue. La vorticité est un paramètre qui permet de décrire le\nmouvement de rotation d’un fluide. La vorticité absolue inclut en outre le paramètre de\nCoriolis, qui traduit la rotation propre de la Terre. La vorticité potentielle prend en compte\nl’éventuel étirement vertical (ou l’éventuelle compression verticale) de la masse d’air\nconsidérée, et reste constante si cette dernière subit une telle transformation. La vorticité\npotentielle est une grandeur caractéristique de la stratosphère car elle peut y prendre des\nvaleurs élevées."
+      },
+      {
+        "paragraph_id": 19,
+        "score": 3,
+        "keywords_found": [
+          "échauffement stratosphérique",
+          "majeur",
+          "mineur"
+        ],
+        "start": 24299,
+        "end": 26038,
+        "text": "Figure 1.9 : Carte de la vorticité potentielle des hautes et moyennes latitudes le 29 janvier\n2009, lors d’un échauffement stratosphérique majeur de type rupture. Le vortex polaire est\nscindé en deux parties distinctes et distantes de plusieurs milliers de kilomètres. Carte issue\ndu modèle MIMOSA.\nLes ESS majeurs sont observés dans l’hémisphère nord, hormis le cas exceptionnel de\nl’échauffement majeur qui a eu lieu en septembre 2002 dans l’hémisphère sud [Dowdy et al.,\n2004 ; Krüger et al., 2005]. Dans l’hémisphère nord, on dispose de mesures permettant de\ndéterminer si un échauffement stratosphérique est majeur depuis l’hiver 1957-1958, soit 56\nans. Sur cette période, on recense 0, 1 ou 2 événements par hiver pour un total de 40\néchauffements majeurs [Charlton et Polvani, 2007 ; Hitchcock et al., 2013 ; Goncharenko et\nal., 2013], soit une moyenne de 0,7 par an. Mais la répartition interannuelle est assez inégale\net plusieurs années sans échauffement majeur peuvent se suivre (jusqu’à parfois près de dix\nannées consécutives). Du reste, la répartition intra-annuelle de ces événements est elle aussi\nrelativement inégale. Mais de nombreux échauffements stratosphériques de plus petite\nampleur ont lieu chaque hiver : on parle alors d’échauffements stratosphériques mineurs.\nLes échauffements stratosphériques constituent la première cause de variabilité de la\ncirculation stratosphérique de l’hémisphère nord en hiver [Andrews et al., 1987]. Des études\nrécentes indiquent que l’augmentation de la concentration en gaz à effet de serre pourrait\naccentuer le forçage des ondes troposphériques et renforcer l’activité des ondes planétaires\ndans la stratosphère [Butchart et al., 2006 ; Deckert and Dameris, 2008]. Compte tenu de"
+      },
+      {
+        "paragraph_id": 83,
+        "score": 3,
+        "keywords_found": [
+          "types",
+          "échauffement stratosphérique",
+          "majeur"
+        ],
+        "start": 88146,
+        "end": 89426,
+        "text": " D’autres zones d’anomalies fortement négatives (jusqu’à -15 K) apparaissent, toujours\ndans la mésosphère, de la fin janvier à début février, et au courant du mois de mars.\nDes anomalies froides de moindre amplitude leur correspondent dans la figure 2.10.\n La stratosphère est donc globalement plus chaude lors d’un hiver avec échauffement\nmajeur, tandis que la mésosphère démontre des différences de températures marquées\nentre un hiver avec échauffement majeur et un hiver sans échauffement majeur,\nsuccessivement positives et négatives. La troposphère, quant à elle, ne révèle pas de\ndifférences importantes entre les deux types d’hivers.\nD’importantes différences peuvent donc être relevées entre un hiver avec\néchauffement majeur et un hiver sans échauffement majeur. Lorsqu’elles sont les plus\nmarquées, ces différences peuvent permettre de localiser les zones spatio-temporelles les plus\nsensibles à l’occurrence d’un échauffement stratosphérique majeur. Ces zones sont les plus\nintéressantes à étudier pour qui souhaite mieux comprendre les conséquences de tels\nphénomènes (stratosphère et mésosphère début décembre, mésosphère autour de la mi-\njanvier), et pour qui cherche à les prévoir (haute mésosphère en octobre et novembre).\n2.5.1.3. Significativité des résultats"
+      },
+      {
+        "paragraph_id": 95,
+        "score": 3,
+        "keywords_found": [
+          "échauffement stratosphérique",
+          "majeur",
+          "mineur"
+        ],
+        "start": 97548,
+        "end": 100839,
+        "text": "successifs qui la jalonnent (à 40 km d’altitude) sont distincts les uns des autres\nd’exactement 18 jours. Cette périodicité n’est pas sans rappeler celle des ondes de\nRossby de nombre d’onde 1, dont on sait qu’elles prédominent dans les cas\nd’échauffements stratosphériques majeurs de type déplacement [Hauchecorne et\nChanin, 1980]. Hauchecorne et Chanin ont justement étudié un cas d’échauffement\nmenant à un déplacement du vortex : ils ont relevé, à 40 km d’altitude, une onde de\nRossby de nombre d’onde 1 et de période 18 jours, et ont suggéré qu’elle restait\nprésente tout le long de l’hiver. Cependant, il a été par la suite suggéré que les ondes\nde Rossby ont une durée de vie de l’ordre du mois [Hirota et Hirooka, 1984 ; Ahlquist,\n1985]. La périodicité observée pendant trois mois résulte d’une succession d’ondes de\nRossby qui déferlent dans la stratosphère, ajoutée aux contributions additionnelles\nconstituées par les variations continues de la stratosphère (prenant notamment la\nforme d’échauffements stratosphériques mineurs.) De même, Pancheva et al. [2008]\nont étudié l’échauffement de type déplacement de janvier 2004 et ont mesuré une onde\nde Rossby de période 16 jours. Ces oscillations démontrent le couplage vertical du\nsystème stratosphère-mésosphère à travers les ondes de Rossby de nombre d’onde 1.\nEn effet, les ondes planétaires qui se propagent jusqu’à la stratosphère [Sun et al.,\n2011] et même la haute mésosphère [Coy et al., 2011] peuvent contribuer à déclencher\nles échauffements stratosphériques.\n Du reste, on note que la région concernée par l’anomalie chaude principale est moins\nétendue verticalement que dans les cas de rupture du vortex, comme l’avaient souligné\nMatthewman et al. [2009].\n L’anomalie positive mésosphérique post-échauffement est davantage marquée (de +7\nK à +10 K) et est située plus bas (de 60 km à 70 km) que pour les cas de rupture.\n Les zones de plus fortes anomalies froides sont très restreintes, sauf pour celle\nconcernant la basse stratosphère au cours de l’échauffement. On note par ailleurs que\nla zone d’anomalie positive principale s’arrête, un mois et demi après l’échauffement,\ndonc plus tôt (d’environ 40 jours) que dans les cas de rupture. Ceci avait été observé\npar Matthewman et al. [2009], bien que sur une période légèrement plus courte (30\njours). La stratosphère mettrait donc plus longtemps à retrouver un état d’équilibre\naprès un événement occasionnant le déplacement du vortex loin de sa position\nnaturelle centrée autour du pole.\n Enfin, on ne relève pas d’anomalies troposphériques significatives de tout l’hiver, les\nvaleurs restant faibles (de -4 K à +2 K) et les variations progressives. Le signal\ntroposphérique observé lors de l’étude de l’évolution des anomalies pour les hivers\navec échauffements (figure 2.10) est donc entièrement attribuable aux échauffements\nde type rupture, dont on a constaté le fort impact sur les premiers kilomètres de\nl’atmosphère (figure 2.14).\nNos résultats sont donc en bon accord avec la littérature. Par ailleurs, ils les\ncomplètent en apportant notamment des informations sur le type d’échauffement\nstratosphérique majeur le plus probable selon les conditions rencontrées et, inversement, sur\nles conditions à attendre lorsque tel ou tel type d’échauffement a lieu."
+      },
+      {
+        "paragraph_id": 106,
+        "score": 3,
+        "keywords_found": [
+          "échauffement stratosphérique",
+          "soudain",
+          "majeur"
+        ],
+        "start": 111554,
+        "end": 112606,
+        "text": "moyennes et basses latitudes dans les deux hémisphères, ainsi qu’entre les\ndifférentes longitudes à une latitude donnée ;\n Mener une étude de l’évolution des anomalies de températures au cours d’un\néchauffement stratosphérique, de façon similaire à la démarche du chapitre\nprécédent mais avec une vision globale. On considérera également\nl’hémisphère sud et notamment le cas exceptionnel de l’échauffement\nstratosphérique soudain majeur qui s’y est produit lors de l’hiver austral 2002.\nDans un premier temps, les résultats obtenus pour la série issue des simulations\nCMAM seront comparés à ceux provenant des données lidar de l’OHP (et des radiosondages\nde Nîmes). Dans un second temps, on s’intéressera à l’extension de l’étude des tendances de\ntempérature à des régions plus larges, pour tirer avantage de la couverture globale des\ndonnées issues de CMAM. On procédera de même avec l’étude de l’évolution des anomalies\nau cours d’un échauffement.\n3.4. Résultats au niveau de l’OHP\n3.4.1. Choix géographique des simulations numériques du modèle CMAM"
+      },
+      {
+        "paragraph_id": 143,
+        "score": 3,
+        "keywords_found": [
+          "types",
+          "majeur",
+          "mineur"
+        ],
+        "start": 152638,
+        "end": 153961,
+        "text": "-\nSoit cet échauffement est plus marqué (par son amplitude en température et\nplus généralement par la perturbation qu’il cause sur le vortex polaire et\nl’écoulement moyen) que les autres échauffements mineurs. Cette hypothèse\nest corroborée par le fait que certaines années cet échauffement qui précède de\ndeux mois l’échauffement majeur est si intense qu’il constitue lui-même un\néchauffement majeur, et que l’on a donc deux échauffements majeurs au cours\nde l’hiver. Les cas de la sorte observés depuis 56 ans sont listés dans le tableau\n3.5 : dans 5 cas sur 7, les deux événements sont séparés d’environ deux mois.\nOn remarque également que c’est lorsque deux échauffements du même type\nse succèdent que les écarts les plus importants (97 jours et 105 jours) ou parmi\nles plus faibles (48 jours) sont observés.\nTableau 3.5 : Hivers comprenant deux échauffements majeurs : écart\nséparant les deux événements et types des événements qui se succèdent\n(D pour déplacement, R pour rupture). Les valeurs sont calculées à\npartir des dates provenant des réanalyses ERA-40 de l’ECMWF\n[Charlton and Polvani, 2007], hormis pour l’hiver 2009-2010 dont les\ndates des échauffements sont issues des données MERRA [Hitchcock et\nal., 2013].\nHiver\n1965-\n1966\n1968-\n1969\n1970-\n1971\n1987-\n1988\n1998-\n1999\n2001-\n2002\n2009-\n2010\nEcart (jours)"
+      },
+      {
+        "paragraph_id": 153,
+        "score": 3,
+        "keywords_found": [
+          "types",
+          "échauffement stratosphérique",
+          "majeur"
+        ],
+        "start": 160608,
+        "end": 161952,
+        "text": "temporellement) pour les longitudes comprises entre 45°W et 180° que pour les autres\nlongitudes où il apparaît plus diffus.\n On note un décalage temporel de cette zone, dont le centre se situe une vingtaine de\njours avant la date de l’échauffement autour de la longitude 90°E, puis augmente\nprogressivement lorsqu’on considère des latitudes toujours plus à l’est. Finalement, le\ncentre de l’échauffement principal est situé une dizaine de jours après l’échauffement\nautour de 45°W. Ainsi, alors que l’on se trouve à une même latitude, l’effet maximal\nde la perturbation due à un échauffement stratosphérique majeur peut être perçu avec\nun mois d’écart selon la longitude à laquelle on se trouve. Ce décalage temporel est en\naccord avec un écoulement moyen vers l’est ralenti par l’échauffement stratosphérique\nmajeur, puisqu’il indique une vitesse moyenne de seulement 10 m.s-1 (contre 25 m. s-1\nen moyenne à 40°N et 40 km au mois de janvier, d’après la figure 1.4).\n Enfin, les régions comprises entre 0° et 90°E apparaissent comme un bon choix pour\ndistinguer les deux types d’échauffements. De fait, 40 jours avant l’échauffement, la\nhaute mésosphère y présente une anomalie chaude dans les cas de rupture du vortex et\nune anomalie froide dans les cas de déplacement.\n3.7 Conclusions de l’étude des simulations numériques provenant de CMAM"
+      },
+      {
+        "paragraph_id": 165,
+        "score": 3,
+        "keywords_found": [
+          "échauffement stratosphérique",
+          "majeur",
+          "mineur"
+        ],
+        "start": 176651,
+        "end": 177894,
+        "text": "Figure 4.4 : Évolution du vent zonal à 60°N et 10 hPa (bleu) et du gradient de température\nentre le pôle et 60°N (vert) au début de l’année 2009 pour une zone de transition fixée (dans\nle programme RACCORD) entre 30 km et 60 km. Les lignes en tirets indiquent pour chaque\nvariable les seuils (respectivement minimal pour le gradient de T et maximal pour le vent\nzonal) qui permettent de déterminer si l’échauffement est majeur ou non.\nLes variations observées, tant pour le vent zonal que pour la différence de température,\nsont plus importantes lorsque la zone de transition est située à une altitude plus élevée. Les\nvariations de ΔT sont également beaucoup plus nettes dans ce cas, avec un pic autour du 22\njanvier qui se distingue clairement. De ce fait, l’échauffement stratosphérique observé est\nmineur lorsque la zone de transition s’étend de 10 km à 40 km tandis qu’il est majeur pour\nune zone de transition plus élevée en altitude. On note que le seuil concernant ΔT est atteint le\n19 janvier mais il faut attendre le 24 janvier – soit même quelques jours après que la valeur\nmaximale de ΔT soit atteinte – pour que le vent zonal ait suffisamment diminué et s’inverse,\ndonc pour que l’échauffement puisse être catégorisé comme majeur."
+      },
+      {
+        "paragraph_id": 205,
+        "score": 3,
+        "keywords_found": [
+          "échauffement stratosphérique",
+          "majeur",
+          "mineur"
+        ],
+        "start": 210094,
+        "end": 211836,
+        "text": "En effet, lorsqu’on ne rappelle les variables que vers la climatologie, le modèle produit un\néchauffement mineur de type déplacement. On note également, en accord avec la littérature,\nque le critère d’inversion du vent zonal est globalement plus strict que celui concernant le\nchangement de signe du gradient de température entre le pôle et 60°N. Par ailleurs, modifier\nle seul niveau de forçage du géopotentiel n’a que très peu d’impact sur les simulations\nobtenues.\nConcernant l’amplitude des ondes planétaires, l’onde de mode 2 reste supérieure à\nl’onde de mode 1, même pour un échauffement de type déplacement. Cependant, l’étude\ncomparative des cas des hivers 2005-2006 et 2008-2009 semble indiquer qu’une rupture du\nvortex n’est possible que si l’amplitude de l’onde 2 atteint pendant au moins une semaine des\nvaleurs trois à quatre fois supérieures à celle de l’onde 1. La période cruciale quant au type\nd’échauffement à venir semble être située entre un mois et une vingtaine de jours avant\nl’échauffement, tandis que l’inversion des vents (et donc le déclenchement d’un échauffement\nstratosphérique majeur) paraît dépendre d’un pic de l’amplitude des ondes seulement\nquelques jours avant. On regrette de n’avoir pu tester suffisamment la dépendance temporelle\nde l’avènement d’un échauffement majeur pour pouvoir confirmer ou non ces hypothèses.\nL’étude du cas de 2006 corrobore l’hypothèse selon laquelle la climatologie donne des\névolutions douces qui ne produisent qu’un échauffement mineur accompagné d’un léger\ndéplacement du vortex polaire. Un échauffement majeur, même s’il est de type déplacement,\nest caractérisé par des évolutions rapides et importantes des indicateurs que sont le vent zonal\net le gradient de température."
+      }
+    ]
+  },
+  "q3": {
+    "question": "Comment évolue la température dans la stratosphère lors d'un réchauffement stratosphérique ?",
+    "candidates": [
+      {
+        "paragraph_id": 13,
+        "score": 5,
+        "keywords_found": [
+          "température",
+          "augmente",
+          "augmentation",
+          "réchauffement",
+          "stratosphère"
+        ],
+        "start": 14254,
+        "end": 17605,
+        "text": "en ozone pour expliquer les tendances observées (de manière plus secondaire, il est également\nnécessaire d’inclure dans les calculs les quelques éruptions volcaniques suffisamment\npuissantes pour injecter des quantités non-négligeables d’aérosols – ou de précurseurs\nd’aérosols – dans la stratosphère). D’une part, comme nous l’avons vu ci-dessus,\nl’augmentation de la concentration des GES, constatée depuis la moitié du XIXe siècle,\nrefroidit la moyenne atmosphère [Meinshausen et al., 2011]. D’autre part, on mesure une\ndiminution de la concentration en ozone, ce qui entraîne également un refroidissement de la\nmoyenne atmosphère. Globalement, le refroidissement de la stratosphère constaté sur les\ndernières décennies est évalué entre 0,5 et 0,75 K par décennie pour sa partie inférieure (de 20\nkm à 35 km) et entre 1,5 et 2,5 K par décennie au niveau de la stratopause [Ramaswamy et al.,\n2001 ; Randel et al., 2009]. Hare et al. [2004] attribuent à l’ozone un refroidissement moyen\nde la stratosphère de 0,17 K par décennie (sur la période qui s’étend de 1983 à 1999). Ils\nconstatent eux aussi un refroidissement plus marqué au fur et à mesure que l’altitude\naugmente : la diminution de la température moyenne atteint jusqu’à 1,15 K par décennie à 1\nhPa. En revanche, une étude comparant des simulations issues de différents modèles de climat\narrive à la conclusion qu’en part relative la majeure partie du refroidissement de la basse\nstratosphère est liée à la diminution de la concentration en ozone, tandis que le\nrefroidissement de la moyenne et de la haute stratosphère est causé autant par l’augmentation\nde la concentration en gaz à effet de serre que par la diminution de la concentration en ozone\n[Shine et al., 2003]. Cependant, les mesures récentes semblent indiquer que la concentration\nen ozone a cessé de décroître suite aux mesures prises au niveau international pour limiter\n(puis totalement interdire) l’émission des gaz favorisant la destruction de l’ozone [Li et al.,\n2009 ; Gebhardt et al., 2013].\nPar ailleurs, l’analyse des tendances de température dans la stratosphère nous permet\nde distinguer les réponses du système climatique aux forçages naturels et anthropiques\n[Hansen et al., 1997]. Ainsi, bien que moins médiatisée et étudiée, l’évolution de la\ntempérature de la moyenne atmosphère n’en constitue pas moins un témoin des émissions\nanthropogéniques – et de leurs conséquences sur le climat planétaire – aussi important que le\n« réchauffement climatique » de la troposphère. Néanmoins, si l’intérêt croissant porté aux\ndonnées provenant de radiosondages et de satellites a certes permis de meilleures\ncaractérisations et quantifications des tendances de température dans la troposphère et la basse\nstratosphère, il a également mis en lumière un relatif manque d’attention concernant les\nobservations des couches plus élevées de l’atmosphère (moyenne et haute stratosphère,\nmésosphère), ainsi qu’un bien moindre nombre de données disponibles pour ces couches.\nPourtant, la moyenne atmosphère atteste non seulement des conséquences de l’activité\nhumaine mais elle est également le siège de phénomènes dynamiques de très grande\namplitude dont les conséquences s’étendent dans l’ensemble de la troposphère. Ces\névénements sont nommés échauffements stratosphériques soudains.\n1.2. Echauffements stratosphériques soudains"
+      },
+      {
+        "paragraph_id": 15,
+        "score": 4,
+        "keywords_found": [
+          "température",
+          "augmente",
+          "augmentation",
+          "stratosphère"
+        ],
+        "start": 17778,
+        "end": 19885,
+        "text": "emblématiques de cette activité dynamique. Ils ont lieu essentiellement dans l’hémisphère\nnord, notamment pour les plus intenses d’entre eux, et concernent les hautes et moyennes\nlatitudes. Dans l’hémisphère nord, ils se déclenchent au cours de la période qui s’étend\nd’octobre à mars (ce qui correspond à la saison d’hiver en météorologie). Ils prennent la\nforme de perturbations conséquentes de l’écoulement moyen, et se traduisent notamment par\nde fortes variations de température dans la moyenne atmosphère. Dans les cas les plus\nextrêmes, la température de la stratosphère peut augmenter d’une cinquantaine de degrés en\nl’espace de quelques jours seulement et l’écoulement circumpolaire – habituellement d’ouest\nen cette saison – peut s’inverser dans le même intervalle de temps. Les ESS constituent la\npremière cause de variabilité inter-saisonnière dans la stratosphère [Keckhut et al., 2011b].\nLes échauffements stratosphériques ont été observés pour la première fois en 1952 par\nRichard Scherhag, mais ce n’est qu’à la fin des années 1950 que leur extension planétaire a\nété connue. En 1971, Matsuno [1971] publie le premier modèle simulant des échauffements\nstratosphériques. Depuis, les études concernant ce phénomène se sont multipliées. Cependant,\nles mécanismes exacts de la formation d’un échauffement stratosphérique ne sont pas encore\ntout à fait compris, et cet événement reste difficile à prévoir. Intéressons-nous tout d’abord au\nconsensus actuel sur le déroulement d’un échauffement stratosphérique.\nEn hiver, la nuit polaire cause un refroidissement radiatif important de l’atmosphère\ndes hautes latitudes, créant une intense dépression centrée autour du pôle, nommée vortex\npolaire. Autour de cette dépression s’enroulent de puissants vents d’ouest qui forment le\ncourant jet de la nuit polaire (en anglais polar night jet stream). Ces vents zonaux sont régulés\npar le champ de température à travers l’équation du vent thermique (1a) : le gradient de\ntempérature – négatif en allant vers le pôle – provoque une augmentation de la vitesse du vent\navec l’altitude jusqu’à la tropopause."
+      },
+      {
+        "paragraph_id": 54,
+        "score": 4,
+        "keywords_found": [
+          "température",
+          "augmentation",
+          "stratosphère",
+          "anomalie"
+        ],
+        "start": 62730,
+        "end": 65757,
+        "text": "pour la basse stratosphère. Cependant, nous nous basons pour cette étude sur une température\nde fond présentant un cycle annuel constant, ne dépendant que de l’altitude. De cette manière,\nl’évolution par rapport à cette référence constante de paramètres saisonniers caractéristiques\n(définis au chapitre suivant) permettra de constater les conséquences, à la baisse ou à la\nhausse, des phénomènes énumérés ci-dessus sur la température de fond. L’anomalie de\ntempérature, quant à elle, est définie comme la différence entre la température mesurée et la\ntempérature de fond. Elle est associée à l’activité dynamique renforcée que l’on observe très\nmajoritairement en hiver aux moyennes et hautes latitudes, et qui est notamment due au\ndéferlement des ondes planétaires qui entraîne les ESS. L’évolution interannuelle de\nl’anomalie de température dépend également des différents phénomènes listés ci-dessus,\ncomme l’augmentation de la concentration en gaz à effet de serre, car ils ont un impact sur la\ndynamique de la moyenne atmosphère, notamment sur l’occurrence et l’intensité des\nperturbations dynamiques qui y ont lieu.\n2.3.2. Cycle annuel de température de fond\n2.3.2.1. Calcul du cycle de température de fond\nIl s’agit maintenant de développer une méthodologie pour calculer le cycle annuel de\ntempérature de fond, supposé constant dans cette étude. La méthode de calcul que nous\nprésentons est basée sur l’analyse des distributions d’anomalies de températures par\nquinzaines, présentées ci-dessus (figure 2.4, paragraphe 2.3.1.1.). Dans les cas de distributions\nbimodales, il a été noté qu’une première courbe gaussienne correspond à un état de fond de\nl’atmosphère, tandis que la seconde est associée aux perturbations dynamiques majeures (la\nméthodologie exacte de détermination et d’identification des gaussiennes est détaillée dans\nl’annexe A). La moyenne de la première gaussienne est nommée « anomalie de fond ». Dans\nle cas de distributions monomodales, l’anomalie de fond est assimilée à la moyenne de\nl’unique courbe gaussienne qui approxime la distribution. L’anomalie de fond est ainsi\ndéterminée pour chacune des 24 quinzaines de l’année. En ajoutant à chaque anomalie de\nfond la température moyenne de la quinzaine qui lui correspond, on obtient 24 valeurs qui\ndécrivent le cycle annuel de température de fond (comme illustré par la figure 2.5 ci-dessous\npour le cas de l’altitude 40 km). En approchant ces valeurs par une courbe sinusoïdale ou « bi-\nsinusoïdale » (somme de deux courbes sinusoïdales) selon l’altitude, on obtient finalement le\ncycle recherché. Lors d’approximations bi-sinusoïdales, on obtient une composante annuelle\net une composante semestrielle (ou semi-annuelle). La composante semestrielle devient\nsignificative à partir de 55 km d’altitude, si bien que le cycle annuel de température de fond\nest assimilé à une sinusoïde en-dessous de 55 km, et à une courbe bi-sinusoïdale à 55 km et\nau-delà. La modélisation proposée est donc la suivante :\n Pour les altitudes inférieures à 55 km :"
+      },
+      {
+        "paragraph_id": 17,
+        "score": 3,
+        "keywords_found": [
+          "température",
+          "augmentation",
+          "stratosphère"
+        ],
+        "start": 20977,
+        "end": 23606,
+        "text": "[Matsuno, 1971 ; Andrews et al., 1987]. Les ondes déferlent tout d’abord dans la stratosphère,\naux hautes latitudes. La friction des ondes qui en découle crée une augmentation de la\ntempérature au pôle. En conséquence, le gradient méridien de température varie, impliquant\nun affaiblissement du vent zonal. Les ondes qui se propagent verticalement déferlent alors à\ndes altitudes de plus en plus basses, car des vents d’ouest moins intenses (et a fortiori des\nvents d’est) les empêchent de se propager plus haut. L’intégrité du vortex polaire est\ncompromise, si bien que de l’air extérieur chaud y pénètre. On note également des intrusions\nd’air mésosphérique qui descend dans la stratosphère en se réchauffant du fait de sa\ncompression [Kvissel et al, 2012]. D’importantes variations de température sont alors\nobservées, parfois jusqu’à des latitudes assez basses (40°N) : on observe notamment (à 60°N)\ndes augmentations de 10 K à 60 K dans la stratosphère qui s’étendent sur plusieurs semaines\n[Labitzke, 1972], auxquelles s’associe un refroidissement de la mésosphère [Cho et al., 2004].\nIl existe différents types d’échauffements stratosphériques. On parle d’échauffement\nstratosphérique majeur si le gradient de température calculé à 10 hPa et en moyenne zonale\nentre le pôle (85°N, ou 85°S pour l’hémisphère sud) et 60°N (ou 60°S) est positif pendant\nplus de 5 jours, et que pendant cette période le vent zonal moyen mesuré à 60°N (60°S) et à\n10 hPa s’inverse (définition de l’Organisation Météorologique Mondiale, Andrews et al.\n[1987]). Cela correspond aux cas les plus spectaculaires, qui s’accompagnent des\nperturbations les plus importantes. Le vortex peut alors être déporté loin de sa zone\nd’équilibre initiale centrée autour du pôle – cas nommé déplacement du vortex – (figure 1.8),\nou bien se scinder en deux parties après élongation – on parle alors de rupture du vortex\n(figure 1.9). La distinction entre ces deux types d’échauffements est analysée par Charlton\nand Polvani [2007], qui proposent une méthodologie quantitative de distinction basée sur\nl’étude de la vorticité absolue. La vorticité est un paramètre qui permet de décrire le\nmouvement de rotation d’un fluide. La vorticité absolue inclut en outre le paramètre de\nCoriolis, qui traduit la rotation propre de la Terre. La vorticité potentielle prend en compte\nl’éventuel étirement vertical (ou l’éventuelle compression verticale) de la masse d’air\nconsidérée, et reste constante si cette dernière subit une telle transformation. La vorticité\npotentielle est une grandeur caractéristique de la stratosphère car elle peut y prendre des\nvaleurs élevées."
+      },
+      {
+        "paragraph_id": 20,
+        "score": 3,
+        "keywords_found": [
+          "température",
+          "augmentation",
+          "stratosphère"
+        ],
+        "start": 26040,
+        "end": 27456,
+        "text": "l’importance du rôle joué par ces ondes dans la formation des échauffements stratosphériques,\nles changements constatés dans la composition de l’atmosphère ont certainement des\nconséquences sur ces phénomènes, notamment sur leur occurrence, du fait également d’un\naffaiblissement des vents zonaux dans la moyenne atmosphère [Schimanke et al ., 2012]. De\nmanière réciproque, ces répercussions sur l’activité dynamique (qu’elles prennent la forme\nd’une augmentation d’intensité, d’un décalage temporel, d’une occurrence croissante ou de\ntoute autre perturbation) pourraient modifier la circulation de la stratosphère et donc\négalement celle de la troposphère ainsi que les températures dans la troposphère jusqu’au\nniveau du sol [Baldwin et al., 1994 ; Baldwin and Dunkerton, 2001 ; Baldwin et al., 2001 ;\nBaldwin et al., 2003 ; Baldwin et al., 2007].\nDe nombreuses questions restent ouvertes concernant les ESS, que ce soit au sujet des\nconditions atmosphériques et dynamiques qui mènent à leur formation, de leur déroulement\nprécis (l’enchaînement des événements qui les caractérisent), ou encore de leurs conséquences\nà court et moyen terme sur la météorologie troposphérique ou à plus long terme sur les\ntendances de température observées. Il apparaît crucial d’apporter des réponses à ces\nquestions, particulièrement dans le contexte actuel.\n1.3. Contexte scientifique général, motivations et objectifs de l’étude"
+      },
+      {
+        "paragraph_id": 79,
+        "score": 3,
+        "keywords_found": [
+          "température",
+          "stratosphère",
+          "anomalie"
+        ],
+        "start": 83089,
+        "end": 86029,
+        "text": " Enfin, une légère anomalie positive (jusqu’à +4 K) s’observe dans la troposphère à la\nsuite de la période d’échauffement majeur, de la mi-janvier à la mi-mars. Cette\nanomalie positive fait suite à une anomalie troposphérique négative (atteignant à\ncertaines périodes -5 K) observée avant l’échauffement principal, notamment de\nnovembre à la mi-décembre. Ces réponses troposphériques reliées aux perturbations\nstratosphériques suggèrent un fort couplage entre ces deux couches de l’atmosphère\nlors des années avec échauffement stratosphérique majeur, en accord avec Thompson\net al. [2002].\n Les anomalies négatives les plus importantes se rencontrent quant à elles dans la\nmésosphère, principalement sur l’ensemble du mois de décembre de 60 km à 70 km,\nainsi que début octobre et fin janvier. Ces anomalies dénotent une forte anti-\ncorrélation entre la haute stratosphère et la mésosphère, voire entre les différents\nniveaux, plus ou moins élevés, de la mésosphère. Une telle anti-corrélation a déjà été\nremarquée dans d’autres études [Hauchecorne et Chanin, 1983], et a récemment été\nclairement établie pour les données issues de l’OHP, au moyen d’une décomposition\northogonale aux valeurs propres (EOF) [Keckhut et al., 2011b]. Cette anti-corrélation\nest très probablement liée à la propagation verticale des ondes planétaires et aux\néchauffements stratosphériques qui y sont associés.\n L’alternance de régions d’anomalies positives et de régions d’anomalies négatives au-\ndessus de la zone d’échauffement principal a également été remarquée et commentée\npar Walterscheid et al. [2000]. Par ailleurs, ils ont souligné que lors d’un\néchauffement stratosphérique, les régions concernées sont accompagnées de\nmouvements descendants des masses d’air, ce que nous constatons en étudiant\nl’évolution moyenne des hivers avec échauffement majeur. Ce mouvement descendant\navait également été relevé par Whiteway et Carswell [1994].\n Baldwin et Dunkerton [2001] ont souligné que d’importantes variations de la\ncirculation de la moyenne atmosphère apparaissent en premier lieu dans la\nmésosphère, puis descendent jusqu’à la basse stratosphère, et enfin sont suivies de\nrégimes météorologiques anormaux dans la troposphère. Ceci s’accorde tout à fait\navec nos résultats, puisque nous observons qu’une importante anomalie de\ntempérature positive descend de la mésosphère jusque dans la stratosphère aux\nalentours de la date de l’échauffement, ce qui caractérise une perturbation majeure de\nl’écoulement stratosphérique. Ensuite, comme nous l’avons noté ci-dessus, on\nremarque des anomalies de températures dans la troposphère. Cette propagation vers\nle bas des anomalies de températures induit un couplage entre la stratosphère et la\ntroposphère, ce qui permet une meilleure prédictibilité météorologique sur des\néchelles temporelles allant du mois à la saison [Körnich, 2010].\n2.5.1.2. Comparaison à la moyenne des hivers sans échauffement majeur"
+      },
+      {
+        "paragraph_id": 83,
+        "score": 3,
+        "keywords_found": [
+          "température",
+          "stratosphère",
+          "anomalie"
+        ],
+        "start": 88146,
+        "end": 89426,
+        "text": " D’autres zones d’anomalies fortement négatives (jusqu’à -15 K) apparaissent, toujours\ndans la mésosphère, de la fin janvier à début février, et au courant du mois de mars.\nDes anomalies froides de moindre amplitude leur correspondent dans la figure 2.10.\n La stratosphère est donc globalement plus chaude lors d’un hiver avec échauffement\nmajeur, tandis que la mésosphère démontre des différences de températures marquées\nentre un hiver avec échauffement majeur et un hiver sans échauffement majeur,\nsuccessivement positives et négatives. La troposphère, quant à elle, ne révèle pas de\ndifférences importantes entre les deux types d’hivers.\nD’importantes différences peuvent donc être relevées entre un hiver avec\néchauffement majeur et un hiver sans échauffement majeur. Lorsqu’elles sont les plus\nmarquées, ces différences peuvent permettre de localiser les zones spatio-temporelles les plus\nsensibles à l’occurrence d’un échauffement stratosphérique majeur. Ces zones sont les plus\nintéressantes à étudier pour qui souhaite mieux comprendre les conséquences de tels\nphénomènes (stratosphère et mésosphère début décembre, mésosphère autour de la mi-\njanvier), et pour qui cherche à les prévoir (haute mésosphère en octobre et novembre).\n2.5.1.3. Significativité des résultats"
+      },
+      {
+        "paragraph_id": 85,
+        "score": 3,
+        "keywords_found": [
+          "température",
+          "stratosphère",
+          "anomalie"
+        ],
+        "start": 90378,
+        "end": 92237,
+        "text": "Figure 2.12 : Évolutions moyennes des anomalies de températures pour un hiver\nsans échauffement majeur (haut) et avec échauffement majeur (bas). Les courbes en\nviolet (courbes de droite) correspondent à la variance calculée à chaque niveau. (Les\néchelles et valeurs extrêmes des axes des ordonnées sont les mêmes pour les figures\nde gauche et celles de droites, de même pour les axes des abscisses entre les figures\ndu haut et celles du bas). Le profil de variance des hivers sans échauffement majeur\n(en haut à droite) constitue le seuil de variabilité qui permet de déterminer les\nanomalies significatives de celles jugées non-significatives. Ces dernières sont\nlaissées en blanc.\nLa variabilité est globalement plus élevée pour les hivers avec échauffement\nstratosphérique majeur. Les niveaux où la différence avec la variabilité pour les hivers sans\néchauffement majeur est la plus importante sont la haute stratosphère et la mésosphère. On\nnotera également une variabilité supérieure dans la troposphère.\nPar ailleurs, nous vérifions que les analyses menées précédemment (aux paragraphes\n2.5.1.1. et 2.5.1.2.) sont valables en appliquant ce filtre de significativité aux figures 2.10 et\n2.11 : c’est bien le cas puisque les structures que nous avions relevées et commentées\nressortent, alors que d’autres zones sont écartées (blanchies).\n2.5.2. Évolution centrée sur la date de l’échauffement\n2.5.2.1. Méthodologie\nUn échauffement stratosphérique majeur peut avoir lieu plus ou moins tôt dans\nl’hiver, si bien qu’il faut prendre en compte cette particularité pour obtenir une représentation\nla plus fidèle possible de l’évolution moyenne de la température au cours d’un échauffement\nstratosphérique. Les représentations composites qui suivent sont donc obtenues en décalant\nl’axe temporel en fonction de la date de chaque événement : chaque graphe annuel"
+      },
+      {
+        "paragraph_id": 92,
+        "score": 3,
+        "keywords_found": [
+          "température",
+          "stratosphère",
+          "anomalie"
+        ],
+        "start": 95070,
+        "end": 95773,
+        "text": "L’évolution des anomalies de températures lors d’un échauffement de type rupture\npossède les caractéristiques principales suivantes.\n Les anomalies, tant positives que négatives, sont globalement plus marquées que\ncelles des figures présentées jusque là. Ceci peut en partie être dû au fait que la figure\n2.14 résulte d’un calcul effectué sur un plus petit échantillon : la moyenne lisse alors\nd’autant moins les anomalies et extrêmes particuliers.\n On repère de fortes anomalies positives qui se succèdent dans la haute mésosphère\n(+10 K 80 jours avant la date de l’échauffement, puis jusqu’à +15 K 40 jours avant)\nainsi que dans la stratosphère (jusqu’à +13 K autour du jour -80, puis entre +10 K et"
+      },
+      {
+        "paragraph_id": 96,
+        "score": 3,
+        "keywords_found": [
+          "température",
+          "stratosphère",
+          "anomalie"
+        ],
+        "start": 100897,
+        "end": 103051,
+        "text": "Les échauffements stratosphériques ont donc un impact certain sur les distributions\ndes températures hivernales de la moyenne atmosphère. Lorsque l’on isole et filtre cet impact,\non obtient des tendances de température plus proches de l’équilibre radiatif seul et de ce fait\nplus en accord avec les tendances d’été, peu impactées par la dynamique. Concernant\nl’occurrence des échauffements stratosphériques, on observe, aux altitudes où ces événements\nont le plus fort impact, une tendance légèrement décroissante du nombre de jours concernés\nchaque hiver. Mais cette évolution est compensée et même inversée, du point de vue des\nconséquences sur la répartition des températures, par une tendance positive de l’anomalie de\ntempérature attribuable à ces échauffements stratosphériques. Par ailleurs, le calcul\nd’évolutions synthétiques d’anomalies de températures à partir de plusieurs hivers montre une\ncertaine reproductibilité. On est en mesure de distinguer de manière significative un hiver\navec échauffement stratosphérique majeur d’un hiver sans échauffement majeur, notamment\npar des anomalies de températures positives dans la haute mésosphère (quelques mois avant\nl’échauffement) et la stratosphère (au cours de l’échauffement). Le type d’échauffement\ns’avère lui aussi déterminant pour l’évolution de la température au cours de l’hiver : les\néchauffements de type rupture amènent des anomalies troposphériques (froides pendant\nl’échauffement et chaudes après) plus marquées, tandis que les échauffements de type\ndéplacement témoignent de l’activité marquée de l’onde planétaire de mode 1, qui dicte les\nvariations des anomalies dans la stratosphère.\nCependant, comme souligné par Angot et al. [2012], cette seule étude des données\nlidar de l’OHP ne permet pas de conclure à une échelle régionale, ou a fortiori globale. Pour\navancer en ce sens, il s’agit maintenant d’asseoir les hypothèses prises ainsi que la\nméthodologie – développée en accord avec ces hypothèses – par une analyse s’appuyant sur\nun modèle de climat. Cette analyse permettra également de vérifier si les résultats obtenus\nsont extensibles à d’autres latitudes et longitudes."
+      }
+    ]
+  },
+  "q4": {
+    "question": "Quels phénomènes physiques influencent la température de la stratosphère ?",
+    "candidates": [
+      {
+        "paragraph_id": 4,
+        "score": 5,
+        "keywords_found": [
+          "température",
+          "stratosphère",
+          "radiatif",
+          "activité dynamique",
+          "chauffage"
+        ],
+        "start": 2974,
+        "end": 4210,
+        "text": "Cependant, on observe (figure 1.2) que le gradient de température va du pôle d’été au\npôle d’hiver au niveau de la mésopause, et que les régions les plus froides de la basse\nstratosphère sont les latitudes tropicales. Ces observations semblent contredire prima facie le\ntaux de chauffage radiatif net représenté à la figure 1.3. L’explication à ce paradoxe apparent\ntient en la présence d’une importante activité ondulatoire dans l’atmosphère (c’est-à-dire la\nprésence d’écarts par rapport à la symétrie zonale). La structure thermique de l’atmosphère, et\nnotamment de la moyenne atmosphère, est intimement dépendante de cette activité\ndynamique. En effet, une parcelle d’air en mouvement adiabatique vertical vers le bas se\nréchauffe par compression, tandis qu’une parcelle qui monte se refroidit par détente, comme\nnous l’avons déjà vu. L’activité ondulatoire de l’atmosphère, notamment celle de la moyenne\natmosphère, est décrite plus en détail au paragraphe suivant (1.1.3.).\nTout comme la température, la vitesse du vent varie en moyenne davantage selon la\nlatitude que selon la longitude, si bien que représenter des valeurs moyennées zonalement fait\nsens. Le vent zonal présente lui aussi un cycle saisonnier marqué (figure 1.4)."
+      },
+      {
+        "paragraph_id": 2,
+        "score": 4,
+        "keywords_found": [
+          "température",
+          "stratosphère",
+          "radiatif",
+          "chauffage"
+        ],
+        "start": 1875,
+        "end": 2642,
+        "text": "Aux solstices et entre 30 km et 60 km d’altitude, la température est plus froide à\nmesure que l’on s’éloigne du pôle d’été pour se rapprocher du pôle d’hiver. C’est ce à quoi on\ns’attend intuitivement puisque le pôle d’été connaît un éclairement solaire constant tandis que\nle pôle d’hiver est plongé dans la nuit pendant plusieurs mois. On peut évaluer cet aspect de\nmanière plus précise grâce au taux de chauffage radiatif net (figure 1.3), qui prend en compte\nl’absorption des radiations UV par l’oxygène moléculaire (dans la haute mésosphère et la\nthermosphère) et par l’ozone (dans la stratosphère et la mésosphère), ainsi que l’émission\ninfrarouge par les gaz à effet de serre (ces gaz, ainsi que l’effet de serre en général, sont\ndécrits au paragraphe 1.1.4.)."
+      },
+      {
+        "paragraph_id": 12,
+        "score": 4,
+        "keywords_found": [
+          "température",
+          "stratosphère",
+          "rayonnement",
+          "radiatif"
+        ],
+        "start": 11597,
+        "end": 14252,
+        "text": "Figure 1.7 : Ordres de grandeur des flux énergétiques reçus par le système surface-\natmosphère [von Balmoos, 2011].\nEn première approximation, l’énergie apportée par le rayonnement solaire est\ncompensée par l’énergie radiative émise (et transmise) vers l’espace par le système surface-\natmosphère. On parle alors d’équilibre radiatif global (le terme global rappelle la nature du\nsystème considéré). Différents échanges radiatifs ont également lieu à l’intérieur du système\nsurface-atmosphère. La surface de la Terre émet des rayonnements situés dans l’infrarouge\nproche, autour de la longueur d’onde 10 μm. Ce rayonnement tellurique est en partie absorbé\n(et réfléchi) par différents constituants de l’atmosphère, et seule une fraction (environ 10%)\nest transmise jusqu’à l’espace. Les gaz à effet de serre (GES) sont des composés présents\ndans l’atmosphère qui absorbent au moins une partie du rayonnement tellurique (sur un ou\nplusieurs intervalles de longueur d’onde). Ce faisant, ils empêchent cette part de rayonnement\nde parvenir jusqu’à l’espace, et donc de participer à l’équilibre radiatif global. Ils émettent\ncertes leur propre rayonnement vers l’espace (ils émettent aussi un rayonnement vers le bas),\négalement situé dans l’infrarouge proche, mais il est moindre. En effet, les GES étant\nglobalement bien mélangés dans l’atmosphère, une part majoritaire d’entre eux (en\npourcentage massique) est située dans la troposphère ainsi que dans les premiers kilomètres\nde la stratosphère. Ainsi, les gaz à effet de serre sont en moyenne plus froids que la surface\nterrestre, si bien que le rayonnement qu’ils émettent vers l’espace est moins énergétique que\nle rayonnement tellurique (en effet, le rayonnement émis par un corps est proportionnel à la\npuissance quatrième de sa température). La vapeur d’eau, le dioxyde de carbone (CO2) et le\nméthane (CH4) font partie de ces GES, et sont présents naturellement dans l’atmosphère. Mais\nles activités humaines entraînent l’émission de certains gaz (parmi lesquels on trouve le CO2,\nle CH4 ou encore le protoyde d’azote, mais aussi certains composés de synthèse tels les\nchlorofluorocarbures, etc.) qui ajoutent un effet de serre supplémentaire à l’effet de serre\nnaturel. De ce fait, la surface et les basses couches – la troposphère – reçoivent davantage\nd’énergie, ce qui tend à les réchauffer, tandis que les couches situées au-dessus des GES\n(telles la stratosphère et la mésosphère) reçoivent moins d’énergie radiative.\nL’évolution de la température de la moyenne atmosphère est donc due pour partie à\nl’émission des GES. Mais il convient aussi de tenir compte des variations de la concentration"
+      },
+      {
+        "paragraph_id": 15,
+        "score": 4,
+        "keywords_found": [
+          "température",
+          "stratosphère",
+          "radiatif",
+          "activité dynamique"
+        ],
+        "start": 17778,
+        "end": 19885,
+        "text": "emblématiques de cette activité dynamique. Ils ont lieu essentiellement dans l’hémisphère\nnord, notamment pour les plus intenses d’entre eux, et concernent les hautes et moyennes\nlatitudes. Dans l’hémisphère nord, ils se déclenchent au cours de la période qui s’étend\nd’octobre à mars (ce qui correspond à la saison d’hiver en météorologie). Ils prennent la\nforme de perturbations conséquentes de l’écoulement moyen, et se traduisent notamment par\nde fortes variations de température dans la moyenne atmosphère. Dans les cas les plus\nextrêmes, la température de la stratosphère peut augmenter d’une cinquantaine de degrés en\nl’espace de quelques jours seulement et l’écoulement circumpolaire – habituellement d’ouest\nen cette saison – peut s’inverser dans le même intervalle de temps. Les ESS constituent la\npremière cause de variabilité inter-saisonnière dans la stratosphère [Keckhut et al., 2011b].\nLes échauffements stratosphériques ont été observés pour la première fois en 1952 par\nRichard Scherhag, mais ce n’est qu’à la fin des années 1950 que leur extension planétaire a\nété connue. En 1971, Matsuno [1971] publie le premier modèle simulant des échauffements\nstratosphériques. Depuis, les études concernant ce phénomène se sont multipliées. Cependant,\nles mécanismes exacts de la formation d’un échauffement stratosphérique ne sont pas encore\ntout à fait compris, et cet événement reste difficile à prévoir. Intéressons-nous tout d’abord au\nconsensus actuel sur le déroulement d’un échauffement stratosphérique.\nEn hiver, la nuit polaire cause un refroidissement radiatif important de l’atmosphère\ndes hautes latitudes, créant une intense dépression centrée autour du pôle, nommée vortex\npolaire. Autour de cette dépression s’enroulent de puissants vents d’ouest qui forment le\ncourant jet de la nuit polaire (en anglais polar night jet stream). Ces vents zonaux sont régulés\npar le champ de température à travers l’équation du vent thermique (1a) : le gradient de\ntempérature – négatif en allant vers le pôle – provoque une augmentation de la vitesse du vent\navec l’altitude jusqu’à la tropopause."
+      },
+      {
+        "paragraph_id": 54,
+        "score": 4,
+        "keywords_found": [
+          "température",
+          "stratosphère",
+          "ondes planétaires",
+          "activité dynamique"
+        ],
+        "start": 62730,
+        "end": 65757,
+        "text": "pour la basse stratosphère. Cependant, nous nous basons pour cette étude sur une température\nde fond présentant un cycle annuel constant, ne dépendant que de l’altitude. De cette manière,\nl’évolution par rapport à cette référence constante de paramètres saisonniers caractéristiques\n(définis au chapitre suivant) permettra de constater les conséquences, à la baisse ou à la\nhausse, des phénomènes énumérés ci-dessus sur la température de fond. L’anomalie de\ntempérature, quant à elle, est définie comme la différence entre la température mesurée et la\ntempérature de fond. Elle est associée à l’activité dynamique renforcée que l’on observe très\nmajoritairement en hiver aux moyennes et hautes latitudes, et qui est notamment due au\ndéferlement des ondes planétaires qui entraîne les ESS. L’évolution interannuelle de\nl’anomalie de température dépend également des différents phénomènes listés ci-dessus,\ncomme l’augmentation de la concentration en gaz à effet de serre, car ils ont un impact sur la\ndynamique de la moyenne atmosphère, notamment sur l’occurrence et l’intensité des\nperturbations dynamiques qui y ont lieu.\n2.3.2. Cycle annuel de température de fond\n2.3.2.1. Calcul du cycle de température de fond\nIl s’agit maintenant de développer une méthodologie pour calculer le cycle annuel de\ntempérature de fond, supposé constant dans cette étude. La méthode de calcul que nous\nprésentons est basée sur l’analyse des distributions d’anomalies de températures par\nquinzaines, présentées ci-dessus (figure 2.4, paragraphe 2.3.1.1.). Dans les cas de distributions\nbimodales, il a été noté qu’une première courbe gaussienne correspond à un état de fond de\nl’atmosphère, tandis que la seconde est associée aux perturbations dynamiques majeures (la\nméthodologie exacte de détermination et d’identification des gaussiennes est détaillée dans\nl’annexe A). La moyenne de la première gaussienne est nommée « anomalie de fond ». Dans\nle cas de distributions monomodales, l’anomalie de fond est assimilée à la moyenne de\nl’unique courbe gaussienne qui approxime la distribution. L’anomalie de fond est ainsi\ndéterminée pour chacune des 24 quinzaines de l’année. En ajoutant à chaque anomalie de\nfond la température moyenne de la quinzaine qui lui correspond, on obtient 24 valeurs qui\ndécrivent le cycle annuel de température de fond (comme illustré par la figure 2.5 ci-dessous\npour le cas de l’altitude 40 km). En approchant ces valeurs par une courbe sinusoïdale ou « bi-\nsinusoïdale » (somme de deux courbes sinusoïdales) selon l’altitude, on obtient finalement le\ncycle recherché. Lors d’approximations bi-sinusoïdales, on obtient une composante annuelle\net une composante semestrielle (ou semi-annuelle). La composante semestrielle devient\nsignificative à partir de 55 km d’altitude, si bien que le cycle annuel de température de fond\nest assimilé à une sinusoïde en-dessous de 55 km, et à une courbe bi-sinusoïdale à 55 km et\nau-delà. La modélisation proposée est donc la suivante :\n Pour les altitudes inférieures à 55 km :"
+      },
+      {
+        "paragraph_id": 130,
+        "score": 4,
+        "keywords_found": [
+          "température",
+          "stratosphère",
+          "ondes planétaires",
+          "activité dynamique"
+        ],
+        "start": 137461,
+        "end": 140780,
+        "text": "relier à la présence plus importante de continents et de chaînes de montagnes dans\nl’hémisphère nord que dans l’hémisphère sud. Or ces deux éléments ont été décrits\ncomme éléments déclencheurs d’ondes de gravité et d’ondes planétaires. Par ailleurs,\nles terres émergées empêchent le pôle nord de se refroidir autant que le pôle sud, ce\nqui affaiblit le vortex qui s’y forme.\n On retrouve à toutes les latitudes et dans les deux hémisphères un point qui a été\nsouligné tant pour les profils CMAM obtenus au niveau de l’OHP (paragraphe 3.4.2.)\nque pour les profils calculés avec les données lidar (paragraphe 2.4.2.2.) : le profil\nhivernal de fond diffère du profil hivernal moyen pour se rapprocher des profils\nestivaux, voire se confondre avec eux. De plus, on notera, comme on l’a vu dans tous\nles cas précédents, que les deux profils estivaux – de fond et moyen – diffèrent peu\nl’un de l’autre. (Ceci est vrai à l’exception de l’hémisphère sud, à certains niveaux\nseulement, comme il sera expliqué dans le point suivant.) À nouveau, cela valide notre\nhypothèse de séparation de la température en une composante de fond et une\ncomposante dynamique, ainsi que notre méthodologie de filtrage de la composante\ndynamique. Cependant, on remarquera que lorsque la tendance hivernale moyenne est\ntrès prononcée, comme au-dessus de 40 km pour le graphe (a), la tendance hivernale\nde fond ne rejoint pas exactement les profils estivaux. Ceci pourrait signifier qu’aux\naltitudes et aux latitudes où l’impact de la dynamique atteint son maximum, la\ncomposante de fond elle-même peut être affectée par les événements dynamiques.\nNotre méthodologie semble alors atteindre une limite, et l’activité dynamique n’est\npas suffisamment filtrée.\n Les graphes de l’hémisphère sud montrent que les profils d’été – de fond et moyen –\npeuvent à certaines altitudes différer significativement l’un de l’autre : on l’observe\nnotamment dans la moyenne stratosphère ainsi que dans la haute mésosphère pour (e)\net (f). Les hypothèses de départ de notre méthodologie suggèrent d’expliquer cette\ndifférence par la présence d’une certaine activité dynamique estivale dans\nl’hémisphère sud. Or on note qu’à ces altitudes le profil de fond d’hiver se rapproche\ndu profil de fond d’été (et non du profil moyen d’été) : cela corrobore cette\nproposition d’explication (les deux profils de fond, filtrés de l’activité dynamique, se\nrapprochent l’un de l’autre). Une telle résurgence d’activité dynamique en été dans\nl’hémisphère sud pourrait être liée à l’influence des événements de grande ampleur qui\nont lieu au même moment dans l’hémisphère nord. On notera qu’un tel couplage\ndynamique inter-hémisphères a déjà été souligné par Karlsson et al. [2007], ainsi que\npar Becker and Fritts [2006] en ce qui concerne l’autre saison de l’année (l’été de\nl’hémisphère nord) : l’activité intense des ondes planétaires troposphériques de\nl’hémisphère sud est reliée aux observations faites aux hautes latitudes de la\nmésosphère dans l’hémisphère nord pour l’année 2002. Tout ceci rappelle ce qui avait\nété observé sur les données lidar dans la haute mésosphère (figure 2.8 et paragraphe\n2.4.2.2.), où l’on avait également suggéré le rôle des ondes de gravité dans la présence\nd’une variabilité importante dans la haute mésosphère d’été [Keckhut et al., 2011b]."
+      },
+      {
+        "paragraph_id": 0,
+        "score": 3,
+        "keywords_found": [
+          "température",
+          "stratosphère",
+          "activité dynamique"
+        ],
+        "start": 8,
+        "end": 1697,
+        "text": "Le rôle joué par la stratosphère sur le climat est aujourd’hui avéré. Le couplage du\nsystème troposphère-stratosphère implique que les processus dynamiques de grande\namplitude de la moyenne atmosphère perturbent l’équilibre atmosphérique et l’écoulement\ndans les plus basses couches. Parmi ces phénomènes dynamiques, les échauffements\nstratosphériques soudains sont les plus emblématiques. Cette étude s’intéresse à l’impact de\nces événements sur la variabilité de la moyenne atmosphère et sur l’estimation des tendances\nde température. Nous cherchons également à mieux caractériser l’évolution spatio-temporelle\ndes échauffements stratosphériques, depuis leurs causes jusqu’à leurs conséquences. Tout\nd’abord, une méthodologie novatrice d’analyse statistique de séries temporelles est\ndéveloppée et testée sur des mesures lidar de l’Observatoire de Haute-Provence. L’impact des\névénements dynamiques les plus importants peut ainsi être efficacement isolé de la\ncontribution radiative de fond, ce qui explique les différences observées entre l’été et l’hiver.\nEnsuite, une simulation du Canadian Middle Atmosphere Model nous permet de valider la\nméthodologie et d’étendre notre étude à l’ensemble du globe. On montre que les variations\nspatiales sont elles aussi majoritairement causées par l’activité dynamique. Les conditions de\nformation d’un échauffement stratosphérique sont également étudiées, à l’aide de tests de\nsensibilité du modèle RACCORD. On prouve l’importance du rappel vers la météorologie\npour produire un échauffement majeur, particulièrement dans le cas d’une rupture du vortex.\nEnfin, la méthode et nos résultats sont mis à profit dans une analyse de l’hiver 2012-2013."
+      },
+      {
+        "paragraph_id": 8,
+        "score": 3,
+        "keywords_found": [
+          "stratosphère",
+          "ondes planétaires",
+          "chauffage"
+        ],
+        "start": 7762,
+        "end": 9572,
+        "text": "Figure 1.5 : Profils du vent zonal en hiver (gauche) et en été (droite). Les vitesses de phase\nqui permettent une propagation verticale sont indiquées par la double flèche verticale. D’après\nBrasseur and Solomon [2005].\nEn l’absence de dissipation d’énergie, les ondes de gravité qui peuvent se propager\nverticalement traversent des couches d’atmosphère à la densité de plus en plus faible, si bien\nque leur amplitude augmente. En effet, toujours dans l’hypothèse de la conservation de\nl’énergie, l’amplitude des ondes est inversement proportionnelle à la racine carrée de la\ndensité. Lorsque leur amplitude devient trop importante, ces ondes peuvent devenir instables,\njusqu’à éventuellement déferler et entrer en interaction avec l’écoulement moyen. Une partie\nde l’énergie qu’elles transportent est alors transférée au milieu traversé sous la forme d’un\nralentissement du vent (en hiver, une accélération du vent vers l’ouest), d’un chauffage de\nl’atmosphère, ou encore des deux phénomènes à la fois.\nLes ondes de Rossby affectent l’atmosphère sur des périodes spatiales allant de\nquelques milliers à quelques dizaines de milliers de kilomètres, et leur période temporelle se\nsitue autour d’une semaine. Les sources des ondes de Rossby peuvent inclure les grandes\nchaînes montagneuses comme l’Himalaya et l’alternance entre océans et continents. Ces\nondes planétaires se dirigent vers l’ouest par rapport à l’écoulement moyen, mais leur\npropagation verticale n’est possible que si le vent zonal est d’ouest, sans que ce dernier ne\ndépasse une vitesse critique (dont la valeur dépend notamment du mode d’onde considéré).\nDe ce fait, les ondes de Rossby atteignent la stratosphère principalement en hiver. De manière\nsimilaire aux ondes de gravité, les ondes planétaires peuvent atteindre des niveaux où elles"
+      },
+      {
+        "paragraph_id": 9,
+        "score": 3,
+        "keywords_found": [
+          "température",
+          "stratosphère",
+          "ondes planétaires"
+        ],
+        "start": 9574,
+        "end": 10420,
+        "text": "deviennent instables et déferlent, modifiant l’état de l’atmosphère (température, vent, etc.) à\ntrès large échelle.\nC’est ainsi que les ondes atmosphériques peuvent être à l’origine de perturbations\nparfois très importantes dans la stratosphère et la mésosphère, ce qui explique la grande\nvariabilité interannuelle de ces couches.\nEn hiver, les trois principaux modes de variabilité de la température (à ne pas\nconfondre avec les modes d’onde décrits ci-dessus) reflètent la répartition verticale de\nl’impact de ces ondes [Keckhut et al., 2011b]. Le mode principal montre (figure 1.6) une forte\nanti-corrélation entre la haute stratosphère et la mésosphère, très probablement associée à la\npropagation des ondes planétaires et aux échauffements stratosphériques associés (voir le\nparagraphe 1.2. pour une description détaillée de ces événements)."
+      },
+      {
+        "paragraph_id": 20,
+        "score": 3,
+        "keywords_found": [
+          "température",
+          "stratosphère",
+          "activité dynamique"
+        ],
+        "start": 26040,
+        "end": 27456,
+        "text": "l’importance du rôle joué par ces ondes dans la formation des échauffements stratosphériques,\nles changements constatés dans la composition de l’atmosphère ont certainement des\nconséquences sur ces phénomènes, notamment sur leur occurrence, du fait également d’un\naffaiblissement des vents zonaux dans la moyenne atmosphère [Schimanke et al ., 2012]. De\nmanière réciproque, ces répercussions sur l’activité dynamique (qu’elles prennent la forme\nd’une augmentation d’intensité, d’un décalage temporel, d’une occurrence croissante ou de\ntoute autre perturbation) pourraient modifier la circulation de la stratosphère et donc\négalement celle de la troposphère ainsi que les températures dans la troposphère jusqu’au\nniveau du sol [Baldwin et al., 1994 ; Baldwin and Dunkerton, 2001 ; Baldwin et al., 2001 ;\nBaldwin et al., 2003 ; Baldwin et al., 2007].\nDe nombreuses questions restent ouvertes concernant les ESS, que ce soit au sujet des\nconditions atmosphériques et dynamiques qui mènent à leur formation, de leur déroulement\nprécis (l’enchaînement des événements qui les caractérisent), ou encore de leurs conséquences\nà court et moyen terme sur la météorologie troposphérique ou à plus long terme sur les\ntendances de température observées. Il apparaît crucial d’apporter des réponses à ces\nquestions, particulièrement dans le contexte actuel.\n1.3. Contexte scientifique général, motivations et objectifs de l’étude"
+      }
+    ]
+  },
+  "q5": {
+    "question": "Quel est le rôle des ondes planétaires dans les réchauffements stratosphériques ?",
+    "candidates": [
+      {
+        "paragraph_id": 7,
+        "score": 4,
+        "keywords_found": [
+          "ondes planétaires",
+          "ondes",
+          "propagation",
+          "activité ondulatoire"
+        ],
+        "start": 4582,
+        "end": 7760,
+        "text": "la vitesse du vent avec les valeurs troposphériques (dominées par les courants jets des\nmoyennes latitudes) impose des vents d’ouest à toutes les latitudes.\nRappelons que ces constatations concernent des valeurs zonales, c’est-à-dire des\nvaleurs moyennées à la fois par rapport à la longitude et par rapport au temps. Des écarts à ces\nvaleurs zonales sont régulièrement observés. Ces écarts sont associés à la présence d’ondes\natmosphériques, que nous décrivons dans le paragraphe suivant.\n1.1.3. Activité ondulatoire\nLa moyenne atmosphère est le siège d’importants phénomènes dynamiques. Elle est\nnotamment traversée par des ondes atmosphériques. Une définition parmi les plus larges des\nondes atmosphériques consiste à y assimiler tout écart à l’écoulement moyen (tout écart à la\nmoyenne zonale). Cependant, une très grande majorité d’auteurs ajoutent à cette définition la\nnécessité d’une certaine périodicité ainsi que la propriété de transporter de l’information (et de\nl’énergie) sur de grandes distances sans transporter de matière (de parcelles d’air). Les ondes\natmosphériques naissent donc d’écarts à l’écoulement moyen, qui peuvent être vus comme\ndes déséquilibres par rapport à une situation d’équilibre. Ces situations de déséquilibre\npeuvent arriver lorsqu’une parcelle d’air est déplacée de son altitude d’équilibre ou de sa\nlatitude d’équilibre. La force de rappel qu’elle subit alors peut prendre deux formes. Elle peut\nêtre de nature gravitationnelle, ce qui résulte en la formation d’ondes dites « ondes de\ngravité », ou elle peut être due à la variation avec la latitude de la force de Coriolis (une force\ncaractéristique des fluides en rotation) et est alors responsable des ondes dites « ondes de\nRossby », également appelées ondes planétaires. En effet, les régions plus proches du pôle\nsont également plus proches de l’axe de rotation de la Terre, si bien qu’une masse\natmosphérique subit une force de Coriolis plus importante dans ces régions qu’à une latitude\nmoins élevée.\nOn parle de nombre d’onde zonal (ou plus simplement de mode d’onde) pour\ndistinguer les ondes selon leur longueur d’onde zonale : par exemple, si une onde connaît\ndeux maxima d’amplitude et deux minima d’amplitude sur toute la longueur d’un même\nparallèle, alors cette onde est dite de mode 2. Dans notre étude, on s’intéressera plus\nparticulièrement aux ondes de mode 1 (un maximum et un minimum autour du globe) et aux\nondes de mode 2. L’activité ondulatoire présente dans l’atmosphère peut, à tout moment, être\ndécomposée en une somme de plusieurs ondes de modes différents : c’est ce que l’on appelle\nla décomposition en séries de Fourier.\nLes ondes de gravité sont déclenchées par l’orographie, à savoir les chaînes de\nmontagnes, ou par des sources non-orographiques comme de puissants orages. Leur longueur\nd’onde horizontale est relativement courte (d’une dizaine de kilomètres à 1000 km) et leur\npériode temporelle varie de quelques minutes à quelques heures. La propagation verticale des\nondes de gravité dépend de l’écoulement moyen, de telle sorte qu’en hiver seules les ondes\nallant vers l’ouest peuvent atteindre la haute stratosphère et la mésosphère (figure 1.5)."
+      },
+      {
+        "paragraph_id": 156,
+        "score": 4,
+        "keywords_found": [
+          "ondes planétaires",
+          "ondes",
+          "vortex polaire",
+          "activité ondulatoire"
+        ],
+        "start": 164399,
+        "end": 166726,
+        "text": "Depuis la découverte des échauffements stratosphériques en 1952, et notamment suite\nau développement des premiers modèles permettant leur simulation, la question de l’état de\nl’atmosphère menant à de tels phénomènes s’est posée. L’importance du rôle joué par les\nondes planétaires atmosphériques est établie [Matsuno, 1971 ; Andrews et al., 1987].\nCependant, de nombreuses zones d’ombre perdurent, particulièrement en ce qui concerne les\néchauffements majeurs. Une relation simple entre la forme du vortex – et donc le type\nd’échauffement stratosphérique – et l’amplitude des ondes paraît difficile à déterminer\n[Waugh, 1997]. Le rôle de la composante temporelle (l’évolution de l’amplitude des ondes)\ndans la formation d’un échauffement majeur semble avoir été relativement peu étudié. La\nprévision des échauffements stratosphériques majeurs reste hors de portée ou tout du moins\ntrès difficile. À ce jour, et malgré des progrès récents conséquents en ce domaine (voir par\nexemple les travaux de Lawrence Coy et Steven Pawson au Global Modeling Assimilation\nOffice du Goddard Space Flight Center sur le modèle de circulation générale GEOS-5)\naucune méthodologie fiable ne permet d’annoncer l’apparition d’un événement de ce type\nplus de quelques jours à l’avance. Il semble qu’en parallèle de l’acquisition d’observations,\ndes études de sensibilité soient indispensables pour mieux comprendre le lien entre l’activité\nondulatoire et l’évolution du vortex polaire au cours d’un échauffement stratosphérique.\nDans ce chapitre, nous nous appuyons sur le modèle RACCORD pour caractériser les\nconditions d’apparition d’un échauffement stratosphérique majeur. Nous nous basons\nprincipalement sur le cas réel de l’échauffement majeur de type rupture de l’hiver 2008-2009,\ndont l’intensité est remarquable. Plusieurs tests indépendants sont menés afin de mettre en\névidence l’importance du rôle des différents paramètres du modèle. On analyse ainsi les effets\nde modifications de l’altitude ou de l’intensité des rappels vers la météorologie et la\nclimatologie, de réductions du forçage dû à différents modes d’ondes planétaires, ou encore\nde changements du moment d’apparition de ces ondes. On propose enfin une comparaison\navec l’hiver 2005-2006, au cours duquel a eu lieu un échauffement stratosphérique majeur de\ntype déplacement."
+      },
+      {
+        "paragraph_id": 181,
+        "score": 4,
+        "keywords_found": [
+          "ondes planétaires",
+          "ondes",
+          "vortex polaire",
+          "déferlement"
+        ],
+        "start": 191748,
+        "end": 194241,
+        "text": " D’une manière générale, le cas où le rappel vers la climatologie est réduit se rapproche\nbeaucoup plus du cas de référence que celui où c’est le rappel vers la météorologie qui\nest divisé par 20. On observe en effet une nette rupture du vortex en deux parties\ndistinctes dans les deux premiers cas alors qu’aucune rupture n’est visible dans le\ndernier cas, qui montre toutefois un échauffement avec déplacement du vortex. Ainsi\nla climatologie seule tend à provoquer un échauffement de type déplacement, et il faut\nque des conditions particulières soient réunies lors d’un hiver pour obtenir un\néchauffement de type rupture.\n Ces figures polaires permettent à nouveau de constater que l’échauffement débute à\ndes niveaux élevés et se propage graduellement vers le bas. Le vortex est en effet\nencore bien formé et centré autour du pôle début janvier à 20 km d’altitude, alors qu’à\n50 km il est déjà perturbé par le déferlement des ondes ce qui se traduit par un\ndéplacement pour le cas où seule la climatologie est conservée alors que l’on peut voir\nune rupture s’entamer dans les deux autres cas. De façon similaire, le vortex\ncommence à retrouver sa forme et sa position initiales dès le 24 janvier à 50 km\n(surtout pour le cas météorologique et le cas de référence) alors même que le\nréchauffement atteint son intensité maximale aux niveaux les plus inférieurs. Le\nvortex polaire ne conserve donc pas une même forme ou une même position à toutes\nles altitudes. Ce phénomène est particulièrement visible le 14 janvier et le 19 janvier,\nen comparant les figures à différents niveaux. Ainsi, le 19 janvier par exemple, pour le\ncas météorologique les deux zones d’air froid qui constituent le vortex sont orientées\nselon un axe 60°W-120°E à 20 km, puis selon un axe 120°W-60°E à 32 km et enfin\nselon l’axe 180°-0° à 50 km. On observe une variation similaire de la position du\nvortex dans le cas climatologique, qui fait apparaître un déplacement du vortex vers\ndes zones différentes du globe selon le niveau considéré. Ceci s’explique par le fait\nque la phase de l’onde 1 et celle de l’onde 2 varient selon la verticale, ce qui provoque\ncette forme hélicoïdale du vortex, de manière similaire à ce qu’observent Matthewman\net al. [2009] non seulement pour les échauffements stratosphériques majeurs de février\n1979 et janvier 1987, mais aussi pour les évolutions composites différenciées selon le\ntype d’événement.\n4.5. Sensibilité du modèle à l’amplitude des ondes planétaires du géopotentiel"
+      },
+      {
+        "paragraph_id": 223,
+        "score": 4,
+        "keywords_found": [
+          "ondes",
+          "vortex polaire",
+          "propagation",
+          "activité ondulatoire"
+        ],
+        "start": 226189,
+        "end": 228543,
+        "text": "Les résultats obtenus sont préliminaires et les données obtenues ne sont aujourd’hui ni\ntoutes disponibles ni toutes validées. Cependant, l’ensemble des éléments présentés ici nous\nparaît constituer une première base permettant d’expliquer l’évolution particulière du vortex\npolaire observée au cours de l’échauffement stratosphérique majeur de l’hiver 2012-2013. Les\nmesures de températures par airglow centrées à l’altitude de 87 km sont importantes pour\nétudier les signaux pré-échauffement que nous observons également dans les données lidar,\nmais avec davantage d’incertitude sur ces dernières. L’échauffement de janvier 2013 se\ndistingue des autres par l’évolution particulière du vortex, expliquée par un court pré-\nconditionnement pendant la première quinzaine de décembre suivi d’un fort regain d’activité\nde l’onde 3 à partir de début janvier. Cependant, cet exemple de l’hiver 2012-2013 confirme\nce qui a été remarqué dans les études précédentes sous différents aspects. Ce n’est pas tant le\nniveau des ondes qui semble jouer sur le déclenchement d’un échauffement majeur que la\nprésence d’un pic d’amplitude de l’un des modes d’onde quelques jours avant l’échauffement.\nLe type d’échauffement semble quant à lui dépendre d’un pré-conditionnement antérieur de\nl’atmosphère, par le biais d’une activité ondulatoire soutenue pendant une période dépassant\nune semaine et située entre un mois et une vingtaine de jours avant l’échauffement. Si pendant\ncette période le mode 2 prédomine de manière significative, l’échauffement sera de type\nrupture (cas des hivers 2008-2009 et 2012-2013). Sinon, il sera de type déplacement (hiver\n2005-2006).\nIl conviendra d’étudier les autres sources de données lorsqu’elles seront disponibles et\nauront été validées. Il s’agit des radiosondages journaliers lâchés depuis Nîmes, des données\nde vent mesurées par l’université de Berne grâce à un spectromètre micro-ondes et enfin des\ndonnées infrasons. La propagation des infrasons dépendant du vent et de la densité\natmosphérique, les données correspondantes sont plus difficiles à interpréter et nécessitent un\nmodèle atmosphérique. Ces sources complémentaires de données permettront de confirmer ou\nd’infirmer les hypothèses présentées dans notre étude, et contribueront probablement à\nrépondre à certaines des questions abordées ici mais qui restent ouvertes."
+      },
+      {
+        "paragraph_id": 8,
+        "score": 3,
+        "keywords_found": [
+          "ondes planétaires",
+          "ondes",
+          "propagation"
+        ],
+        "start": 7762,
+        "end": 9572,
+        "text": "Figure 1.5 : Profils du vent zonal en hiver (gauche) et en été (droite). Les vitesses de phase\nqui permettent une propagation verticale sont indiquées par la double flèche verticale. D’après\nBrasseur and Solomon [2005].\nEn l’absence de dissipation d’énergie, les ondes de gravité qui peuvent se propager\nverticalement traversent des couches d’atmosphère à la densité de plus en plus faible, si bien\nque leur amplitude augmente. En effet, toujours dans l’hypothèse de la conservation de\nl’énergie, l’amplitude des ondes est inversement proportionnelle à la racine carrée de la\ndensité. Lorsque leur amplitude devient trop importante, ces ondes peuvent devenir instables,\njusqu’à éventuellement déferler et entrer en interaction avec l’écoulement moyen. Une partie\nde l’énergie qu’elles transportent est alors transférée au milieu traversé sous la forme d’un\nralentissement du vent (en hiver, une accélération du vent vers l’ouest), d’un chauffage de\nl’atmosphère, ou encore des deux phénomènes à la fois.\nLes ondes de Rossby affectent l’atmosphère sur des périodes spatiales allant de\nquelques milliers à quelques dizaines de milliers de kilomètres, et leur période temporelle se\nsitue autour d’une semaine. Les sources des ondes de Rossby peuvent inclure les grandes\nchaînes montagneuses comme l’Himalaya et l’alternance entre océans et continents. Ces\nondes planétaires se dirigent vers l’ouest par rapport à l’écoulement moyen, mais leur\npropagation verticale n’est possible que si le vent zonal est d’ouest, sans que ce dernier ne\ndépasse une vitesse critique (dont la valeur dépend notamment du mode d’onde considéré).\nDe ce fait, les ondes de Rossby atteignent la stratosphère principalement en hiver. De manière\nsimilaire aux ondes de gravité, les ondes planétaires peuvent atteindre des niveaux où elles"
+      },
+      {
+        "paragraph_id": 9,
+        "score": 3,
+        "keywords_found": [
+          "ondes planétaires",
+          "ondes",
+          "propagation"
+        ],
+        "start": 9574,
+        "end": 10420,
+        "text": "deviennent instables et déferlent, modifiant l’état de l’atmosphère (température, vent, etc.) à\ntrès large échelle.\nC’est ainsi que les ondes atmosphériques peuvent être à l’origine de perturbations\nparfois très importantes dans la stratosphère et la mésosphère, ce qui explique la grande\nvariabilité interannuelle de ces couches.\nEn hiver, les trois principaux modes de variabilité de la température (à ne pas\nconfondre avec les modes d’onde décrits ci-dessus) reflètent la répartition verticale de\nl’impact de ces ondes [Keckhut et al., 2011b]. Le mode principal montre (figure 1.6) une forte\nanti-corrélation entre la haute stratosphère et la mésosphère, très probablement associée à la\npropagation des ondes planétaires et aux échauffements stratosphériques associés (voir le\nparagraphe 1.2. pour une description détaillée de ces événements)."
+      },
+      {
+        "paragraph_id": 19,
+        "score": 3,
+        "keywords_found": [
+          "ondes planétaires",
+          "ondes",
+          "vortex polaire"
+        ],
+        "start": 24299,
+        "end": 26038,
+        "text": "Figure 1.9 : Carte de la vorticité potentielle des hautes et moyennes latitudes le 29 janvier\n2009, lors d’un échauffement stratosphérique majeur de type rupture. Le vortex polaire est\nscindé en deux parties distinctes et distantes de plusieurs milliers de kilomètres. Carte issue\ndu modèle MIMOSA.\nLes ESS majeurs sont observés dans l’hémisphère nord, hormis le cas exceptionnel de\nl’échauffement majeur qui a eu lieu en septembre 2002 dans l’hémisphère sud [Dowdy et al.,\n2004 ; Krüger et al., 2005]. Dans l’hémisphère nord, on dispose de mesures permettant de\ndéterminer si un échauffement stratosphérique est majeur depuis l’hiver 1957-1958, soit 56\nans. Sur cette période, on recense 0, 1 ou 2 événements par hiver pour un total de 40\néchauffements majeurs [Charlton et Polvani, 2007 ; Hitchcock et al., 2013 ; Goncharenko et\nal., 2013], soit une moyenne de 0,7 par an. Mais la répartition interannuelle est assez inégale\net plusieurs années sans échauffement majeur peuvent se suivre (jusqu’à parfois près de dix\nannées consécutives). Du reste, la répartition intra-annuelle de ces événements est elle aussi\nrelativement inégale. Mais de nombreux échauffements stratosphériques de plus petite\nampleur ont lieu chaque hiver : on parle alors d’échauffements stratosphériques mineurs.\nLes échauffements stratosphériques constituent la première cause de variabilité de la\ncirculation stratosphérique de l’hémisphère nord en hiver [Andrews et al., 1987]. Des études\nrécentes indiquent que l’augmentation de la concentration en gaz à effet de serre pourrait\naccentuer le forçage des ondes troposphériques et renforcer l’activité des ondes planétaires\ndans la stratosphère [Butchart et al., 2006 ; Deckert and Dameris, 2008]. Compte tenu de"
+      },
+      {
+        "paragraph_id": 54,
+        "score": 3,
+        "keywords_found": [
+          "ondes planétaires",
+          "ondes",
+          "déferlement"
+        ],
+        "start": 62730,
+        "end": 65757,
+        "text": "pour la basse stratosphère. Cependant, nous nous basons pour cette étude sur une température\nde fond présentant un cycle annuel constant, ne dépendant que de l’altitude. De cette manière,\nl’évolution par rapport à cette référence constante de paramètres saisonniers caractéristiques\n(définis au chapitre suivant) permettra de constater les conséquences, à la baisse ou à la\nhausse, des phénomènes énumérés ci-dessus sur la température de fond. L’anomalie de\ntempérature, quant à elle, est définie comme la différence entre la température mesurée et la\ntempérature de fond. Elle est associée à l’activité dynamique renforcée que l’on observe très\nmajoritairement en hiver aux moyennes et hautes latitudes, et qui est notamment due au\ndéferlement des ondes planétaires qui entraîne les ESS. L’évolution interannuelle de\nl’anomalie de température dépend également des différents phénomènes listés ci-dessus,\ncomme l’augmentation de la concentration en gaz à effet de serre, car ils ont un impact sur la\ndynamique de la moyenne atmosphère, notamment sur l’occurrence et l’intensité des\nperturbations dynamiques qui y ont lieu.\n2.3.2. Cycle annuel de température de fond\n2.3.2.1. Calcul du cycle de température de fond\nIl s’agit maintenant de développer une méthodologie pour calculer le cycle annuel de\ntempérature de fond, supposé constant dans cette étude. La méthode de calcul que nous\nprésentons est basée sur l’analyse des distributions d’anomalies de températures par\nquinzaines, présentées ci-dessus (figure 2.4, paragraphe 2.3.1.1.). Dans les cas de distributions\nbimodales, il a été noté qu’une première courbe gaussienne correspond à un état de fond de\nl’atmosphère, tandis que la seconde est associée aux perturbations dynamiques majeures (la\nméthodologie exacte de détermination et d’identification des gaussiennes est détaillée dans\nl’annexe A). La moyenne de la première gaussienne est nommée « anomalie de fond ». Dans\nle cas de distributions monomodales, l’anomalie de fond est assimilée à la moyenne de\nl’unique courbe gaussienne qui approxime la distribution. L’anomalie de fond est ainsi\ndéterminée pour chacune des 24 quinzaines de l’année. En ajoutant à chaque anomalie de\nfond la température moyenne de la quinzaine qui lui correspond, on obtient 24 valeurs qui\ndécrivent le cycle annuel de température de fond (comme illustré par la figure 2.5 ci-dessous\npour le cas de l’altitude 40 km). En approchant ces valeurs par une courbe sinusoïdale ou « bi-\nsinusoïdale » (somme de deux courbes sinusoïdales) selon l’altitude, on obtient finalement le\ncycle recherché. Lors d’approximations bi-sinusoïdales, on obtient une composante annuelle\net une composante semestrielle (ou semi-annuelle). La composante semestrielle devient\nsignificative à partir de 55 km d’altitude, si bien que le cycle annuel de température de fond\nest assimilé à une sinusoïde en-dessous de 55 km, et à une courbe bi-sinusoïdale à 55 km et\nau-delà. La modélisation proposée est donc la suivante :\n Pour les altitudes inférieures à 55 km :"
+      },
+      {
+        "paragraph_id": 79,
+        "score": 3,
+        "keywords_found": [
+          "ondes planétaires",
+          "ondes",
+          "propagation"
+        ],
+        "start": 83089,
+        "end": 86029,
+        "text": " Enfin, une légère anomalie positive (jusqu’à +4 K) s’observe dans la troposphère à la\nsuite de la période d’échauffement majeur, de la mi-janvier à la mi-mars. Cette\nanomalie positive fait suite à une anomalie troposphérique négative (atteignant à\ncertaines périodes -5 K) observée avant l’échauffement principal, notamment de\nnovembre à la mi-décembre. Ces réponses troposphériques reliées aux perturbations\nstratosphériques suggèrent un fort couplage entre ces deux couches de l’atmosphère\nlors des années avec échauffement stratosphérique majeur, en accord avec Thompson\net al. [2002].\n Les anomalies négatives les plus importantes se rencontrent quant à elles dans la\nmésosphère, principalement sur l’ensemble du mois de décembre de 60 km à 70 km,\nainsi que début octobre et fin janvier. Ces anomalies dénotent une forte anti-\ncorrélation entre la haute stratosphère et la mésosphère, voire entre les différents\nniveaux, plus ou moins élevés, de la mésosphère. Une telle anti-corrélation a déjà été\nremarquée dans d’autres études [Hauchecorne et Chanin, 1983], et a récemment été\nclairement établie pour les données issues de l’OHP, au moyen d’une décomposition\northogonale aux valeurs propres (EOF) [Keckhut et al., 2011b]. Cette anti-corrélation\nest très probablement liée à la propagation verticale des ondes planétaires et aux\néchauffements stratosphériques qui y sont associés.\n L’alternance de régions d’anomalies positives et de régions d’anomalies négatives au-\ndessus de la zone d’échauffement principal a également été remarquée et commentée\npar Walterscheid et al. [2000]. Par ailleurs, ils ont souligné que lors d’un\néchauffement stratosphérique, les régions concernées sont accompagnées de\nmouvements descendants des masses d’air, ce que nous constatons en étudiant\nl’évolution moyenne des hivers avec échauffement majeur. Ce mouvement descendant\navait également été relevé par Whiteway et Carswell [1994].\n Baldwin et Dunkerton [2001] ont souligné que d’importantes variations de la\ncirculation de la moyenne atmosphère apparaissent en premier lieu dans la\nmésosphère, puis descendent jusqu’à la basse stratosphère, et enfin sont suivies de\nrégimes météorologiques anormaux dans la troposphère. Ceci s’accorde tout à fait\navec nos résultats, puisque nous observons qu’une importante anomalie de\ntempérature positive descend de la mésosphère jusque dans la stratosphère aux\nalentours de la date de l’échauffement, ce qui caractérise une perturbation majeure de\nl’écoulement stratosphérique. Ensuite, comme nous l’avons noté ci-dessus, on\nremarque des anomalies de températures dans la troposphère. Cette propagation vers\nle bas des anomalies de températures induit un couplage entre la stratosphère et la\ntroposphère, ce qui permet une meilleure prédictibilité météorologique sur des\néchelles temporelles allant du mois à la saison [Körnich, 2010].\n2.5.1.2. Comparaison à la moyenne des hivers sans échauffement majeur"
+      },
+      {
+        "paragraph_id": 133,
+        "score": 3,
+        "keywords_found": [
+          "ondes planétaires",
+          "ondes",
+          "vortex polaire"
+        ],
+        "start": 142931,
+        "end": 143764,
+        "text": "On s’intéresse maintenant à une seule bande de latitudes et on cherche à étudier\nl’évolution des tendances de température selon la longitude. Pour cela, on choisit de se\nconcentrer sur la bande de latitudes 40N. Cela nous permet à la fois de conserver une vue à\nune échelle plus grande que pour une seule région et d’analyser les latitudes les plus\nsusceptibles de présenter des variations importantes selon la longitude. En effet, ces latitudes\ncorrespondent aux bords du vortex polaire : elles témoignent d’un comportement non zonal\nlorsque des événements dynamiques importants liés à des ondes planétaires de haute\namplitude ont lieu. Les tendances de température sont calculées pour chaque région de la\nbande 40N, ce qui permet de représenter l’évolution selon la longitude de ces tendances à\ndifférentes altitudes (figure 3.11)."
+      }
+    ]
+  }
+}
